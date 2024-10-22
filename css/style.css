@@ -46,9 +46,7 @@ color: var(--color-scandry);
     height: 50px;
 }
 
-#continer-header{
-   
-}
+
 header{
     background-image:url("../img/img1 1.jpg");
     background-position: center;
@@ -86,3 +84,22 @@ header{
 }
 
 /* End home */
+/* start footer */
+footer{
+    background: var(--color-prancipal);
+    color: white;
+}
+.continer-footer{
+    display: grid;
+    grid-template-columns:repeat( auto-fit ,minmax(200px,1fr));
+    gap: 30px;
+   height: 60vh;
+ margin: 40px 50px;
+ padding: 30px;
+}
+
+
+
+
+
+/* end footer */
