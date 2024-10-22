@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color1: #463F3A;
+    --main-color2: #8A817C;
+    --main-color3: #BCB8B1;
+    --main-color4: #F4F3EE;
+    --main-color5: #E0AFA0;
+}
+
+
+body {
+    background-color: var(--main-color4) ;
+}
+
+
+.filter{
+    float: right;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter select{
+    outline: none;
+    border: none;
+    border-radius: 10%;
+    padding: 1vw;
+}
