@@ -1,5 +1,5 @@
-
-/* start home */
+/* 
+/* /* /* start home  * */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
@@ -13,6 +13,7 @@ body{
     --color-prancipal:#463F3A;
     
 }
+
 *{
     box-sizing:border-box;
     margin: 0;
@@ -33,41 +34,58 @@ color: var(--color-scandry);
 border-bottom: 2px solid var(--color-scandry);
 padding: 10px 0;
 }
+
+ 
 #conitiner-nav{
  display: grid;
  grid-template-columns: repeat(2,auto);
  margin:10px  50px;
  width: 100%;
- max-width: 1400px;
+ max-width: 200px;
  
-}
-
-.logo-nav img{
+} 
+ .logo-nav img{
     width: 200px;
     height: 50px;
 }
-
 
 header{
     background-image:url("../img/img1 1.jpg");
     background-position: center;
     background-size:cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     height: 89vh;
     color: white;
     font-size: 36px;
+    width: 100%;
 
     
 }
+
 .continer-header{
     position:relative;
     top: 30%;
     margin:10px  50px;
  width: 100%;
- max-width: 1400px;
+ max-width: 100px;
  line-height: 79px;
+ flex-wrap: wrap;
+ 
 }
+.continer-header h2,
+.continer-header h3
+{
+    width: 550%;
+    font-size: 2.4em;
+}
+.continer-header button{
+    width: 250%;
+    font-size: 1em;
+}
+
+
 .continer-header h2 span{
     color: var(--color-scandry);
 }
@@ -82,10 +100,11 @@ header{
 
 .continer-header button:hover{
     background: var(--color-scandry);
-}
+}  
+
 
 /* End home */
-/* start footer */
+/* /* start footer  */
 footer{
     background: var(--color-prancipal);
     color: white;
