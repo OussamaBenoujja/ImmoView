@@ -22,8 +22,8 @@ main{
 .agents{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
 }
 
 .imgndtxt{
@@ -80,5 +80,48 @@ main{
 .p2{
     font-weight: bold;
 }
+
+.divsrv{
+    display: flex;
+    width: 20%;
+    
+}
+
+.frstdiv{
+    margin-left: 3.125rem;
+}
+
+.srvgnrl{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.div2{
+    position: relative;
+}
+
+.p4{
+    font-size: 3.125rem;
+    font-weight: bold;
+    position: absolute;
+    top: -47.5%;;
+    width: 8%;
+}
+
+.p5{
+    font-size: 1rem;
+    font-weight: 300;
+    width: 65%;
+}
+
+.h2{
+    margin-left: 3.125rem;
+    font-weight: 400;
+    font-size: 3.125rem;
+    width: 23%;
+}
+
+
+
 
 /* Fin de la Partie Pour Styler la Section des Agents*/
