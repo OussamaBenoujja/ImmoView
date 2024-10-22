@@ -6,7 +6,7 @@ body{
     background: var(--color-body);
 }
 :root{
-    --color-body:#F5F3F0;
+    --color-body:#F4F3EE;
     --color-scandry:#E0AFA0;
     --color-prancipal:#463F3A;
     
@@ -25,7 +25,7 @@ nav ul {
 #conitiner-nav{
  display: grid;
  grid-template-columns: repeat(2,auto);
- margin:0  50px;
+ margin:10px  50px;
  width: 100%;
  max-width: 1400px;
  
@@ -37,15 +37,36 @@ nav ul {
 }
 
 #continer-header{
-    margin:0  50px;
- width: 100%;
- max-width: 1400px;
+   
 }
 header{
-    background-image:url("../img/imge1.jpg");
+    background-image:url("../img/img1 1.jpg");
     background-position: center;
     background-size:cover;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 89vh;
+    color: white;
+    font-size: 36px;
+
+    
+}
+.continer-header{
+    position:relative;
+    top: 30%;
+    margin:10px  50px;
+ width: 100%;
+ max-width: 1400px;
+ line-height: 79px;
+}
+.continer-header h2 span{
+    color: var(--color-scandry);
+}
+.continer-header button{
+    padding:1.3em 2.2em;
+    background: none;
+    border: 3px solid var(--color-scandry);
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
 }
