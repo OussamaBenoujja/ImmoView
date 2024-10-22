@@ -1,7 +1,8 @@
 
 @media (min-width:1338px) {
     
-.icon-open,.icon-close{
+.icon-open,
+.icon-close{
     visibility: hidden;
     position: absolute;
   }
@@ -9,15 +10,17 @@
 }
 
 @media (max-width:1336px) {
+
+.icon-close{
+    visibility: hidden;
+    position: absolute;
+  }
     nav ul {
-        display: none;
-    }
-    .icon-open{
         position: absolute;
-        right: 20px;
-        font-size: 40px;
-        align-self: center;
+        left: 48%;
+        top: 14px;
     }
+   
 
     .continer-header{
         font-size:0.8em;
@@ -38,11 +41,25 @@
    margin: 20px;
     }
 }
+
+
+
 @media (max-width:876px) {
+    nav ul{
+        display: none;
+    }
     .continer-header{
         font-size:0.5em;
     }
+    .icon-open{
+        position: absolute;
+        right: 20px;
+        font-size: 40px;
+        align-self: center;
+    }
 }
+
+
 @media (min-width:360Px) {
     .continer-header{
         font-size:0.4em;
