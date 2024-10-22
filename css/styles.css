@@ -1,0 +1,11 @@
+body {
+    font-family: "Fira Sans", sans-serif;
+}
+
+.TestHeader {
+    background-image: url('/img/img1.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
