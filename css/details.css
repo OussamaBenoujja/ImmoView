@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-1: #463F3A;
+    --color-2: #8A817C;
+    --color-3: #BCB8B1;
+    --color-4: #F4F3EE;
+    --color-5: #E0AFA0;
+}
+
+body{
+    font-family: Poppins;
+    background-color: var(--color-1);
+    margin: 0;
+}
+
+.details-container{
+    background-color: var(--color-4);
+    color: var(--color-1);
+    margin: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    gap: 1rem;
+}
+
+.details-title,
+.details-description{
+    grid-column: span 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-title h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.details-title p{
+    font-size: 1.2rem;
+}
+
+.images{
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 1rem;
+}
+
+.details-title,
+.details-description{
+    flex-direction: column;
+}
+
+.details-description h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.details-description p{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+span{
+    font-weight: 600;
+}
+
+.elements,
+.carousel{
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 1rem;
+}
+
+.element,
+.btn-left,
+.btn-right,
+.image{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.element:nth-child(4),
+.element:nth-child(5),
+.element:nth-child(6),
+.element:nth-child(7),
+.element:nth-child(8),
+.element:nth-child(9){
+    margin-top: -3rem;
+}
+
+
+
+.element p{
+    font-size: 1.3rem;
+    color: var(--color-4);
+    font-weight: 500;
+    background-color: var(--color-2);
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem 0;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .details-container{
+    color: var(--color-1);
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: repeat(7, auto) ;
+    gap: 1rem;
+    margin: 0 50px;
+}
+
+.details-title,
+.details-slide,
+.details-image,
+.details-description,
+.details-property{
+    grid-column: span 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-title,
+.details-description{
+    flex-direction: column;
+}
+
+.details-property{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3 , auto);
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-title h1{
+    margin-bottom: 0;
+    font-size:2.5rem;
+    font-weight: 600;
+}
+
+.details-slide img:nth-child(2){
+    margin: 0 4rem;
+}
+
+.details-image{
+    gap:2rem;
+}
+
+.details-description{
+    margin-top: 2rem;
+}
+
+.details-description h1,
+.details-description p{
+    margin: 0.3rem 0;
+}
+
+.details-description p{
+    font-size: 1.2rem;
+}
+
+.details-description p span{
+    font-weight: 600;
+}
+
+.property{
+    grid-column: span 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.details-property .property:nth-child(2),
+.details-property .property:last-child{
+    margin-top: -3rem;
+}
+
+.details-property .property p{
+    background-color: #BCB8B1;
+    width: 30%;
+    padding: 1.2rem 0.2rem;
+    border-radius: 10px;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.details-slide img:nth-child(2){
+    width: 70%;
+}
+
+.details-image img{
+    width: 100%;
+} */
