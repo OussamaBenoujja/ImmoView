@@ -8,7 +8,9 @@
         font-size: 40px;
         align-self: center;
     }
-
+    .continer-header{
+        font-size:0.8em;
+    }
 }
 @media (max-width:1079px) {
     .about_foter{
@@ -17,5 +19,16 @@
     .immovier_footer{
         justify-self: start;
     
+    }
+    hr{
+        display: none;
+    }
+    .continer-footer{
+   margin: 20px;
+    }
+}
+@media (max-width:876px) {
+    .continer-header{
+        font-size:0.5em;
     }
 }
