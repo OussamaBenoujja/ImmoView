@@ -1,0 +1,21 @@
+@media (max-width:1336px) {
+    nav ul {
+        display: none;
+    }
+    .icon-open{
+        position: absolute;
+        right: 20px;
+        font-size: 40px;
+        align-self: center;
+    }
+
+}
+@media (max-width:1079px) {
+    .about_foter{
+        justify-self: start;
+    }
+    .immovier_footer{
+        justify-self: start;
+    
+    }
+}
