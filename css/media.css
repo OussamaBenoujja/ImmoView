@@ -1,3 +1,13 @@
+
+@media (min-width:1338px) {
+    
+.icon-open,.icon-close{
+    visibility: hidden;
+    position: absolute;
+  }
+  
+}
+
 @media (max-width:1336px) {
     nav ul {
         display: none;
@@ -8,6 +18,7 @@
         font-size: 40px;
         align-self: center;
     }
+
     .continer-header{
         font-size:0.8em;
     }
@@ -31,4 +42,9 @@
     .continer-header{
         font-size:0.5em;
     }
+}
+@media (min-width:360Px) {
+    .continer-header{
+        font-size:0.4em;
+    } 
 }
