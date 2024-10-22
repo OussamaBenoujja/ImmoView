@@ -30,7 +30,8 @@ nav ul li a{
 }
 nav ul li a:hover{
 color: var(--color-scandry);
-
+border-bottom: 2px solid var(--color-scandry);
+padding: 10px 0;
 }
 #conitiner-nav{
  display: grid;
@@ -92,14 +93,51 @@ footer{
 .continer-footer{
     display: grid;
     grid-template-columns:repeat( auto-fit ,minmax(200px,1fr));
-    gap: 30px;
-   height: 60vh;
- margin: 40px 50px;
+    gap: 50px;
+   height: auto;
+ margin: 40px 160px;
  padding: 30px;
 }
+.about_foter{
+    justify-self: center;
+}
+.immovier_footer{
+    justify-self: end;
 
+}
+.continer-footer h1{
+    font-size: 19px;
+}
+.icon-footer i{
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius:50% ;
+    margin: 14px 0;
+}
+.icon-footer i:hover{
+    background: var(--color-scandry);
+}
+.continer-footer p{
+    color: #e1dbdba5;
+    width: 100%;
 
+}
+.logo-footer img{
+    width: 200px;
+    height: 50px;
+}
+hr{
+    width: 80%;
+   margin-left: 150px;
+   margin-bottom: 20px;
+   color: rgba(151, 147, 147, 0.659);
+}
 
-
+.copy{
+    text-align: center;
+    padding: 20px;
+   color: rgba(151, 147, 147, 0.659);
+}
 
 /* end footer */
