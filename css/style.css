@@ -108,6 +108,39 @@ header{
 
 
 /* End home */
+
+/* start style contact */
+
+
+.continer-contact{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px ,300px));
+    justify-content: space-around;
+    align-items: center;
+margin: 0 50px;
+width: 100%;
+color: white;
+}
+.mapswrapper iframe {
+    width: 300px;
+    height: 200px;
+}
+.card-iformation {
+    margin: 30px 0;
+ background: black;
+ width: 461px;
+ height: 600px;
+ padding: 30px;
+ line-height: 40px;
+}
+.card-iformation >p{
+  color: #eeecebac;
+}
+/* end style contact */
+
+
+
+
 /* /* start footer  */
 footer{
     background: var(--color-prancipal);
