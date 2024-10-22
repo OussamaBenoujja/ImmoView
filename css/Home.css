@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --taupe : #463F3A;
+    --grey : #8A817C;
+    --silver : #BCB8B1;
+    --isabelline : #F4F3EE;
+    --melon : #E0AFA0;
+
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+/* Partie Pour Styler la Section des Agents*/
+
+main{
+    background-color: var(--isabelline);
+}
+
+.agents{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.imgndtxt{
+    display: flex;
+    flex-direction: column;
+    width: 346px;
+}
+
+.img1{
+    width: 100%;
+}
+
+.img2{
+    height: 84%;
+}
+
+.txtimg{
+    position: absolute;
+    width: 22.5%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    opacity: 0;   
+}
+
+.txtimg:hover{
+    opacity: 1;
+    transform: translateX(2%);
+    transition: 0.5s;
+}
+
+.txtimg h1,p{
+    width: 100%;
+}
+
+.txtimg p{
+    font-size: 0.55rem;
+}
+
+.txtimg h1{
+    font-size: 0.9rem;
+}
+ 
+.txtimg h1, .p2{
+    color: var(--taupe);
+}
+
+.p1{
+    color: var(--grey);
+    
+}
+
+.p2{
+    font-weight: bold;
+}
+
+/* Fin de la Partie Pour Styler la Section des Agents*/
