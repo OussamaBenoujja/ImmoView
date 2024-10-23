@@ -62,6 +62,11 @@ body{
     gap: 1rem;
 }
 
+.image img{
+    width: 100%;
+    cursor: pointer;
+}
+
 .details-title,
 .details-description{
     flex-direction: column;
@@ -91,6 +96,15 @@ span{
     gap: 1rem;
 }
 
+/* .carousel-image{
+    width: 100%;
+} */
+
+.btn-left,
+.btn-right{
+    cursor: pointer;
+}
+
 .element,
 .btn-left,
 .btn-right,
@@ -108,8 +122,6 @@ span{
 .element:nth-child(9){
     margin-top: -3rem;
 }
-
-
 
 .element p{
     font-size: 1.3rem;
@@ -193,8 +205,6 @@ textarea::placeholder{
     font-size: 0.8rem;
     color: black;
 }
-
-
 
 button{
     padding: 15px 45px;
