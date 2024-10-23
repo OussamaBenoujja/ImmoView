@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- start header -->
+    <nav>
+        <div id="conitiner-nav">
+            <div class="logo-nav">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="Catalogue">Catalogue</a></li>
+                <li><a href="Details">Details</a></li>
+                <li><a href="Témoignages">Témoignages</a></li>
+                <li><a href="Contact">Contact</a></li>
+                
+
+            </ul>
+            <i class="fa-solid fa-bars icon-open " onclick="OpenMun()"></i>
+            <i class="fa-brands fa-x-twitter icon-open icon-close" onclick="CloseMun()"></i>
+        </div>
+    </nav>
+
+    <header class="TestHeader">
+        <h1>What our clients say</h1>
+        <hr>
+        <div class="carousel">
+            <div class="group">
+                <div class="card"><p>ImmoView made finding my dream home so easy! The platform is user-friendly and offers all the details I needed. It’s a game-changer for real estate!</p></div>
+                <div class="card"><p>ImmoView simplified my property search with its intuitive design and comprehensive listings. It’s the perfect tool for anyone in the real estate market!</p></div>
+                <div class="card"><p>Thanks to ImmoView, I found the perfect property in no time! The search tools are fantastic, and the whole process was seamless.</p></div>
+            </div>
+            <!-- Add `aria-hidden` to hide the duplicated cards from screen readers. -->
+            <div aria-hidden class="group">
+                <div class="card"><p>ImmoView made finding my dream home so easy! The platform is user-friendly and offers all the details I needed. It’s a game-changer for real estate!</p></div>
+                <div class="card"><p>ImmoView simplified my property search with its intuitive design and comprehensive listings. It’s the perfect tool for anyone in the real estate market!</p></div>
+                <div class="card"><p>Thanks to ImmoView, I found the perfect property in no time! The search tools are fantastic, and the whole process was seamless.</p></div>
+            </div>
+        </div>
+    </header>
+    
+</body>
+</html>
