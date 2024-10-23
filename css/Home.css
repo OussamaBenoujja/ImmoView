@@ -13,73 +13,79 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* Partie Pour Styler la Section des Agents*/
-
 main{
     background-color: var(--isabelline);
 }
 
-.agents{
+/* Partie Pour Styler la Section Latest News*/
+
+.nwslst{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 3.125rem;
-    margin-right: 3.125rem;
+    margin-left: 50px;
 }
 
-.imgndtxt{
-    display: flex;
-    flex-direction: column;
-    width: 346px;
+.grtdiv{
+    width: 375px;
+    height: 375px;
+    overflow: hidden;
+    position: relative;
 }
 
-.img1{
+.slvdiv{
     width: 100%;
-}
-
-.img2{
-    height: 84%;
-}
-
-.txtimg{
+    height: 100%;
     position: absolute;
-    width: 22.5%;
-    height: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    opacity: 0;   
+    top: 0;
+    left: 0;
+    background: rgba(224, 175, 160, 0.85);
+    opacity: 0;
+    transition: 0.5s;
+    padding-top: 53%;
+    padding-left: 10%;
 }
 
-.txtimg:hover{
-    opacity: 1;
-    transform: translateX(2%);
+.slvdiv > *{
+    transform: translateX(-25%);
     transition: 0.5s;
 }
 
-.txtimg h1,p{
+.slvdiv:hover{
+    opacity: 1;
+}
+
+.slvdiv:hover > *{
+    transform: translateX(0px);
+}
+
+.grtdiv img{
+    height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
-.txtimg p{
-    font-size: 0.55rem;
+.p6{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--isabelline);
 }
 
-.txtimg h1{
-    font-size: 0.9rem;
-}
- 
-.txtimg h1, .p2{
-    color: var(--taupe);
+
+.btn1{
+    padding: 2.5% 10% 2.5%;
+    background-color: transparent;
+    border-radius: 25px;
+    border-color: var(--isabelline);
+    border-style: solid;
+    color: var(--isabelline);
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
-.p1{
-    color: var(--grey);
-    
-}
 
-.p2{
-    font-weight: bold;
-}
+/* La fin de la Partie Pour Styler la Section Latest News*/
+
+/* Partie Pour Styler la Section Our Services*/
 
 .divsrv{
     display: flex;
@@ -106,12 +112,14 @@ main{
     position: absolute;
     top: -47.5%;;
     width: 8%;
+    
 }
 
 .p5{
-    font-size: 1rem;
-    font-weight: 300;
-    width: 65%;
+    font-size: 1.15rem;
+    font-weight: 400;
+    width: 75%;
+    color: var(--grey);
 }
 
 .h2{
@@ -119,9 +127,51 @@ main{
     font-weight: 400;
     font-size: 3.125rem;
     width: 23%;
+    color: var(--taupe);
 }
 
+/* Fin de la Partie Pour Styler la Section Our Services/
+
+/* Partie Pour Styler la Section des FAQ*/
+
+.sctfaq{
+    overflow: hidden;
+}
+
+.ligne{
+    width: 51rem;
+    height: 1px;
+    background-color: var(--silver);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--taupe);
+}
+
+.arwdwn{
+    display: flex;
+    margin-left: 25%;
+    width: 85%;
+    column-gap: 24%;
+}
+
+.arwdwn p{
+    width: 34%;
+    color: var(--grey);
+}
+
+.arwdiv{
+    height: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* La fin de la Partie Pour Styler la Section des FAQ*/
 
 
 
-/* Fin de la Partie Pour Styler la Section des Agents*/

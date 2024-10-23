@@ -1,0 +1,44 @@
+@media (max-width: 768px ){
+    /* Partie Media Queries du Section Our Service*/
+    .h2{
+        font-size: 1.8rem;
+        width: 58%;
+    }
+    
+    .srvgnrl{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 3%;
+    }
+
+    .p4{
+        font-size: 1.8rem;
+        font-weight: bold;
+        position: absolute;
+        top: -24.5%;;
+        width: 8%;
+    }
+
+
+    .p5{
+        font-size: 0.75rem;
+        width: 96%;
+    }
+    /* La fin de la Partie Media Queries du Section Our Service*/
+
+    /* Partie Media Queries du Section FAQ*/
+    .ligne{
+        width: 21rem;
+        height: 1px;
+        background-color: var(--silver);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .arwdwn p{
+        width: 34%;
+    }
+
+    /* La fin de la Partie Media Queries du Section FAQ*/
+
+}
