@@ -15,6 +15,8 @@
     box-sizing: border-box;
 }
 
+/*----------------------------------Header------------------------------------*/
+
 .TestHeader {
     background-image: url('../img/Cover.jpg');
     height: 100vh;
@@ -39,10 +41,49 @@
     height: 2px;
 }
 
-/*------------------SECTION------------------*/
-.carousel {
+/*----------------------------------SLIDER------------------------------------*/
+
+.SlidesM div {
+    width: 400px;
+    color: black;
+    border-radius: 30px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 262px;
+    background: rgba(255, 255, 255, 0.777);
+    position: relative; /* Makes image positioning relative to the div */
+}
+
+.Mads, .Wick, .Tom, .Gol {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top: -60px;
+    left: -70px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.777);
+}
+.Qon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 37px;
+    right: 30px;
+}
+.Stars {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    filter: drop-shadow(0 0 0.5rem black)
+}
+
+.SliderM {
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 3%;
     padding: 100px 0;
     max-width: 100vw;
     overflow: hidden;
@@ -55,106 +96,20 @@
     }
 }
 
-.group {
+.SlidesM {
     display: flex;
-    gap: 100px;
-    /* Add padding to the right to create a gap between the last and first card. */
-    padding-right: 100px;
-    will-change: transform; /* We should be nice to the browser - let it know what we're going to animate. */
+    gap: 150px;
+    padding-right: 150px;
+    will-change: transform;
     animation: scrolling 20s linear infinite;
 }
 @keyframes scrolling {
     0% {
-    transform: translateX(0);
+        transform: translateX(0);
     }
     100% {
-    transform: translateX(-100%);
+        transform: translateX(-100%);
     }
-}
-
-.card {
-    width: 100%;
-    color: white;
-    border-radius: 24px;
-    box-shadow: rgba(0, 0, 0, 10%) 5px 5px 20px 0;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    min-height: 262px;
-    background: #E0AFA0;
-}
-
-.Mads {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    top: -30%;
-    left: 29%;
-}
-.Wick {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    top: -30%;
-    left: -8%;
-}
-.Bids {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    top: -30%;
-    left: 62%;
-}
-.Wade {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    top: -30%;
-    left: 130%;
-}
-
-
-
-
-
-
-/*------------------NAVBAR------------------*/
-
-nav ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(6, auto);
-    gap: 0 23px;
-    position: relative;
-    left: 150%;
-    top: 14px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-
-}
-
-nav ul li a:hover {
-    color: var(--color-scandry);
-    border-bottom: 2px solid var(--color-scandry);
-    padding: 10px 0;
-}
-
-
-#conitiner-nav {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    margin: 10px 50px;
-    width: 100%;
-    max-width: 200px;
-
-}
-
-.logo-nav img {
-    width: 200px;
-    height: 50px;
 }
 
 
