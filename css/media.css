@@ -1,0 +1,195 @@
+
+:root {
+    --color-body: #F4F3EE;
+    --color-scandry: #E0AFA0;
+    --color-prancipal: #463F3A;
+
+}
+@media (min-width:1338px) {
+    
+.icon-open,
+.icon-close{
+    visibility: hidden;
+    position: absolute;
+  }
+  
+}
+
+@media (max-width:1336px) {
+
+  
+    .icon-open,
+    .icon-close{
+        visibility: hidden;
+        position: absolute;
+      }
+    nav ul {
+        position: absolute;
+        left: 48%;
+        top: 25px;
+    }
+   
+
+    .continer-header{
+        font-size:0.8em;
+    }
+    
+.continer-contact {
+    
+    justify-content: space-between;
+   
+
+}
+.card_form{
+    right: 20%;
+    width: 465px;
+
+}
+.card_form input{
+    padding:10px 45px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+}
+@media (max-width:1016px) {
+    .about_foter{
+        justify-self: start;
+    }
+    .immovier_footer{
+        justify-self: start;
+    
+    }
+    hr{
+        display: none;
+    }
+    .continer-footer{
+   margin: 20px;
+   
+    }
+    .continer-contact {
+        grid-template-columns:repeat(1,auto);
+        
+        align-items: center;
+       
+    }
+    .continer-contact{
+        width: 90%;
+        position: relative;
+        height: 180vh;
+    }
+.card-iformation{
+     position: absolute;
+    left: 50%;
+    transform: translate(-50%); 
+    bottom: 45%;
+}
+    .card_form{
+        width: 77%;
+         position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 55%;
+        width: 461px;
+      
+        
+    }
+    
+  .card_form input{
+    width: 60%;
+
+  }
+    .card_form textarea{
+    width :200%
+    }
+    
+}
+
+
+
+
+
+
+
+@media (max-width:876px) {
+   
+    nav ul{
+        display: non;
+        justify-items: start;
+        grid-template-columns: repeat(1, auto);
+        position: absolute;
+        top: 80px;
+        line-height: 70px;
+        left: 0;
+        background: var(--color-body);
+        padding:150px 100px ;
+        transform: translate(-0%);
+        z-index: 10;
+        transition: 1s;
+       
+
+    }
+    .continer-header{
+        font-size:0.5em;
+    }
+       
+.icon-open,
+.icon-close{
+    visibility: visible;
+    position: absolute;
+  }
+  .icon-close{
+    position: absolute;
+    top: 15px;
+    font-size: 10px;
+  }
+    .icon-open
+   {
+        position: absolute;
+        right: 20px;
+        font-size: 40px;
+        align-self: center;
+    }
+   
+    .continer-header h2,
+.continer-header h3 {
+ 
+    font-size: 1.4em;
+}
+
+.continer-header button {
+ 
+    font-size: 0.7em;
+    width: 150%;
+}
+.continer-contact{
+width: 82%;
+
+} 
+.card-iformation {
+    width: 340px;
+}
+.mapswrapper iframe {
+    width: 290px;
+    height: 150px;
+}
+.card_form{
+   
+    width: 340px;
+  
+    
+}
+
+}
+
+@media (min-width:360Px) {
+    .continer-header{
+        font-size:0.4em;
+    } 
+
+}
