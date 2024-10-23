@@ -6,21 +6,37 @@
     <title> Home Page</title>
 
     <!-- Fichier CSS pour Styler Home Page-->
-    <link rel="stylesheet" href="CSS/Home.css">
+    <link rel="stylesheet" href="CSS/home.css">
 
     <!-- Fichier CSS pour Rendre Home Page Responsive-->
-    <link rel="stylesheet" href="CSS/HomeMedia.css">
+    <link rel="stylesheet" href="CSS/home-media.css">
 
 
 </head>
 <body>
-    <header>
+    <nav>
+        <div id="conitiner-nav">
+            <div class="logo-nav">
+                <img src="./img/logo.png">
+            </div>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="Catalogue">Catalogue</a></li>
+                <li><a href="Details">Details</a></li>
+                <li><a href="Témoignages">Témoignages</a></li>
+                <li><a href="Contact">Contact</a></li>
+                <i  class="fa-solid fa-x icon-open icon-close" onclick="CloseMun()"></i>
 
-    </header>
+            </ul>
+     
+        <i class="fa-solid fa-bars icon-open " onclick="OpenMun()"></i>
+            
+        </div>
+    </nav>
 
     <main>
         <!-- Section Latest News-->
-         <section>
+         <section class="newssct">
             <h1 class="h2"> Latest News</h1>
             <div></div>
 
@@ -35,7 +51,7 @@
                 </div>
 
                 <div class="grtdiv">
-                    <img src="img/picture 6.jpg">
+                    <img src="img/img9.jpg">
                     <div class="slvdiv">
                         <button class="btn1"> Villa </button>
                         <p class="p6"> House Coming soon for Sale </p>
@@ -44,7 +60,7 @@
                 </div>
 
                 <div class="grtdiv">
-                    <img src="img/picture 6.jpg">
+                    <img src="img/picture 7.jpg">
                     <div class="slvdiv">
                         <button class="btn1"> Villa </button>
                         <p class="p6"> House Coming soon for Sale </p>
@@ -62,13 +78,13 @@
         <!-- La fin de la Section Latest News-->
         
         <!-- Section Latest Properties-->
-         <section>
+         <section class="prprtssct">
             <h1 class="h3"> Latest Properties</h1>
             <div></div>
 
             <div class="nwslst">
                 <div class="grtdiv">
-                    <img src="img/picture 6.jpg">
+                    <img src="img/img6.jpg">
                     <div class="slvdiv1">
                         <p class="p6"> House Coming soon for Sale </p>
                         <p class="p6"> 21.Apr.2026</p>
@@ -77,7 +93,7 @@
                 </div>
 
                 <div class="grtdiv">
-                    <img src="img/picture 6.jpg">
+                    <img src="img/img11.jpg">
                     <div class="slvdiv1">
                         <p class="p6"> House Coming soon for Sale </p>
                         <p class="p6"> 21.Apr.2026</p>
@@ -86,7 +102,7 @@
                 </div>
 
                 <div class="grtdiv">
-                    <img src="img/picture 6.jpg">
+                    <img src="img/img10.jpg">
                     <div class="slvdiv1">
                         <p class="p6"> House Coming soon for Sale </p>
                         <p class="p6"> 21.Apr.2026</p>
@@ -104,7 +120,7 @@
         <!-- La fin de la section Latest Properties-->
         
         <!-- Section Our Services-->
-        <section>
+        <section class="srvssct">
             <h1 class="h2">Our Services</h1>
             <div class="srvgnrl">
                 <div class="frstdiv">
@@ -162,13 +178,42 @@
         <!-- Fin de la Section Our Services-->
 
         <!-- Section Our Agents-->
-        <section>
+        <section class="agntsct">
             <h1 class="h2">Best Agents</h1>
-            <div>
-                <img src="">
-                <div>
-                    
+            <div class="sctagnt">
+                <div class="grtdiv2">
+                    <img src="img/agent 1.jpg">
+                    <div class="slvdiv2">
+                        <h1 class="h4"> Jack Dorak</h1>
+                        <p class="txt"> A skilled negotiator with a strong track record, Jack prioritizes client satisfaction in both sales and rentals. He provides tailored solutions to ensure a seamless experience for clients seeking to buy, sell, or rent properties.</p>
+                        <p class="ctct"> Email: jackdorak@gmail.com</p>
+                        <p class="ctct"> Phone: +123 4512 748 496</p>
+
+                    </div>
                 </div>
+
+                <div class="grtdiv2">
+                    <img src="img/agent 2.jpg">
+                    <div class="slvdiv2">
+                        <h1 class="h4"> Jack Dorak</h1>
+                        <p class="txt"> A skilled negotiator with a strong track record, Jack prioritizes client satisfaction in both sales and rentals. He provides tailored solutions to ensure a seamless experience for clients seeking to buy, sell, or rent properties.</p>
+                        <p class="ctct"> Email: jackdorak@gmail.com</p>
+                        <p class="ctct"> Phone: +123 4512 748 496</p>
+
+                    </div>
+                </div>
+
+                <div class="grtdiv2">
+                    <img src="img/agent 3.jpg">
+                    <div class="slvdiv2">
+                        <h1 class="h4"> Jack Dorak</h1>
+                        <p class="txt"> A skilled negotiator with a strong track record, Jack prioritizes client satisfaction in both sales and rentals. He provides tailored solutions to ensure a seamless experience for clients seeking to buy, sell, or rent properties.</p>
+                        <p class="ctct"> Email: jackdorak@gmail.com</p>
+                        <p class="ctct"> Phone: +123 4512 748 496</p>
+
+                    </div>
+                </div>
+                
             </div>
 
         </section>
