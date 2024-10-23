@@ -1,4 +1,12 @@
 @media (max-width: 768px ){
+
+    /* Partie Media Queries du Section Latest News*/
+    .nwslst{
+        overflow: hidden;
+    }
+
+    /* La fin de la Partie Media Queries du Section Latest News*/
+
     /* Partie Media Queries du Section Our Service*/
     .h2{
         font-size: 1.8rem;
