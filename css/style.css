@@ -1,5 +1,5 @@
-/* 
-/* /* /* start home  * */
+
+ /* start home  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
@@ -25,10 +25,8 @@ nav ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(6, auto);
-    gap: 0 10px;
-    /* position: relative;
-    left: 150%;
-    top: 14px;  */
+    gap: 0 15px;
+    
    
   
 }
@@ -86,8 +84,8 @@ header {
 
 
 .continer-header h2 {
-    width: 550%;
-    font-size: 1em;
+    width: 500%;
+    font-size: 1.5em;
 }
 
 
@@ -106,6 +104,7 @@ header {
     margin:0 50px  ;
     width: 80%;
     color: white;
+  height: 100vh;
   
 }
 
@@ -150,50 +149,65 @@ header {
 
 .card_form{
     display: grid;
-    grid-template-columns: repeat(2,auto);
-    gap: 20px;
+    grid-template-columns: repeat(2,240px);
+    gap: 30px;
     color: black;
     align-items: center;
     background: white;
-    width: 681px;
+    width: 175%;
     padding: 40px;
-  /* position: relative;
-  right: 40%; */
+  
 }
 .card_form input{
     outline: 0;
     border: 0;
     border-bottom: 2px solid  #61606045;
     background: none;
-    padding:15px 65px;
+
     margin: 20px 0;
-     
+     width: 100%;
 }
 .card_form input::placeholder{
-   position: absolute;
-   left:10px;
+
 }
 .card_form p{
     color: #dddddd92;
 }
 .card_form textarea{
-    width: 205%;
+    width: 165%;
     height: 200px;
     outline: 0;
     border: 2px solid  #61606045;
     margin: 20px 0;
 }
 
+.card_form button{
+    width: 214px;
+    height: 53px;
+    background: black;
+ color: white;
+ 
+}
+.card_form button:hover{
+    color: var(--color-scandry);
+    background: none;
+    border: 2px solid var(--color-scandry);
+}
+
 /* end style contact */
 
-
+.section{
+    margin: 100px;
+   
+    height: 100vh;
+}
 
 
 /* /* start footer  */
 footer {
     background: var(--color-prancipal);
     color: white;
-   
+   margin-top: 100px 0;
 }
 
 .continer-footer {
