@@ -3,6 +3,8 @@
     /* Partie Media Queries du Section Latest News*/
     .nwslst{
         overflow: hidden;
+        margin-left: 4.75%;
+        grid-column-gap: 7%;
     }
 
     /* La fin de la Partie Media Queries du Section Latest News*/
@@ -33,6 +35,13 @@
         width: 96%;
     }
     /* La fin de la Partie Media Queries du Section Our Service*/
+
+    /* Partie Media Queries du section Best Agents*/
+    .sctagnt{
+        grid-template-columns: 1fr;
+        margin-left: 2%;
+    }
+    /* La fin de la Partie Media Queries du section Best Agents*/ 
 
     /* Partie Media Queries du Section FAQ*/
     .ligne{
