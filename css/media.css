@@ -33,8 +33,31 @@
     .continer-header{
         font-size:0.8em;
     }
+    
+.continer-contact {
+    
+    justify-content: space-between;
+   
+
 }
-@media (max-width:1079px) {
+.card_form{
+    right: 20%;
+    width: 465px;
+
+}
+.card_form input{
+    padding:10px 45px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+}
+@media (max-width:1016px) {
     .about_foter{
         justify-self: start;
     }
@@ -47,8 +70,49 @@
     }
     .continer-footer{
    margin: 20px;
+   
     }
+    .continer-contact {
+        grid-template-columns:repeat(1,auto);
+        
+        align-items: center;
+       
+    }
+    .continer-contact{
+        width: 90%;
+        position: relative;
+        height: 180vh;
+    }
+.card-iformation{
+     position: absolute;
+    left: 50%;
+    transform: translate(-50%); 
+    bottom: 45%;
 }
+    .card_form{
+        width: 77%;
+         position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 55%;
+        width: 461px;
+      
+        
+    }
+    
+  .card_form input{
+    width: 60%;
+
+  }
+    .card_form textarea{
+    width :200%
+    }
+    
+}
+
+
+
+
 
 
 
@@ -86,11 +150,40 @@
         font-size: 40px;
         align-self: center;
     }
+   
+    .continer-header h2,
+.continer-header h3 {
+ 
+    font-size: 1.4em;
 }
 
+.continer-header button {
+ 
+    font-size: 1em;
+}
+.continer-contact{
+width: 82%;
+
+} 
+.card-iformation {
+    width: 340px;
+}
+.mapswrapper iframe {
+    width: 290px;
+    height: 150px;
+}
+.card_form{
+   
+    width: 340px;
+  
+    
+}
+
+}
 
 @media (min-width:360Px) {
     .continer-header{
         font-size:0.4em;
     } 
+
 }
