@@ -27,7 +27,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
 }
 
 .filter{
@@ -52,27 +52,28 @@ body {
 
 /*Draw the side Icon*/
     .icon {
-
-        width: 5vw; 
-        height: 5vw; 
+        
+        width: 45px; 
+        height: 45px; 
         max-width: 150px;
         max-height: 150px;
         background-color: var(--main-color5); 
-        border-radius: 15px; 
+        border-radius: 5px; 
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .listed {
+        
         display: grid;
         grid-template-columns: auto 1fr;
         gap: 10px;
     }
 
     .dot {
-        width: 5px; 
-        height: 5px;
+        width: 2px; 
+        height: 2px;
         max-width: 15px; 
         max-height: 15px;
         background-color: black;
@@ -80,8 +81,8 @@ body {
     }
 
     .line {
-        width: 60px; 
-        height: 5px; 
+        width: 25px; 
+        height: 2px; 
         max-width: 50px; 
         max-height: 5px;
         background-color: black;
@@ -103,21 +104,118 @@ body {
 
 .property-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: 400px 400px 400px;
     gap: 5%;
 
 }
 
 .property-card {
     width: 400px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.property-card img{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    overflow: hidden;
+
+
+.property-card:hover {
+    width: 430px;
+    height: 430px;
+}
+
+
+.details{
+    width: 100%;
+    background-color: var(--main-color5);
+    padding: 10px;
+    margin: 0px;
+}
+
+.details p:first-child{
+    font-weight: bold;
+}
+
+.innerCard{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.innerCard div:first-child{
+    height: 65%;
+}
+
+.inInnerCard{
+    height: 35%;
+    background-color: rgba(255, 255, 255, 0.40);
+    display: flex;
+    justify-content: center;
+    font-size: 1.85em;
+}
+
+.property-card h3{
+    margin: 0px;
+    color: #463F3A;
+}
+
+
+
+
+#Mfilterbtn{
+    float: right;
+    text-align: center;
+    outline: none;
+    background: none;
+    background-color: var(--main-color5);
+    text-align: center;
+    border: none;
+    border-radius: 90px;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    float: right;
+}
+
+
+.seperator{
+    margin: 40px;
+}
+
+
+
+
+@media (max-width: 767px){
+    .filter{
+        display: none;
+        
+    }
+    .property-grid{
+        display: grid;
+        grid-template-columns: 400px;
+        gap: 5%;
+    
+    }
+    .property-card img{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .property-section h2{
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 767px){
+    #Mfilterbtn{
+        flex-shrink: 0;
+        display: none;
+        width: 0vw;
+    }
 }
