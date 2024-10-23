@@ -121,14 +121,89 @@ main{
 
 /* Partie Pour Styler la Latest Properties*/
 .h3{
-    margin-left: 3.125rem;
-    font-weight: 400;
+    margin-left: 13%;
+    font-weight: 600;
     font-size: 3.125rem;
-    width: 28%;
+    width: 29%;
     color: var(--taupe);
 }
 
 /* La fin de la Partie Pour Styler la Latest Properties*/
+
+/* Partie pour Styler la Section Best Agents*/
+
+.newssct, .prprtssct, .srvssct, .agntsct, .sctfaq{
+    margin-bottom: 10%;
+}
+
+.sctagnt{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 50px;
+}
+
+.grtdiv2{
+    width: 346px;
+    height: 253px;
+    position: relative;
+    overflow: hidden;
+}
+
+.grtdiv2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slvdiv2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(138, 129, 124, 0.85);
+    opacity: 0;
+    transition: 0.5s;
+    padding-left: 9%;
+}
+
+.slvdiv2 >* {
+    transform: translateY(25%);
+    transition: 0.5s;
+}
+
+.slvdiv2:hover {
+    opacity: 1;
+}
+
+.slvdiv2:hover >* {
+    transform: translateY(0%);
+}
+
+.h4, .txt, .ctct{
+    color: var(--taupe);
+}
+
+.txt{
+    font-weight: 500;
+    font-size: 0.77rem;
+    width: 75%;
+}
+
+.ctct{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+/* lLa fin de la Partie pour Styler la Section Best Agents*/
 
 /* Partie Pour Styler la Section Our Services*/
 
@@ -168,8 +243,8 @@ main{
 }
 
 .h2{
-    margin-left: 3.125rem;
-    font-weight: 400;
+    margin-left: 13%;
+    font-weight: 600;
     font-size: 3.125rem;
     width: 23%;
     color: var(--taupe);
