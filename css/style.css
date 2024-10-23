@@ -22,13 +22,17 @@ body {
 }
 
 nav ul {
+  
+
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     gap: 0 23px;
     position: relative;
     left: 150%;
     top: 14px;
+  
+  
 }
 
 nav ul li a {

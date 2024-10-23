@@ -1,4 +1,10 @@
 
+:root {
+    --color-body: #F4F3EE;
+    --color-scandry: #E0AFA0;
+    --color-prancipal: #463F3A;
+
+}
 @media (min-width:1338px) {
     
 .icon-open,
@@ -11,14 +17,16 @@
 
 @media (max-width:1336px) {
 
-.icon-close{
-    visibility: hidden;
-    position: absolute;
-  }
+  
+    .icon-open,
+    .icon-close{
+        visibility: hidden;
+        position: absolute;
+      }
     nav ul {
         position: absolute;
         left: 48%;
-        top: 14px;
+        top: 25px;
     }
    
 
@@ -45,13 +53,34 @@
 
 
 @media (max-width:876px) {
+   
     nav ul{
         display: none;
+        justify-items: start;
+        grid-template-columns: repeat(1, auto);
+        position: absolute;
+        top: 80px;
+        line-height: 70px;
+        left: 0;
+        background: var(--color-body);
+        padding:150px 100px ;
+        transform: translate(-110%);
+        z-index: 10;
+        transition: 1s;
+       
+
     }
     .continer-header{
         font-size:0.5em;
     }
-    .icon-open{
+       
+.icon-open,
+.icon-close{
+    visibility: visible;
+    position: absolute;
+  }
+    .icon-open
+   {
         position: absolute;
         right: 20px;
         font-size: 40px;
