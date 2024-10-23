@@ -11,7 +11,7 @@
         <title>Document</title>
     </head>
     <body>
-
+        <!-- Start of Details Section -->
         <section class="details">
             <div class="details-container">
                 <div class="details-title">
@@ -83,58 +83,94 @@
                 </div>
             </div>
         </section>
-
-        <!-- Start of Details Section -->
-        <!-- <section class="details">
-        <div class="details-container">
-            <div class="details-title">
-                <h1>Property Details</h1>
-                <p>Please find below a full description of the property</p>
-            </div>
-            <div class="details-slide">
-                <img src="img/arrow-left.png" alt="arrow-left">
-                <img src="img/details-1.png" alt="Image 1">
-                <img src="img/arrow-right.png" alt="arrow-right">
-            </div>
-            <div class="details-image">
-                <img src="img/detail-2.png" alt="Image 2">
-                <img src="img/detail-3.png" alt="Image 3">
-                <img src="img/detail-4.png" alt="Image 4">
-                <img src="img/detail-5.png" alt="Image 5">
-            </div>
-            <div class="details-description">
-                <h1>DESCRIPTION</h1>
-                <p><span>City :</span> AGADIR,MOROCCO</p>
-                <p><span>Neighberhood :</span> Cité Suisse</p>
-            </div>
-            <div class="details-property">
-                <div class="property">
-                    <p>80 m² surface area</p>
-                    <p>Free Parking</p>
-                    <p>Free WiFi Connexion</p>
-                </div>
-                <div class="property">
-                    <p>3 Bedrooms</p>
-                    <p>Salon</p>
-                    <p>Bathroom</p>
-                </div>
-                <div class="property">
-                    <p>Terrace</p>
-                    <p>Balcony</p>
-                    <p>Equipped Kitchen</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
         <!-- End of Details Section -->
 
-        <!-- Start of Neighberhood Section -->
-        <!-- <section class="quartier">
-        <div class="quartier-container">
 
-        </div>
-    </section> -->
-        <!-- End of Neighborhood Section -->
+        <!-- Start of Details Section -->
+        <section class="quartier">
+            <div class="quartier-container">
+                <div class="quartier-title">
+                    <h1>A Propos du Quartier</h1>
+                    <p>Vous trouverez ci-dessous les différents services publiques dans le quartier</p>
+                </div>
+
+                <div class="quartier-card bg-1">
+                    <h3>Mosque</h3>
+                    <p><span>Name : </span>Mosque AL-QUDS</p>
+                    <p><span>Time : </span>5 min</p>
+                    <p><span>Surface : </span>600 m²</p>
+                    <p><span>Services : </span>prayer area, Toilets, Quran Memorization Center</p>
+                </div>
+                <div class="quartier-card bg-2">
+                    <h3>Garden</h3>
+                    <p><span>Name : </span>Ibn Zaydoun Garden</p>
+                    <p><span>Time : </span>7 min</p>
+                    <p><span>Surface : </span>900 m²</p>
+                    <p><span>Services : </span>Green Areas, Children Playground, Calisthenics Equippement, Sport terrains</p>
+                </div>
+                <div class="quartier-card bg-3">
+                    <h3>GYM</h3>
+                    <p><span>Name : </span>GYM Cité Suisse</p>
+                    <p><span>Time : </span>10 min</p>
+                    <p><span>Surface : </span>150 m²</p>
+                    <p><span>Services : </span>Full Contact, Body Building, Calisthenics</p>
+                </div>
+                <div class="quartier-card bg-4">
+                    <h3>Super Market</h3>
+                    <p><span>Name : </span>Marjane Market</p>
+                    <p><span>Time : </span>10 min</p>
+                    <p><span>Surface : </span>600 m²</p>
+                    <p><span>Services : </span>Food, Cleaning Product, etc...</p>
+                </div>
+                <div class="quartier-card bg-5">
+                    <h3>Hammam</h3>
+                    <p><span>Name : </span>Hammam AL-QUDS</p>
+                    <p><span>Time : </span>7 min</p>
+                    <p><span>Surface : </span>200 m²</p>
+                    <p><span>Services : </span>Hammam Beldi, Sona, Massage</p>
+                </div>
+                <div class="quartier-card bg-6">
+                    <h3>School</h3>
+                    <p><span>Name : </span>Private School AL-QUDS</p>
+                    <p><span>Time : </span>12 min</p>
+                    <p><span>Surface : </span>200 m²</p>
+                    <p><span>Services : </span>Nursey, Primary, Middle & High School</p>
+                </div>
+            </div>
+        </section>
+        <!-- End of Details Section -->
+
+
+        <!-- Start of Formulaire Section -->
+        <section class="formulaire">
+            <div class="formulaire-container">
+                <div class="formulaire-title">
+                    <h1>Information Request</h1>
+                    <p>
+                        For more information, fill in this 
+                        form to answer your questions or 
+                        plan a visit to our properties.
+                    </p>
+                </div>
+                <form action="">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Ex : Peter Johanson" name="name">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Ex : peter@example.com" name="email">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" placeholder="Ex : 06-12-34-56-78" name="phone">
+                    <label for="subject">Subject</label>
+                    <select name="subject">
+                        <option value="question">Poser Une Question</option>
+                        <option value="visite">Planifier une Visite</option>
+                    </select>
+                    <label for="message">Message</label>
+                    <textarea name="message" placeholder="Write your Message Here..."></textarea>
+                    <button>ENVOYER</button>
+                </form>
+            </div>
+        </section>
+        <!-- End of Formulaire Section -->
 
     </body>
 </html>
