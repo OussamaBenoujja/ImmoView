@@ -23,13 +23,16 @@
                 <li><a href="Details">Details</a></li>
                 <li><a href="Témoignages">Témoignages</a></li>
                 <li><a href="Contact">Contact</a></li>
-                
+                <i  class="fa-solid fa-x icon-open icon-close" onclick="CloseMun()"></i>
 
             </ul>
-            <i class="fa-solid fa-bars icon-open " onclick="OpenMun()"></i>
-            <i class="fa-brands fa-x-twitter icon-open icon-close" onclick="CloseMun()"></i>
+     
+        <i class="fa-solid fa-bars icon-open " onclick="OpenMun()"></i>
+            
         </div>
     </nav>
+   
+
     <header>
         <div class="continer-header">
             <h3>Dolar florida</h3>
@@ -131,11 +134,28 @@
             </div>
         </div>
         <div class="copy">
-          
             <p>Copyright &copy 2024 Avi Yansah</p>
         </div>
     </footer>
     <!-- End footer -->
+  <script>
+
+    let icone_open=document.querySelector(".icon-open");
+let icone_close=document.querySelector(".icon-close");
+let ul=document.querySelector("nav ul");
+
+
+function CloseMun(){
+    ul.style.display="none";
+    ul.style.transform="translate(-120px)";
+
+}
+function OpenMun(){
+    ul.style.display="block"
+    ul.style.transform="translate(0)";
+}
+
+
    </script>
 </body>
 
