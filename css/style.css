@@ -22,23 +22,20 @@ body {
 }
 
 nav ul {
-  
-
     list-style: none;
     display: grid;
     grid-template-columns: repeat(6, auto);
-    gap: 0 23px;
-    position: relative;
+    gap: 0 10px;
+    /* position: relative;
     left: 150%;
-    top: 14px;
-  
+    top: 14px;  */
+   
   
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
-
 }
 
 nav ul li a:hover {
@@ -49,11 +46,12 @@ nav ul li a:hover {
 
 
 #conitiner-nav {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
+    display: flex;
+  align-items: center;
+    justify-content: space-between;
     margin: 10px 50px;
-    width: 100%;
-    max-width: 200px;
+    width: 90%;
+    
 
 }
 
@@ -69,17 +67,15 @@ header {
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    height: 89vh;
+    height: 59vh;
     color: white;
     font-size: 36px;
     width: 100%;
-
-
 }
 
-.continer-header {
+.continer-header{
     position: relative;
-    top: 30%;
+    top: 40%;
     margin: 10px 50px;
     width: 100%;
     max-width: 100px;
@@ -88,34 +84,13 @@ header {
 
 }
 
-.continer-header h2,
-.continer-header h3 {
-    width: 550%;
-    font-size: 2.4em;
-}
 
-.continer-header button {
-    width: 250%;
+.continer-header h2 {
+    width: 550%;
     font-size: 1em;
 }
 
 
-.continer-header h2 span {
-    color: var(--color-scandry);
-}
-
-.continer-header button {
-    padding: 1.3em 2.2em;
-    background: none;
-    border: 3px solid var(--color-scandry);
-    border-radius: 50px;
-    color: white;
-    font-weight: bold;
-}
-
-.continer-header button:hover {
-    background: var(--color-scandry);
-}
 
 
 /* End home */

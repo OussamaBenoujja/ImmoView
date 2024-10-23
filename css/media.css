@@ -16,18 +16,12 @@
 }
 
 @media (max-width:1336px) {
-
-  
     .icon-open,
     .icon-close{
         visibility: hidden;
         position: absolute;
       }
-    nav ul {
-        position: absolute;
-        left: 48%;
-        top: 25px;
-    }
+    
    
 
     .continer-header{
@@ -37,8 +31,6 @@
 .continer-contact {
     
     justify-content: space-between;
-   
-
 }
 .card_form{
     right: 20%;
@@ -49,11 +41,6 @@
     padding:10px 45px;
     width: 150px;
 }
-
-
-
-
-
 
 
 }
@@ -116,21 +103,21 @@
 
 
 
-@media (max-width:876px) {
+@media (max-width:667px) {
    
     nav ul{
-        display: non;
+        display: none;
         justify-items: start;
         grid-template-columns: repeat(1, auto);
         position: absolute;
         top: 80px;
-        line-height: 70px;
+        line-height: 50px;
         left: 0;
         background: var(--color-body);
-        padding:150px 100px ;
+        padding:87px 100px ;
         transform: translate(-0%);
         z-index: 10;
-        transition: 1s;
+       
        
 
     }
@@ -141,7 +128,7 @@
 .icon-open,
 .icon-close{
     visibility: visible;
-    position: absolute;
+   
   }
   .icon-close{
     position: absolute;
@@ -156,17 +143,11 @@
         align-self: center;
     }
    
-    .continer-header h2,
-.continer-header h3 {
+    .continer-header h2{
  
     font-size: 1.4em;
 }
 
-.continer-header button {
- 
-    font-size: 0.7em;
-    width: 150%;
-}
 .continer-contact{
 width: 82%;
 
@@ -186,10 +167,10 @@ width: 82%;
 }
 
 }
-
+/* 
 @media (min-width:360Px) {
     .continer-header{
         font-size:0.4em;
-    } 
+    }  */
 
 }
