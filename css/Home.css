@@ -38,12 +38,14 @@ main{
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(224, 175, 160, 0.85);
+    background: rgba(138, 129, 124, 0.85);
     opacity: 0;
     transition: 0.5s;
     padding-top: 53%;
     padding-left: 10%;
 }
+
+
 
 .slvdiv > *{
     transform: translateX(-25%);
@@ -55,6 +57,34 @@ main{
 }
 
 .slvdiv:hover > *{
+    transform: translateX(0px);
+}
+
+.slvdiv1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(138, 129, 124, 0.85);
+    opacity: 0;
+    transition: 0.5s;
+    padding-top: 43%;
+    padding-left: 10%;
+}
+
+
+
+.slvdiv1 > *{
+    transform: translateX(-25%);
+    transition: 0.5s;
+}
+
+.slvdiv1:hover{
+    opacity: 1;
+}
+
+.slvdiv1:hover > *{
     transform: translateX(0px);
 }
 
@@ -82,8 +112,23 @@ main{
     font-weight: 600;
 }
 
+.btn1:hover{
+    cursor: pointer;
+}
+
 
 /* La fin de la Partie Pour Styler la Section Latest News*/
+
+/* Partie Pour Styler la Latest Properties*/
+.h3{
+    margin-left: 3.125rem;
+    font-weight: 400;
+    font-size: 3.125rem;
+    width: 28%;
+    color: var(--taupe);
+}
+
+/* La fin de la Partie Pour Styler la Latest Properties*/
 
 /* Partie Pour Styler la Section Our Services*/
 
