@@ -105,7 +105,7 @@ main{
     padding: 2.5% 10% 2.5%;
     background-color: transparent;
     border-radius: 25px;
-    border-color: var(--isabelline);
+    border-color: var(--melon);
     border-style: solid;
     color: var(--isabelline);
     font-size: 1.25rem;
@@ -126,6 +126,42 @@ main{
     font-size: 3.125rem;
     width: 29%;
     color: var(--taupe);
+}
+
+.ouamlink{
+    text-decoration: none;
+    color: var(--isabelline);
+    margin-left: 1.75%;
+    font-size: 1.18rem;
+}
+
+.ouambtn2{
+    padding: 2.5% 10% 2.5%;
+    background-color: transparent;
+    border-radius: 25px;
+    border-color: var(--melon);
+    border-style: solid;
+    color: var(--isabelline);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 3.5%;
+}
+
+.ouambtn2:hover{
+    cursor: pointer;
+}
+
+.ouamallarw{
+    font-size: 0.938rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--grey);
+}
+
+.ouamalldiv{
+    margin-left: 83%;
+    width: 8.5%;
+    margin-bottom: 2%;
 }
 
 /* La fin de la Partie Pour Styler la Latest Properties*/
