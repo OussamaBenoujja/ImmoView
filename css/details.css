@@ -18,40 +18,43 @@ body{
 
 
 /* Navbar ----------------------------------------------------------------------*/
-.h-nav-container{
+.h-nav{
+    background-color: var(--color-4);
+}
+.h-navbar{
+    margin: 0 50px;
     display: flex;
     justify-content: space-between;
-    margin: 0 50px;
-    padding: 20px 0;
+    padding: 1rem 0;
 }
 
-.h-nav-container img{
-    display: flex;
+.h-logo{
     width: 20%;
 }
 
-.h-nav-container ol{
+.h-nav-links{
     display: flex;
-    gap: 3rem;
-    justify-content: space-between;
     align-items: center;
+    gap: 3rem;
     list-style-type: none;
 }
 
-.h-nav-container ol a{
+.h-nav-links a{
     text-decoration: none;
-    color: black;
-    padding-bottom: 10px;
+    color: var(--color-1);
 }
 
-.h-nav-container ol a:hover{
+.h-nav-links a:hover{
+    padding-bottom: 5px;
     border-bottom: 3px solid var(--color-5);
     color: var(--color-5);
 }
 
-.h-nav-container svg{
-    visibility: hidden;
-    position: absolute;
+.h-burger-menu{
+    /* visibility: hidden;
+    position: absolute; */
+    display: none;
+    cursor: pointer;
 }
 
 
@@ -77,13 +80,17 @@ footer{
     padding: 5rem 0;
     display: flex;
     margin: 0 150px;
-    /* justify-content: center; */
     gap: 5rem;
 }
 
 .h-footer-infos{
-    width:100%;
+    width:35%;
     padding-top: 15px;
+}
+
+.h-footer-items{
+    display: flex;
+    gap: 10rem;
 }
 
 .h-footer-help{
