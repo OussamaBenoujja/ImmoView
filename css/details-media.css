@@ -70,22 +70,29 @@
         display: none;
         flex-direction: column;
         width: 100%;
+        height: 40%;
         position: absolute;
         top: 5rem;
         right: 0;
         background-color: var(--color-4);
     }
 
-    .h-nav-links li {
-        text-align: center;
-        padding: 10px;
-        width: 50%;
-        color: var(--color-1);
+
+
+    .h-nav-links a:hover{
+        padding-bottom: none;
+        border-bottom: none;
+        color: var(--color-5);
     }
 
     .h-burger-menu {
         display: flex;
         align-items: center;
+    }
+
+    .h-burger-menu svg:hover{
+        transform: scale(1.06);
+        transition-duration: 400ms;
     }
 
     .nav-active {

@@ -44,15 +44,13 @@ body{
     color: var(--color-1);
 }
 
-.h-nav-links a:hover{
+.h-nav-links li:hover{
     padding-bottom: 5px;
     border-bottom: 3px solid var(--color-5);
     color: var(--color-5);
 }
 
 .h-burger-menu{
-    /* visibility: hidden;
-    position: absolute; */
     display: none;
     cursor: pointer;
 }
