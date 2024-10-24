@@ -24,15 +24,15 @@
     background-size: cover;
     background-position: center;
 }
-.TestHeader h1, .TestMain h1 {
+.TestHeader h1, .TestMain h1, .TestGallery h1 {
     text-align: center;
     color: #F4F3EE;
     font-size: 62.37px;
-    padding-top: 6%;
+    padding-top: 4%;
     font-weight: 360;
 
 }
-.TestHeader hr, .TestMain hr {
+.TestHeader hr, .TestMain hr, .TestGallery hr {
     margin: 0 auto;
     width: 10%;
     background-color: #E0AFA0;
@@ -128,18 +128,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
-    padding: 5% 10%;
+    height: 90vh;
+    width: 100%;
 }
 
 .FormLeft {
+    flex: 1;
+    display: flex;
     background: #463F3A;
     border-radius: 20px 0  0 20px;
+    max-width: 34%;
 }
 .FormLeft form {
     padding: 50px;
-    max-width: 400px;
-    height: 497px;
+    height: 496px;
 }
 .TestDesk {
     width: 300px;
@@ -179,9 +181,124 @@
     background-color: #CF9078;
 }
 
-.StarsRate {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    text-align: center;
-    color: #FFD700; /* Gold for the stars */
+
+.TestGallery {
+    height: auto;
+    background-color: #F5F5F5;
 }
+
+.PicSliderM {
+    margin: 0 auto;
+    margin: 8% auto;
+    max-width: 100vw;
+    overflow: hidden;
+    display: flex;
+    > * {
+        flex: 0 0 100%;
+    }
+    &:hover .PicSlidesM {
+        animation-play-state: paused;
+    }
+}
+.PicSlidesM {
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    will-change: transform;
+    animation: PicScrolling 24s linear infinite;
+}
+@keyframes PicScrolling {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.PicSlidesM img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+
+.TitleBack {
+    background: #463F3A;
+    padding-bottom: 80px;
+}
+
+
+
+/*--------------------------MEDIA QUERY-------------------------*/
+
+
+@media (max-width: 767px) {
+
+}
+@media (max-width: 1050px) {
+    .TestImage {
+        display: none;
+    }
+    .FormLeft {
+        border-radius: 20px;
+    }
+}
+
+
+
+/*----------------------------STARS RATE-------------------------*/
+
+.rating {
+    margin: 50px auto;
+}
+.rating > * {
+    float: right;
+}
+.rating label {
+    height: 40px;
+    width: 14%;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+.rating label:nth-of-type(5):after {
+    animation-delay: 0.25s;
+}
+.rating label:nth-of-type(4):after {
+    animation-delay: 0.2s;
+}
+.rating label:nth-of-type(3):after {
+    animation-delay: 0.15s;
+}
+.rating label:nth-of-type(2):after {
+    animation-delay: 0.1s;
+}
+.rating label:nth-of-type(1):after {
+    animation-delay: 0.05s;
+}
+.rating label:after {
+    transition: all 0.4s ease-out;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    content: "☆";
+    color: #F5F5F5;
+    top: -150%;
+    right: 120%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+.rating label:hover:after {
+    color: #8A817C;
+}
+.rating input {
+    display: none;
+}
+.rating input:checked + label:after, .rating input:checked ~ label:after {
+    content: "★";
+    color: #F9BF3B;
+}
+  

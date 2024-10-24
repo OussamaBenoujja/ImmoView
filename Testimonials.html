@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -92,10 +92,24 @@
                 <form>
                     <input class="TestInput" type="text" name="name" placeholder="Enter your full name" required>
                     <input class="TestInput" type="email" name="email" placeholder="Enter your email address" required>
-                    <input class="TestDesk" type="text" name="description" placeholder="How was your experience with us?" required></textarea>
-                    <div class="StarsRate">
-                        <!-- Add your star rating here if needed -->
-                        ⭐⭐⭐⭐⭐
+                    <input class="TestDesk" type="text" name="description" placeholder="How was your experience with us?" required></input>
+                    <div class="rating">
+
+                        <input type="radio" name="rating" id="r1">
+                        <label for="r1"></label>
+                       
+                        <input type="radio" name="rating" id="r2">
+                        <label for="r2"></label>
+                       
+                        <input type="radio" name="rating" id="r3">
+                        <label for="r3"></label>
+                       
+                        <input type="radio" name="rating" id="r4">
+                        <label for="r4"></label>
+                       
+                        <input type="radio" name="rating" id="r5">
+                        <label for="r5"></label>
+                       
                     </div>
                     <input class="TestPublish" type="submit" value="Publish">
                 </form>
@@ -104,7 +118,57 @@
                 <img src="./img/FormSide.png" class="TestImage">
             </div>
         </div>
-    </main>    
+    </main>
+
+    <section class="TestGallery">
+        <div class="TitleBack">
+            <h1>See It, Love It, Live It</h1>
+            <hr>
+        </div>
+        <div class="PicSliderM">
+            <div class="PicSlidesM">
+                <div>
+                    <img src="./img/home1.jpg">
+                </div>
+                <div>
+                    <img src="./img/home2.jpg">
+                </div>
+                <div>
+                    <img src="./img/home3.jpg">
+                </div>
+                <div>
+                    <img src="./img/home4.jpg">
+                </div>
+                <div>
+                    <img src="./img/home5.jpg">
+                </div>
+                <div>
+                    <img src="./img/home6.jpg">
+                </div>
+            </div>
+            <!-- Second group -->
+            <div aria-hidden class="PicSlidesM">
+                <div>
+                    <img src="./img/home1.jpg">
+                </div>
+                <div>
+                    <img src="./img/home2.jpg">
+                </div>
+                <div>
+                    <img src="./img/home3.jpg">
+                </div>
+                <div>
+                    <img src="./img/home4.jpg">
+                </div>
+                <div>
+                    <img src="./img/home5.jpg">
+                </div>
+                <div>
+                    <img src="./img/home6.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
     
     
 </body>
