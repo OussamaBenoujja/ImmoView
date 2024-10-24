@@ -216,23 +216,38 @@ header {
 /* pop_up */
 
 #Poup_up {
-    display: none;
+    display: non;
     position: fixed;
     left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-
+    top: 0; 
+     width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.5);  
+   
 }
 
 .cards_pop_up {
-    background: #fff;
+    background: green;
     margin: 15% auto;
-    padding: 20px;
+    padding: 30px;
     width: 300px;
     text-align: center;
-
+    color: white;
+    cursor: pointer;
+    border-radius:10px;
+    position: relative;
+}
+.cards_pop_up i{
+    position: absolute;
+    top: 0;
+    right: 4%;
+    top: 12%;
+}
+.cards_pop_up p{
+display: flex;
+justify-content: center;
+align-items: center;
+    
 }
 
 
