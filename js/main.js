@@ -44,3 +44,22 @@ btn.addEventListener('click', function () {
         
     }
 });
+
+
+let btn_one =document.querySelector(".btn-one")
+let btn_two =document.querySelector(".btn-two")
+let btn_tree =document.querySelector(".btn-tree")
+
+
+btn_one.onclick=function(){
+    location.href="home.html"
+}
+
+
+btn_two.onclick=function(){
+    location.href="home.html"
+}
+
+btn_tree.onclick=function(){
+    location.href="home.html"
+}
