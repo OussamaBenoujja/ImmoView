@@ -216,7 +216,7 @@ header {
 /* pop_up */
 
 #Poup_up {
-    display: non;
+    display: none;
     position: fixed;
     left: 0;
     top: 0; 
@@ -247,7 +247,6 @@ header {
 display: flex;
 justify-content: center;
 align-items: center;
-    
 }
 
 

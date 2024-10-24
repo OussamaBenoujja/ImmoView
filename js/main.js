@@ -26,6 +26,8 @@ btn.addEventListener('click', function() {
     let email = document.querySelector("#email");
     let phone = document.querySelector("#phone");
     const poupupMun =   document.getElementById("Poup_up");
+    let inner_pop_up = document.querySelector(".inner-pop-up");
+     let cards_pop_up =document.querySelector(".cards_pop_up")
     let email_value = email.value;
     let phone_value = phone.value;
 
@@ -33,18 +35,13 @@ btn.addEventListener('click', function() {
 
     let validPhone = /^\+212\d{8}$/;
 
-    if (validEmail.test(email_value)) {
+    if (validEmail.test(email_value)&&validPhone.test(phone_value)) {
         poupupMun.style.display = "block";
     } else {
-        poupupMun.style.display = "none";
-    }
-
-    if (validPhone.test(phone_value)) {
+        cards_pop_up.style.background="red"
         poupupMun.style.display = "block";
-
-    } else {
-        poupupMun.style.display = "none";
-
+        inner_pop_up.innerHTML="email or phone is not valid "
     }
+
    
 });

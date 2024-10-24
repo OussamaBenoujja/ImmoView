@@ -17,6 +17,9 @@
 }
 
 @media (max-width:1336px) {
+    nav ul li a{
+        text-align: center;
+       }
     .icon-open,
     .icon-close{
         visibility: hidden;
@@ -105,14 +108,14 @@ gap:50px;
          justify-items: start;
         grid-template-columns: repeat(1, auto);
         position: absolute;
-        top: 80px;
+        top: 76px;
         line-height: 50px;
         left: 0;
         background: var(--color-body);
-        padding:87px 100px ;
+        padding:87px 43% ;
         transform: translate(-0%);
         z-index: 10;
-    
+       transition: 1s;
        
 
     }  
