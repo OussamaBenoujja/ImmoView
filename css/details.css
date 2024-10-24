@@ -19,24 +19,40 @@ body{
 
 /* Navbar ----------------------------------------------------------------------*/
 .h-nav-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    justify-content: space-between;
     margin: 0 50px;
     padding: 20px 0;
 }
 
 .h-nav-container img{
     display: flex;
-    width: 80%;
+    width: 20%;
 }
 
-.h-nav-links{
-    
+.h-nav-container ol{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
 }
 
+.h-nav-container ol a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+}
 
+.h-nav-container ol a:hover{
+    border-bottom: 3px solid var(--color-5);
+    color: var(--color-5);
+}
 
-
+.h-nav-container svg{
+    visibility: hidden;
+    position: absolute;
+}
 
 
 
