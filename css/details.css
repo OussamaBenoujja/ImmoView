@@ -61,12 +61,67 @@ body{
 
 
 /* Footer ----------------------------------------------------------------------*/
-/* footer{
+footer{
     color: var(--color-4);
     background-color: var(--color-1);
 }
 
-.h-footer- */
+.h-copyright{
+    margin: 0 50px;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid var(--color-4);
+}
+
+.h-footer-container{
+    padding: 5rem 0;
+    display: flex;
+    margin: 0 150px;
+    /* justify-content: center; */
+    gap: 5rem;
+}
+
+.h-footer-infos{
+    width:100%;
+    padding-top: 15px;
+}
+
+.h-footer-help{
+    width: 100%;
+}
+
+.h-footer-links{
+    width: 40%;
+}
+
+.h-footer-infos img{
+    width: 50%;
+}
+
+.h-footer-aide a,
+.h-footer-about a,
+.h-footer-links a{
+    text-decoration: none;
+    color: var(--color-4);
+}
+
+.h-footer-container p{
+    font-weight: 300;
+}
+
+.h-footer-about{
+    margin-top: 2rem;
+}
+
+.h-footer-about h2{
+    margin: 0;
+}
+
+.h-footer-container h2{
+    font-weight: 600;
+}
+
+
 
 
 
