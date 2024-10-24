@@ -1,3 +1,194 @@
-@media (max-width: 1100px){
+@media (max-width: 767px){
     
+    .h-carousel{
+        gap: 1rem;
+    }
+    
+    .h-carousel-slide{
+        gap: 1rem;
+    }
+    
+    .h-carousel-slide img{
+        width: 70%;
+    }
+
+    .h-carousel-slide svg{
+        width: 2rem;
+    }
+    
+    .h-carousel-images{
+        flex-direction: column;
+    }
+
+    .h-images img{
+        width: 50%;
+    } 
+    
+    .h-elements{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .h-element:last-child{
+        grid-column: span 2;
+    }
+
+/*-------------------------------------------------------------------------------*/
+
+    input,
+    select,
+    textarea{
+        width: 70%;
+    }
+
+/*--------------------------------------------------------------------------------*/
+
+    .h-quartier-container{
+        grid-template-columns: 1fr;
+    }
+
+    .h-quartier-title{
+        grid-column: span 1;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 800px){
+    .h-carousel{
+        gap: 1rem;
+    }
+    
+    .h-carousel-slide{
+        gap: 1rem;
+    }
+    
+    .h-carousel-slide img{
+        width: 70%;
+    }
+
+    .h-carousel-slide svg{
+        width: 2rem;
+    }
+    
+    .h-carousel-images{
+        flex-direction: column;
+    }
+
+    .h-images img{
+        width: 100%;
+    } 
+    
+    .h-elements{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .h-element:last-child{
+        grid-column: span 2;
+    }
+
+/*-------------------------------------------------------------------------------*/
+
+    input,
+    select,
+    textarea{
+        width: 70%;
+    }
+
+/*--------------------------------------------------------------------------------*/
+
+    .h-quartier-container{
+        grid-template-columns: 1fr;
+    }
+
+    .h-quartier-title{
+        grid-column: span 1;
+    }
+}
+
+
+
+
+@media (min-width: 800px) and (max-width:1023px){
+    .h-carousel-slide img{
+        width: 70%;
+    }
+
+    .h-carousel-slide svg{
+        width: 2.5rem;
+    }
+    
+    .h-carousel-images{
+        gap: 2rem;
+    }
+
+    .h-images{
+        width: 50%;
+    }
+
+    .h-images img{
+        width: 50%;
+    }
+
+/*------------------------------------------------------------------------------*/
+
+    input,
+    select,
+    textarea{
+        width: 60%;
+    }
+    
+}
+
+
+
+
+
+@media (min-width: 1023px) and (max-width: 1127px){
+    .h-carousel-slide img{
+        width: 80%;
+    }
+
+    .h-carousel-slide svg{
+        width: 2.5rem;
+    }
+    
+    .h-carousel-images{
+        gap: 2rem;
+    }
+
+    .h-images{
+        width: 70%;
+    }
+
+    .h-images img{
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 1027px){
+    .h-carousel-slide img{
+        width: 80%;
+    }
+
+    .h-carousel-slide svg{
+        width: 2.5rem;
+    }
+    
+    .h-carousel-images{
+        gap: 2rem;
+    }
+
+    .h-images{
+        width: 70%;
+    }
+
+    .h-images img{
+        width: 50%;
+    }
 }

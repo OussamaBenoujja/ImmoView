@@ -13,12 +13,44 @@ body{
     margin: 0;
 }
 
-.details,
-.formulaire{
+
+
+
+
+/* Navbar ----------------------------------------------------------------------*/
+.h-nav-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 50px;
+    padding: 20px 0;
+}
+
+.h-nav-container img{
+    display: flex;
+    width: 80%;
+}
+
+.h-nav-links{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------*/
+.h-details,
+.h-formulaire{
     background-color: #E4E2DB;
 }
 
-.quartier{
+.h-quartier{
     background-color: var(--color-1);
 }
 
@@ -28,110 +60,88 @@ body{
 
 
 /* Details Section -----------------------------------------------------------------------------------------*/
-.details-container{
+.h-details-container{
+    margin: 0 50px ;
+    padding: 50px 0;
     color: var(--color-1);
-    margin: 0 50px;
-    display: grid;
-    grid-template-columns: repeat(12 , 1fr);
-    gap: 1rem;
-    padding: 3rem 0;
+}
+.h-details-title{
+    text-align: center;
 }
 
-.details-title,
-.details-description{
-    grid-column: span 12;
+.h-details-title h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+}
+
+.h-details-title p{
+    margin: 0.3rem 0 1rem 0;
+}
+
+.h-carousel{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.h-carousel-slide{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 3rem;
 }
 
-.details-title h1{
-    font-size: 2.3rem;
-    font-weight: 700;
-    margin: 0;
-}
-
-.details-title p{
-    font-size: 1.2rem;
-}
-
-.images{
-    grid-column: span 12;
-    display: grid;
-    grid-template-columns: repeat(4 , 1fr);
-    gap: 1rem;
-}
-
-.image img{
+.h-carousel-slide img{
     width: 100%;
-    cursor: pointer;
 }
 
-.details-title,
-.details-description{
-    flex-direction: column;
-}
-
-.details-description h1{
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 0;
-}
-
-.details-description p{
-    font-size: 1.2rem;
-    margin-bottom: 0;
-    margin-top: 0.5rem;
-}
-
-span{
-    font-weight: 600;
-}
-
-.elements,
-.carousel{
-    grid-column: span 12;
-    display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    gap: 1rem;
-}
-
-/* .carousel-image{
-    width: 100%;
-} */
-
-.btn-left,
-.btn-right{
-    cursor: pointer;
-}
-
-.element,
-.btn-left,
-.btn-right,
-.image{
+.h-carousel-images{
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-items: center;
+    gap: 1rem;
 }
 
-.element:nth-child(4),
-.element:nth-child(5),
-.element:nth-child(6),
-.element:nth-child(7),
-.element:nth-child(8),
-.element:nth-child(9){
-    margin-top: -3rem;
+.h-images{
+    display: flex;
+    gap: 1rem;
 }
 
-.element p{
-    font-size: 1.3rem;
-    color: black;
-    font-weight: 400;
-    background-color: #BCB8B1;
-    width: 100%;
+.h-details-description{
     text-align: center;
-    padding: 0.8rem 0;
+    margin: 2rem 0;
+}
+
+.h-details-description h1{
+    margin-bottom: 0.8rem;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.h-details-description p{
+    margin-bottom: 0.5rem;
+}
+
+.h-details-description span{
+    font-weight: 600;
+}
+
+.h-elements{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.h-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0AFA0;
+    width: 100%;
+    padding: 1rem 0;
     border-radius: 10px;
+    font-weight: 500;
 }
 
 
@@ -142,13 +152,13 @@ span{
 
 /* Formulaire Section -----------------------------------------------------------------------------------------------------*/
 
-.formulaire-title,
+.h-formulaire-title,
 form{
     display: flex;
     flex-direction: column;
 }
 
-.formulaire-container{
+.h-formulaire-container{
     padding: 50px 0;
     margin: 0 50px;
     background-color: #E4E2DB;
@@ -156,18 +166,18 @@ form{
     padding: 3rem 0;
 }
 
-.formulaire-title{
+.h-formulaire-title{
     align-items: center;
 }
 
-.formulaire-title h1{
+.h-formulaire-title h1{
     font-size: 2.3rem;
     font-weight: 700;
     margin: 0 0 0.5rem 0;
     text-align: center;
 }
 
-.formulaire-title p{
+.h-formulaire-title p{
     margin: 0;
     text-align: center;
 }
@@ -180,7 +190,7 @@ form{
 input,
 select,
 textarea{
-    width: 40%;
+    width: 50%;
     padding: 0.8rem;
     border: none;
     border-radius: 15px;
@@ -189,8 +199,8 @@ textarea{
     font-size: 1rem;
 }
 
-select{
-    width: 42%;
+textarea{
+    height: 10rem;
 }
 
 label{
@@ -232,7 +242,7 @@ button:hover{
 
 
 /* Quartier Section ----------------------------------------------------------------------------*/
-.quartier-container{
+.h-quartier-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -241,23 +251,23 @@ button:hover{
     padding: 5rem 0;
 }
 
-.quartier-title{
+.h-quartier-title{
     grid-column: span 2;
     text-align: center;
 }
 
-.quartier-title h1{
+.h-quartier-title h1{
     font-size: 2.3rem;
     font-weight: 700;
     margin: 0;
 }
 
-.quartier-title p{
+.h-quartier-title p{
     font-size: 1.2rem;
     margin: 1rem 0;
 }
 
-.quartier-card{
+.h-quartier-card{
     color: var(--color-4);
     text-align: center;
     height: 25rem;
@@ -268,7 +278,7 @@ button:hover{
     cursor: pointer;
 }
 
-.quartier-card:hover{
+.h-quartier-card:hover{
     transform: scale(1.05);
     transition: all 400ms;
 }
@@ -315,18 +325,18 @@ button:hover{
     background-position: center;
 }
 
-.quartier-card h3{
+.h-quartier-card h3{
     color: #E0AFA0;
     font-size: 2.5rem;
     font-weight: 600;
     margin: 0 0 1rem 0;
 }
 
-.quartier-card p{
+.h-quartier-card p{
     margin: 0 4rem;
 }
 
-.quartier-card span{
+.h-quartier-card span{
     color: var(--color-3);
     font-weight: 500;
 }
