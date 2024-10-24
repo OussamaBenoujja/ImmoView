@@ -254,6 +254,8 @@ align-items: center;
 
 /*  */
 /* end style contact */
+
+/*                    */
 .ContactUs {
     text-align: center;
     background: var(--color-scandry);
@@ -307,9 +309,6 @@ align-items: center;
     margin: 20px;
 }
 
-.servs-card img:hover {
-    opacity: 0.4;
-}
 
 
 .servs-card :first-child {
@@ -324,6 +323,33 @@ align-items: center;
     margin: 50px 0;
 }
 
+.servs-card .btn-one,
+.servs-card .btn-two,
+.servs-card .btn-tree{
+ padding: 13px 50px;
+ position: relative;
+ left: 50%;
+ bottom: 63%;
+ transform: translate(-50%);
+ background: var(--color-scandry);
+ border: 2px solid var(--color-scandry);
+ color: white;
+ font-weight: bold;
+ visibility: hidden;
+}
+
+.servs-card img:hover + .btn-one,
+.servs-card img:hover + .btn-two,
+.servs-card img:hover + .btn-tree{
+    visibility: visible;
+ cursor: pointer;
+ }
+ .servs-card img:hover{
+    filter: blur(2px);
+ }
+
+
+/*                    */
 
 
 
