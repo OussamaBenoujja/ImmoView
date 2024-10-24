@@ -39,27 +39,23 @@
         justify-self: start;
     
     }
-    hr{
-        display: none;
-    }
     .continer-footer{
    margin: 20px;
    
     }
-   
-    
+     
 .card_form{
-    width: 500px;
     grid-template-columns: repeat(2,200px);
     justify-content: center;
+    align-items: center;
+    width: 480px;
 }  
 
 
  .continer-contact{
-    grid-template-columns: repeat(1,200px);
-    justify-content: center;
-    width: 100%;
-  
+    display: block;
+    justify-items: center;
+
 } 
 .card-iformation {
     width: 480px;
@@ -69,39 +65,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-.card_form{
-    width: 480px;
-
-   justify-content: center;
-} 
- .continer-contact{
-    justify-content: center;
-    width: 100%;
-  position: relative;
-  transform: translate(-20%);
-} 
-.card-iformation {
-    width: 480px;
-    height: 600px;
-}
-
-
 .continer-serves {
     grid-template-columns: repeat(2, auto);
-margin: 30vh 50px;
-gap:60px 0;
-margin-top: 140vh;
-
+gap:50px;
 }
+
 
 }
 
@@ -129,10 +97,7 @@ margin-top: 140vh;
        
 
     }  
-     footer{
-    
    
-    }
        
 .icon-open,
 .icon-close{
@@ -150,6 +115,7 @@ margin-top: 140vh;
         right: 20px;
         font-size: 40px;
         align-self: center;
+        
     } 
     
     .continer-header h2{
@@ -163,30 +129,40 @@ margin-top: 140vh;
     height: 150px;
 }
  .card_form{
-    width: 440px;
-   justify-content: center;
-   align-self: center;
-   padding: 10px;
+    width: 445px;
+
 } 
  .continer-contact{
-    grid-template-columns: repeat(1,100px);
-    justify-content: center;
-    position: relative;
-    right: 8%;
+    display: block;
+justify-self: center;
 } 
 .card-iformation {
-    width: 440px;
-    height: 600px;
- 
-
+    width: 445px;
+justify-self: center;
+  
 }
 .continer-serves {
     grid-template-columns: repeat(1, auto);
-  
     height: 140vh;
-}
+   
+   
+    justify-self: center;
+   
+
 }
 
+.card_form input {
+    padding:10px 20px;
+}
+.servs-card{
+    display: block;
+    justify-items: center;
+    justify-self: center;
+    justify-content: center;
+
+}
+}
+/* 
 
 @media (max-width:562px) {
     .continer-contact{
@@ -194,4 +170,4 @@ margin-top: 140vh;
         right: 22%;
     } 
   
-} 
+}  */

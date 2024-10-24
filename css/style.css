@@ -93,21 +93,20 @@ header {
 /* End home */
 
 /* /* start style contact  */
-.contact-us h2{
-    margin: 50px;
+.contact h2{
+    margin: 60px 0;
     text-align: center;
-    font-size: 40px;
+    font-size: 53px;
 }
 
 .continer-contact {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
+    display: flex;
     justify-content: center;
     align-items: center;
     margin:  50px;
-    width: 95%;
+    width: 90%;
     color: white;
-    height: 100vh;
+    height: auto;
 
 }
 
@@ -152,13 +151,13 @@ header {
 
 .card_form {
     display: grid;
-    grid-template-columns: repeat(2, 240px);
-    gap: 30px;
+    grid-template-columns: repeat(2,220px);
     color: black;
     align-items: center;
     background: white;
-    width: 95%;
     padding: 30px;
+    max-width:461px;
+    height: 600px;
 
 }
 
@@ -169,20 +168,22 @@ header {
     background: none;
     margin: 20px 0;
     width: 90%;
+    padding:0 10px;
 }
 
-.card_form input::placeholder {}
 
 .card_form p {
     color: #dddddd92;
 }
 
 .card_form textarea {
-    width: 165%;
+   width: 400px;
     height: 200px;
     outline: 0;
     border: 2px solid #61606045;
     margin: 20px 0;
+    padding:0 10px;
+   
 }
 
 .card_form button {
@@ -205,12 +206,14 @@ header {
     background: var(--color-scandry);
     width: 100%;
     padding: 80px;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 
 .ContactUs h2 {
     color: white;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 .ContactUs p {
@@ -219,12 +222,12 @@ header {
 }
 
 .continer-serves {
-
     display: grid;
     grid-template-columns: repeat(3, auto);
-    justify-content: space-evenly;
-    margin: 30vh 50px;
-    width: 94%;
+    justify-content: center;
+    margin:150px 50px;
+    width: 90%;
+    gap: 50px ;
     margin-top: 20vh;
 }
 
@@ -243,7 +246,10 @@ header {
     height: 250px;
     border-radius: 22px 22px;
     transition: 1s;
-    
+   
+}
+.servs-card p{
+    margin: 20px;
 }
 
 .servs-card img:hover {
@@ -265,6 +271,7 @@ header {
 
 .blog p {
     color: #ddd;
+   
 }
 
 
@@ -281,7 +288,7 @@ footer {
     gap: 10px;
     height: auto;
     margin: 40px 160px;
-    padding: 10px;
+    padding: 60px;
 
 }
 
@@ -312,7 +319,7 @@ footer {
 
 .continer-footer p {
     color: #e1dbdba5;
-    width: 100%;
+    width: 90%;
 
 }
 
@@ -320,12 +327,8 @@ footer {
     width: 200px;
     height: 50px;
 }
-
-hr {
-    width: 80%;
-    margin-left: 150px;
-    margin-bottom: 20px;
-    color: rgba(151, 147, 147, 0.659);
+hr{
+    margin: 20px 0;
 }
 
 .copy {
