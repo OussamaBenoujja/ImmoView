@@ -24,7 +24,7 @@ nav ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(6, auto);
-    gap: 0 15px;
+    gap: 0 30px;
 
 
 
@@ -64,29 +64,42 @@ header {
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    height: 59vh;
     color: white;
     font-size: 36px;
     width: 100%;
+        height: 100vh;
 }
 
 .continer-header {
     position: relative;
-    top: 40%;
+    top: 35%;
     margin: 10px 50px;
-    width: 100%;
-    max-width: 100px;
+    width: 90%;
+    /* max-width: 100px; */
     line-height: 79px;
     flex-wrap: wrap;
 
 }
 
-
-.continer-header h2 {
-    width: 500%;
-    font-size: 1.5em;
+.continer-header h3 {
+    width: 90%;
+font-size:40px;
 }
 
+.continer-header h2 {
+    width: 90%;
+    font-size: 30px;
+}
+
+.continer-header button{
+    padding: 16px 70px ;
+    background: none;
+    border: 3px solid var(--color-scandry);
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+   
+}
 
 
 
