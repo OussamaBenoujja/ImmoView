@@ -1,5 +1,4 @@
-
- /* start home  */
+/* start home  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
@@ -26,9 +25,9 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(6, auto);
     gap: 0 15px;
-    
-   
-  
+
+
+
 }
 
 nav ul li a {
@@ -45,11 +44,11 @@ nav ul li a:hover {
 
 #conitiner-nav {
     display: flex;
-  align-items: center;
+    align-items: center;
     justify-content: space-between;
     margin: 10px 50px;
     width: 90%;
-    
+
 
 }
 
@@ -71,7 +70,7 @@ header {
     width: 100%;
 }
 
-.continer-header{
+.continer-header {
     position: relative;
     top: 40%;
     margin: 10px 50px;
@@ -94,18 +93,22 @@ header {
 /* End home */
 
 /* /* start style contact  */
-
+.contact-us h2{
+    margin: 50px;
+    text-align: center;
+    font-size: 40px;
+}
 
 .continer-contact {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
-    justify-content: space-around;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
     align-items: center;
-    margin:0 50px  ;
-    width: 80%;
+    margin:  50px;
+    width: 95%;
     color: white;
-  height: 100vh;
-  
+    height: 100vh;
+
 }
 
 .mapswrapper iframe {
@@ -147,59 +150,121 @@ header {
     margin: 10px;
 }
 
-.card_form{
+.card_form {
     display: grid;
-    grid-template-columns: repeat(2,240px);
+    grid-template-columns: repeat(2, 240px);
     gap: 30px;
     color: black;
     align-items: center;
     background: white;
-    width: 175%;
-    padding: 40px;
-  
+    width: 95%;
+    padding: 30px;
+
 }
-.card_form input{
+
+.card_form input {
     outline: 0;
     border: 0;
-    border-bottom: 2px solid  #61606045;
+    border-bottom: 2px solid #61606045;
     background: none;
-
     margin: 20px 0;
-     width: 100%;
+    width: 90%;
 }
-.card_form input::placeholder{
 
-}
-.card_form p{
+.card_form input::placeholder {}
+
+.card_form p {
     color: #dddddd92;
 }
-.card_form textarea{
+
+.card_form textarea {
     width: 165%;
     height: 200px;
     outline: 0;
-    border: 2px solid  #61606045;
+    border: 2px solid #61606045;
     margin: 20px 0;
 }
 
-.card_form button{
+.card_form button {
     width: 214px;
     height: 53px;
     background: black;
- color: white;
- 
+    color: white;
+
 }
-.card_form button:hover{
+
+.card_form button:hover {
     color: var(--color-scandry);
     background: none;
     border: 2px solid var(--color-scandry);
 }
 
 /* end style contact */
+.ContactUs {
+    text-align: center;
+    background: var(--color-scandry);
+    width: 100%;
+    padding: 80px;
+    line-height: 30px;
 
-.section{
-    margin: 100px;
-   
-    height: 100vh;
+}
+
+.ContactUs h2 {
+    color: white;
+}
+
+.ContactUs p {
+    color: #27282999;
+    margin: 0 50px;
+}
+
+.continer-serves {
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 30vh 50px;
+    width: 94%;
+    margin-top: 20vh;
+}
+
+.continer-serves img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    border-radius: 10px 10px;
+
+
+}
+
+.servs-card {
+    box-shadow: 0 2px 10px #a7a6a6;
+    width: 300px;
+    height: 250px;
+    border-radius: 22px 22px;
+    transition: 1s;
+    
+}
+
+.servs-card img:hover {
+    opacity: 0.4;
+}
+
+
+.servs-card :first-child {
+    color: #242565;
+    text-align: center;
+}
+
+
+.servs {
+    text-align: center;
+    color: var(--color-scan2);
+    margin: 50px 0;
+}
+
+.blog p {
+    color: #ddd;
 }
 
 
@@ -207,7 +272,7 @@ header {
 footer {
     background: var(--color-prancipal);
     color: white;
-   margin-top: 100px 0;
+    margin-top: 100px 0;
 }
 
 .continer-footer {
@@ -217,7 +282,7 @@ footer {
     height: auto;
     margin: 40px 160px;
     padding: 10px;
-   
+
 }
 
 .about_foter {
