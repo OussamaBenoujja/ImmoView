@@ -1,203 +1,400 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Catalogue</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/catalogue.css">
+    
+    
 </head>
-
-
 
 <body>
 
-<section class="top">
-    <div>
-        <div class="icon">
-            <div class="listed">
-                <div class="dot"></div>
-                <div class="line"></div>
-        
-                <div class="dot"></div>
-                <div class="line"></div>
-        
-                <div class="dot"></div>
-                <div class="line"></div>
-            </div>
+    <section class="top">
+        <div class="Icon1">
+            <svg id="icon" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32" height="32px" version="1.1" viewBox="0 0 32 32" width="32px">
+                <g>
+                    <path d="M25.695,9.43c0,0.771-0.631,1.401-1.402,1.401H8.875c-0.771,0-1.402-0.63-1.402-1.401V7.152c0-0.771,0.631-1.402,1.402-1.402h15.418c0.771,0,1.402,0.631,1.402,1.402V9.43z" fill="#515151"/>
+                    <path d="M25.695,24.848c0,0.771-0.631,1.402-1.402,1.402H8.875c-0.771,0-1.402-0.631-1.402-1.402V22.57c0-0.771,0.631-1.401,1.402-1.401h15.418c0.771,0,1.402,0.63,1.402,1.401V24.848z" fill="#515151"/>
+                    <path d="M25.695,17.139c0,0.771-0.631,1.402-1.402,1.402H8.875c-0.771,0-1.402-0.631-1.402-1.402v-2.277c0-0.771,0.631-1.402,1.402-1.402h15.418c0.771,0,1.402,0.631,1.402,1.402V17.139z" fill="#515151"/>
+                </g>
+            </svg>
         </div>
-    </div>
-    <div class="filter">
-        <h1>FILTER:</h1>
-        <select name="TYPE" id="filter_type">
-            <option value="" >TYPE</option>
-            <option value="1">HOUSES</option>
-            <option value="2">APARTMENTS</option>
-            <option value="3">VILLAS</option>
-        </select>
-        <select name="PRICE" id="filter_price">
-            <option value="" >PRICE</option>
-            <option value="1">below 1M$</option>
-            <option value="2">above 1M$</option>
-            <option value="3">above 2M$</option>
-        </select>
-        <select name="PLACE" id="filter_place">
-            <option value="" >PLACE</option>
-            <option value="1">CALIFORNIA</option>
-            <option value="2">NYCITY</option>
-            <option value="3">TEXAS</option>
-        </select>
-    </div>
-    <div>
-        <button id="Mfilterbtn">FILTER</button>
-    </div>
-</section>
 
-<section class="listProperties">
-        <div class="property-section">
-            <div class="seperator">
-                <h2 style="font-size: 30px;text-align: center;">HOUSES</h2>
-                <div class="property-grid">
-                    <div class="property-card">
-                        <div class="innerCard">
-                            <div></div>
-                            <div class="inInnerCard">
-                                <h3>Staten Island</h3>
-                                <p>$1,100,000</p>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <p>Features:</p>
-                            <p> 2,200 sq. ft, garage, walking distance to parks.</p>
-                        </div>
-                    </div>
-                    <div class="property-card">
-                        <div class="innerCard">
-                            <div></div>
-                            <div class="inInnerCard">
-                                <h3>Staten Island</h3>
-                                <p>$1,100,000</p>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <p>Features:</p>
-                            <p> 2,200 sq. ft, garage, walking distance to parks.</p>
-                        </div>
-                    </div>
-                    <div class="property-card">
-                        <div class="innerCard">
-                            <div></div>
-                            <div class="inInnerCard">
-                                <h3>Staten Island</h3>
-                                <p>$1,100,000</p>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <p>Features:</p>
-                            <p> 2,200 sq. ft, garage, walking distance to parks.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="Icon2">
+            <svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g>
+                    <path d="M15.42,7.221c0-0.951-0.771-1.721-1.721-1.721H6.729c-0.951,0-1.721,0.771-1.721,1.721v6.103c0,0.951,0.771,1.721,1.721,1.721h6.971c0.951,0,1.721-0.771,1.721-1.721V7.221z" fill="#515151"/>
+                    <path d="M27.742,7.221c0-0.951-0.77-1.721-1.721-1.721h-6.971c-0.951,0-1.721,0.771-1.721,1.721v6.103c0,0.951,0.77,1.721,1.721,1.721h6.971c0.951,0,1.721-0.771,1.721-1.721V7.221z" fill="#515151"/>
+                    <path d="M15.42,18.676c0-0.951-0.771-1.721-1.721-1.721H6.729c-0.951,0-1.721,0.77-1.721,1.721v6.104c0,0.95,0.771,1.721,1.721,1.721h6.971c0.951,0,1.721-0.771,1.721-1.721V18.676z" fill="#515151"/>
+                    <path d="M27.742,18.676c0-0.951-0.77-1.721-1.721-1.721h-6.971c-0.951,0-1.721,0.77-1.721,1.721v6.104c0,0.95,0.77,1.721,1.721,1.721h6.971c0.951,0,1.721-0.771,1.721-1.721V18.676z" fill="#515151"/>
+                </g>
+            </svg>
+        </div>
 
-            <div class="seperator">
-                <h2 style="font-size: 30px;margin-top: 50px;text-align: center;">APARTMENTS</h2>
-                <div class="property-grid">
-                    <div class="property-card">
-                        <div class="innerCard">
-                            <div></div>
-                            <div class="inInnerCard">
-                                <h3>Staten Island</h3>
-                                <p>$1,100,000</p>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <p>Features:</p>
-                            <p> 2,200 sq. ft, garage, walking distance to parks.</p>
-                        </div>
-                    </div>
-                    <div class="property-card">
-                        <div class="innerCard">
-                            <div></div>
-                            <div class="inInnerCard">
-                                <h3>Staten Island</h3>
-                                <p>$1,100,000</p>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <p>Features:</p>
-                            <p> 2,200 sq. ft, garage, walking distance to parks.</p>
-                        </div>
-                    </div>
-                    <div class="property-card">
-                        <div class="innerCard">
-                            <div></div>
-                            <div class="inInnerCard">
-                                <h3>Staten Island</h3>
-                                <p>$1,100,000</p>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <p>Features:</p>
-                            <p> 2,200 sq. ft, garage, walking distance to parks.</p>
-                        </div>
-                    </div>
-                    <div class="property-card">
-                        <div class="innerCard">
-                            <div></div>
-                            <div class="inInnerCard">
-                                <h3>Staten Island</h3>
-                                <p>$1,100,000</p>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <p>Features:</p>
-                            <p> 2,200 sq. ft, garage, walking distance to parks.</p>
-                        </div>
-                    </div>
-                </div>
+        <div class="filter">
+            <h1>FILTER:</h1>
+            <select name="TYPE" id="filter_type">
+                <option value="">TYPE</option>
+                <option value="1">HOUSES</option>
+                <option value="2">APARTMENTS</option>
+                <option value="3">VILLAS</option>
+            </select>
+            <select name="PRICE" id="filter_price">
+                <option value="">PRICE</option>
+                <option value="1">below 1M$</option>
+                <option value="2">above 1M$</option>
+                <option value="3">above 2M$</option>
+            </select>
+            <select name="PLACE" id="filter_place">
+                <option value="">PLACE</option>
+                <option value="1">CALIFORNIA</option>
+                <option value="2">NYCITY</option>
+                <option value="3">TEXAS</option>
+            </select>
+        </div>
+
+        <div>
+            <button id="Mfilterbtn">FILTER</button>
+        </div>
+
+        <div class="filterBurger" id="filterburger">
+            <div class="filter1">
+                <h1>FILTER:</h1>
+                <select name="TYPE" id="filter_type">
+                    <option value="">TYPE</option>
+                    <option value="1">HOUSES</option>
+                    <option value="2">APARTMENTS</option>
+                    <option value="3">VILLAS</option>
+                </select>
+                <select name="PRICE" id="filter_price">
+                    <option value="">PRICE</option>
+                    <option value="1">below 1M$</option>
+                    <option value="2">above 1M$</option>
+                    <option value="3">above 2M$</option>
+                </select>
+                <select name="PLACE" id="filter_place">
+                    <option value="">PLACE</option>
+                    <option value="1">CALIFORNIA</option>
+                    <option value="2">NYCITY</option>
+                    <option value="3">TEXAS</option>
+                </select>
             </div>
         </div>
-        <!--lol 
-        <div class="property-section">
-            <h2>APARTMENTS</h2>
-            <div class="property-grid">
-            <div class="property-card">
-                <img src="img/img3.jpg" alt="Apartment 1">
-                <p>Staten Island</p>
-                <p>$1,100,000</p>
-                <p>Features: 2,200 sq. ft, garage, walking distance to parks.</p>
-            </div>
-            <div class="property-card">
-                <img src="img/img4.jpg" alt="Apartment 2">
-                <p>Staten Island</p>
-                <p>$1,100,000</p>
-                <p>Features: 2,200 sq. ft, garage, walking distance to parks.</p>
-            </div>
-            
-            </div>
-        </div>
-        
-        <div class="property-section">
-            <h2>VILLAS</h2>
-            <div class="property-grid">
-            <div class="property-card">
-                <img src="img/img5.jpg" alt="Villa 1">
-                <p>Staten Island</p>
-                <p>$1,100,000</p>
-                <p>Features: 2,200 sq. ft, garage, walking distance to parks.</p>
-            </div>
-            <div class="property-card">
-                <img src="img/img6.jpg" alt="Villa 2">
-                <p>Staten Island</p>
-                <p>$1,100,000</p>
-                <p>Features: 2,200 sq. ft, garage, walking distance to parks.</p>
-            </div>
-            
-            </div>
-        </div> -->
+
     </section>
+
+    <section class="listProperties">
+        <div class="property-section">
+            
+            <!-- HOUSES Section -->
+            <div class="seperator1" id="sep1">
+                <h2>HOUSES</h2>
+                <div class="property-grid">
+
+                    <div class="property-card">
+                        <div class="innerCard">
+                            <div></div>
+                            <div class="inInnerCard">
+                                <h3>NYC, New York</h3>
+                                <p>$1,500,000</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div>
+                                <p>Features:</p>
+                                <p>3,000 sq. ft, backyard, near subway.</p>
+                            </div>
+                            <div class="favicon">
+                                <svg id="Layer_1_1_" style="enable-background:new 0 0 16 16;" height="32px" width="32px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M8.612,2.347L8,2.997l-0.612-0.65c-1.69-1.795-4.43-1.795-6.12,0c-1.69,1.795-1.69,4.706,0,6.502l0.612,0.65L8,16l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="property-card" id="propID">
+                        <div class="innerCard">
+                            <div></div>
+                            <div class="inInnerCard">
+                                <h3>NYC, New York</h3>
+                                <p>$1,500,000</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div>
+                                <p>Features:</p>
+                                <p>3,000 sq. ft, backyard, near subway.</p>
+                            </div>
+                            <div class="favicon">
+                                <svg id="Layer_1_1_" style="enable-background:new 0 0 16 16;" height="32px" width="32px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M8.612,2.347L8,2.997l-0.612-0.65c-1.69-1.795-4.43-1.795-6.12,0c-1.69,1.795-1.69,4.706,0,6.502l0.612,0.65L8,16l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="property-card">
+                        <div class="innerCard">
+                            <div></div>
+                            <div class="inInnerCard">
+                                <h3>NYC, New York</h3>
+                                <p>$1,500,000</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div>
+                                <p>Features:</p>
+                                <p>3,000 sq. ft, backyard, near subway.</p>
+                            </div>
+                            <div class="favicon">
+                                <svg id="Layer_1_1_" style="enable-background:new 0 0 16 16;" height="32px" width="32px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M8.612,2.347L8,2.997l-0.612-0.65c-1.69-1.795-4.43-1.795-6.12,0c-1.69,1.795-1.69,4.706,0,6.502l0.612,0.65L8,16l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="property-card">
+                        <div class="innerCard">
+                            <div></div>
+                            <div class="inInnerCard">
+                                <h3>Texas</h3>
+                                <p>$950,000</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div>
+                                <p>Features:</p>
+                                <p>2,500 sq. ft, pool, garage.</p>
+                            </div>
+                            <div class="favicon">
+                                <svg id="Layer_1_1_" style="enable-background:new 0 0 16 16;" height="32px" width="32px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M8.612,2.347L8,2.997l-0.612-0.65c-1.69-1.795-4.43-1.795-6.12,0c-1.69,1.795-1.69,4.706,0,6.502l0.612,0.65L8,16l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Apartments Section -->
+            <div class="seperator2" id="sep2">
+                <h2>APARTMENTS</h2>
+                <div class="property-grid">
+
+                    <div class="property-card">
+                        <div class="innerCard">
+                            <div></div>
+                            <div class="inInnerCard">
+                                <h3>San Francisco</h3>
+                                <p>$1,200,000</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div>
+                                <p>Features:</p>
+                                <p>1,800 sq. ft, city view, near parks.</p>
+                            </div>
+                            <div class="favicon">
+                                <svg id="Layer_1_1_" style="enable-background:new 0 0 16 16;" height="32px" width="32px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M8.612,2.347L8,2.997l-0.612-0.65c-1.69-1.795-4.43-1.795-6.12,0c-1.69,1.795-1.69,4.706,0,6.502l0.612,0.65L8,16l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="property-card">
+                        <div class="innerCard">
+                            <div></div>
+                            <div class="inInnerCard">
+                                <h3>Los Angeles</h3>
+                                <p>$1,000,000</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div>
+                                <p>Features:</p>
+                                <p>1,500 sq. ft, close to beach.</p>
+                            </div>
+                            <div class="favicon">
+                                <svg id="Layer_1_1_" style="enable-background:new 0 0 16 16;" height="32px" width="32px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M8.612,2.347L8,2.997l-0.612-0.65c-1.69-1.795-4.43-1.795-6.12,0c-1.69,1.795-1.69,4.706,0,6.502l0.612,0.65L8,16l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="property-card">
+                        <div class="innerCard">
+                            <div></div>
+                            <div class="inInnerCard">
+                                <h3>San Francisco</h3>
+                                <p>$1,200,000</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div>
+                                <p>Features:</p>
+                                <p>1,800 sq. ft, city view, near parks.</p>
+                            </div>
+                            <div class="favicon">
+                                <svg id="Layer_1_1_" style="enable-background:new 0 0 16 16;" height="32px" width="32px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M8.612,2.347L8,2.997l-0.612-0.65c-1.69-1.795-4.43-1.795-6.12,0c-1.69,1.795-1.69,4.706,0,6.502l0.612,0.65L8,16l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="property-card">
+                        <div class="innerCard">
+                            <div></div>
+                            <div class="inInnerCard">
+                                <h3>San Francisco</h3>
+                                <p>$1,200,000</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div>
+                                <p>Features:</p>
+                                <p>1,800 sq. ft, city view, near parks.</p>
+                            </div>
+                            <div class="favicon">
+                                <svg id="Layer_1_1_" style="enable-background:new 0 0 16 16;" height="32px" width="32px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M8.612,2.347L8,2.997l-0.612-0.65c-1.69-1.795-4.43-1.795-6.12,0c-1.69,1.795-1.69,4.706,0,6.502l0.612,0.65L8,16l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Villas Section -->
+            <div class="seperator3" id="sep3">
+                <h2>VILLAS</h2>
+                <div class="property-grid">
+
+                    <div class="property-card">
+                        <div class="innerCard">
+                            <div></div>
+                            <div class="inInnerCard">
+                                <h3>San Francisco</h3>
+                                <p>$1,200,000</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div>
+                                <p>Features:</p>
+                                <p>1,800 sq. ft, city view, near parks.</p>
+                            </div>
+                            <div class="favicon">
+                                <svg id="Layer_1_1_" style="enable-background:new 0 0 16 16;" height="32px" width="32px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M8.612,2.347L8,2.997l-0.612-0.65c-1.69-1.795-4.43-1.795-6.12,0c-1.69,1.795-1.69,4.706,0,6.502l0.612,0.65L8,16l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="property-card">
+                        <div class="innerCard">
+                            <div></div>
+                            <div class="inInnerCard">
+                                <h3>Los Angeles</h3>
+                                <p>$1,000,000</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div>
+                                <p>Features:</p>
+                                <p>1,500 sq. ft, close to beach.</p>
+                            </div>
+                            <div class="favicon">
+                                <svg id="Layer_1_1_" style="enable-background:new 0 0 16 16;" height="32px" width="32px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M8.612,2.347L8,2.997l-0.612-0.65c-1.69-1.795-4.43-1.795-6.12,0c-1.69,1.795-1.69,4.706,0,6.502l0.612,0.65L8,16l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="property-card">
+                        <div class="innerCard">
+                            <div></div>
+                            <div class="inInnerCard">
+                                <h3>San Francisco</h3>
+                                <p>$1,200,000</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div>
+                                <p>Features:</p>
+                                <p>1,800 sq. ft, city view, near parks.</p>
+                            </div>
+                            <div class="favicon">
+                                <svg id="Layer_1_1_" style="enable-background:new 0 0 16 16;" height="32px" width="32px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M8.612,2.347L8,2.997l-0.612-0.65c-1.69-1.795-4.43-1.795-6.12,0c-1.69,1.795-1.69,4.706,0,6.502l0.612,0.65L8,16l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="property-card">
+                        <div class="innerCard">
+                            <div></div>
+                            <div class="inInnerCard">
+                                <h3>San Francisco</h3>
+                                <p>$1,200,000</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div>
+                                <p>Features:</p>
+                                <p>1,800 sq. ft, city view, near parks.</p>
+                            </div>
+                            <div class="favicon">
+                                <svg id="Layer_1_1_" style="enable-background:new 0 0 16 16;" height="32px" width="32px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M8.612,2.347L8,2.997l-0.612-0.65c-1.69-1.795-4.43-1.795-6.12,0c-1.69,1.795-1.69,4.706,0,6.502l0.612,0.65L8,16l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq">
+            <div class="faq-item">
+                <h3>What types of properties are available?</h3>
+                <p>We offer houses, apartments, and villas. You can filter them by type, price, and location.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I search for properties by location?</h3>
+                <p>You can use the filter options at the top of the page to select properties by location, including California, NYC, and Texas.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What is the price range of the properties listed?</h3>
+                <p>The properties listed range from below 1 million USD to above 2 million USD. You can refine your search by using the price filter.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can I contact for more information?</h3>
+                <p>You can contact us via the 'Contact Us' page or send an inquiry directly from the property details page.</p>
+            </div>
+        </div>
+    </section>
+
 </body>
-
-
-
-<footer>
-
-</footer>
+<script src="js/catalog.js"></script>
+</html>
