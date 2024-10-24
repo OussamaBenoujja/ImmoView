@@ -20,37 +20,31 @@ function OpenMun(){
 }
 
 // Rejex
+let btn=document.querySelector("#btn");
 
+btn.addEventListener('click', function() {
+    let email = document.querySelector("#email");
+    let phone = document.querySelector("#phone");
+    const poupupMun =   document.getElementById("Poup_up");
+    let email_value = email.value;
+    let phone_value = phone.value;
 
+    let validEmail = /^[a-z0-9_%]+@[a-zA-Z]+\.(com|net)$/;
 
-function Rejex(){
-let email = document.querySelector("#email");
-let first_name = document.querySelector(".first_name");
-let last_name = document.querySelector(".last-name");
-let phone = document.querySelector(".phone") 
-   let emailn = "exommple@kkk.com";
+    let validPhone = /^\+212\d{8}$/;
+
+    if (validEmail.test(email_value)) {
+        poupupMun.style.display = "block";
+    } else {
+        poupupMun.style.display = "none";
+    }
+
+    if (validPhone.test(phone_value)) {
+        poupupMun.style.display = "block";
+
+    } else {
+        poupupMun.style.display = "none";
+
+    }
    
-
-
-
-
-let vlueemail=email.value
-
-let validtionEmail=/^[a-z0-9?]+@[a-z]+\.(com|net)$/ig
-
-
-
-
-
-
-
-
-if(vlueemail.test(emailn)){
-email.style.borderBottom=" 2px solid green"
-}else{
-    email.style.borderBottom="2px solid red"
-}
-
-}
-
-console.log(email);
+});
