@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home Page</title>
+
+    <!-- Fichier CSS pour Styler Home Page-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Fichier CSS pour Rendre Home Page Responsive-->
+    <link rel="stylesheet" href="/assets/css/media.css">
+
+
+</head>
+<body>
+
+    <main>
+        <!-- Section Latest News-->
+        <section class="newssct">
+            <h1 class="h2"> Latest News</h1>
+            <div class="ouamalldiv">
+                <a href="Catalog.html" class="ouamallarw"> All News &#10095 </a>
+            </div>
+    
+            <div class="nwslst">
+                <div class="ouamslider">
+                    <div class="ouamslides">
+                        <div class="grtdiv active">
+                            <img src="/assets/img/picture 6.jpg">
+                            <div class="slvdiv">
+                                <button class="btn1"> Villa </button>
+                                <p class="p6"> House Coming soon for Sale </p>
+                                <p class="p6"> 13.Jun.2025</p>
+                            </div>
+                        </div>
+    
+                        <div class="grtdiv">
+                            <img src="/assets/img/picture 6.jpg">
+                            <div class="slvdiv">
+                                <button class="btn1"> Villa </button>
+                                <p class="p6"> House Coming soon for Sale </p>
+                                <p class="p6"> 08.Feb.2025</p>
+                            </div>
+                        </div>
+    
+                        <div class="grtdiv">
+                            <img src="/assets/img/img9.jpg">
+                            <div class="slvdiv">
+                                <button class="btn1"> Villa </button>
+                                <p class="p6"> House Coming soon for Sale </p>
+                                <p class="p6"> 21.Apr.2025</p>
+                            </div>
+                        </div>
+    
+                        <div class="grtdiv">
+                            <img src="/assets/img/picture 7.jpg">
+                            <div class="slvdiv">
+                                <button class="btn1"> Villa </button>
+                                <p class="p6"> House Coming soon for Sale </p>
+                                <p class="p6"> 08.Feb.2025</p>
+                            </div>
+                        </div>
+    
+                        <div class="grtdiv">
+                            <img src="/assets/img/picture 7.jpg">
+                            <div class="slvdiv">
+                                <button class="btn1"> Villa </button>
+                                <p class="p6"> House Coming soon for Sale </p>
+                                <p class="p6"> 21.Apr.2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="ouamboxes">
+                        <div class="box large" id="box1"></div>
+                        <div class="box small" id="box2"></div>
+                        <div class="box large" id="box3"></div>
+    
+                    </section>
+                    <button class="prvs" onclick="moveSlide(-1, 'news')"> &#10094; </button>
+                    <button class="next" onclick="moveSlide(1, 'news')"> &#10095; </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- La fin de la Section Latest News-->
+        
+        <!-- Section Latest Properties-->
+        <section class="prprtssct">
+            <h1 class="h3"> Latest Properties</h1>
+            <div class="ouamalldiv">
+                <a href="Catalog.html" class="ouamallarw"> All Properties &#10095 </a>
+            </div>
+
+            <div class="nwslst">
+                <div class="ouamslider">
+                    <div class="ouamslides">
+                        <div class="grtdiv">
+                            <img src="/assets/img/img6.jpg">
+                            <div class="slvdiv1">
+                                <p class="p6"> 118 Willow Grove East </p>
+                                <button class="ouambtn2"> RENT | &#36 27.000 </button><br>
+                                <a class="ouamlink" href="details.html"> For More Details &#x2B9E; </a>
+                            </div>
+                        </div>
+
+                        <div class="grtdiv">
+                            <img src="/assets/img/img11.jpg">
+                            <div class="slvdiv1">
+                                <p class="p6"> 305 Maple Lane North </p>
+                                <button class="ouambtn2"> RENT | &#36 19.000 </button><br>
+                                <a class="ouamlink" href="details.html"> For More Details &#x2B9E; </a>
+                            </div>
+                        </div>
+
+                        <div class="grtdiv  active">
+                            <img src="/assets/img/img10.jpg">
+                            <div class="slvdiv1">
+                                <p class="p6"> 76 Cedar Ridge West </p>
+                                <button class="ouambtn2"> RENT | &#36 12.000 </button><br>
+                                <a class="ouamlink" href="details.html"> For More Details &#x2B9E; </a>
+                            </div>
+                        </div>
+
+                        <div class="grtdiv">
+                            <img src="/assets/img/img11.jpg">
+                            <div class="slvdiv1">
+                                <p class="p6"> 305 Maple Lane North </p>
+                                <button class="ouambtn2"> RENT | &#36 19.000 </button><br>
+                                <a class="ouamlink" href="details.html"> For More Details &#x2B9E; </a>
+                            </div>
+                        </div>
+
+                        <div class="grtdiv">
+                            <img src="/assets/img/img10.jpg">
+                            <div class="slvdiv1">
+                                <p class="p6"> 76 Cedar Ridge West </p>
+                                <button class="ouambtn2"> RENT | &#36 12.000 </button><br>
+                                <a class="ouamlink" href="details.html"> For More Details &#x2B9E; </a>
+                            </div>
+                        </div>
+                    </div>                    
+                    <button class="prvs" onclick="moveSlide(-1, 'properties')"> &#10094; </button>
+                    <button class="next" onclick="moveSlide(1, 'properties')"> &#10095; </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- La fin de la section Latest Properties-->
+        
+        <!-- Section Our Services-->
+        <section class="srvssct">
+            <h1 class="h2">Our Services</h1>
+            <div class="srvgnrl">
+                <div class="frstdiv">
+                    <div>
+                        <div class="divsrv">
+                            <div class="div1">
+                                <img src="/assets/img/icon1.png">
+                            </div>
+                            <div class="div2">
+                                <p class="p4">Sell</p>
+                            </div>
+                        </div>
+        
+                        <div>
+                            <p class="p5">At IMMOVIEW, we guide you in finding your dream home with our expert team. Whether you're a first-time buyer or looking to upgrade, we offer a diverse selection of houses and personalized service to ensure a smooth home-buying experience.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="frstdiv">
+                    <div>
+                        <div class="divsrv">
+                            <div class="div1">
+                                <img src="/assets/img/icon2.png">
+                            </div>
+                            <div class="div2">
+                                <p class="p4">Rent</p>
+                            </div>
+                        </div>
+        
+                        <div>
+                            <p class="p5">At IMMOVIEW, we simplify the rental process. Our expert team helps you find the perfect home that suits your lifestyle and budget, offering a variety of options from cozy apartments to spacious family houses.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="frstdiv">
+                    <div>
+                        <div class="divsrv">
+                            <div class="div1">
+                                <img src="/assets/img/icon3.png">
+                            </div>
+                            <div class="div2">
+                                <p class="p4">Loans</p>
+                            </div>
+                        </div>
+        
+                        <div>
+                            <p class="p5">At IMMOVIEW, we provide tailored loan solutions to help you finance your home purchase. Our experienced team guides you through the lending process, ensuring you find the best rates and terms. With our support, achieving homeownership is within reach.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin de la Section Our Services-->
+
+        <!-- Section Our Agents-->
+        <section class="agntsct">
+            <h1 class="h2">Best Agents</h1>
+            <div class="sctagnt">
+                <div class="grtdiv2">
+                    <img src="/assets/img/agent 1.jpg">
+                    <div class="slvdiv2">
+                        <h1 class="h4"> Jack Dorak</h1>
+                        <p class="txt"> He is an experienced negotiator in real estate industry, dedicated to client satisfaction in sales and rentals through tailored solutions for a smooth transaction experience.</p>
+                        <p class="ctct"> Email: jackdorak@gmail.com</p>
+                        <p class="ctct"> Phone: +123 4512 748 496</p>
+
+                    </div>
+                </div>
+
+                <div class="grtdiv2">
+                    <img src="/assets/img/agent 2.jpg">
+                    <div class="slvdiv2">
+                        <h1 class="h4"> Sarah Ahmed</h1>
+                        <p class="txt"> She is a dedicated real estate agent known for her strong client relationships and market insight. Her communication skills and attention to detail ensure high customer satisfaction.</p>
+                        <p class="ctct"> Email: sarahahmed@gmail.com</p>
+                        <p class="ctct"> Phone: +123 1236 982 026</p>
+
+                    </div>
+                </div>
+
+                <div class="grtdiv2">
+                    <img src="/assets/img/agent 3.jpg">
+                    <div class="slvdiv2">
+                        <h1 class="h4"> David Bako</h1>
+                        <p class="txt"> One of the strategic negotiator who excels in securing optimal deals for clients. His market knowledge and approachable demeanor foster trust and successful transactions.</p>
+                        <p class="ctct"> Email: davidbako@gmail.com</p>
+                        <p class="ctct"> Phone: +123 9534 108 907</p>
+
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+        <!-- La fin de Section des Agents-->
+
+        <!-- Section FAQ-->
+        <section class="sctfaq">
+            <h1 class="faq">Frequently Asked Questions</h1>
+            <div>
+                <div class="ligne"></div>
+                <div class="arwdwn">
+                    <details>
+                        <summary>How do I know if I'm ready to buy a home? <span class="spn2">-------------------------</span> <span class="spn1">&#x25BC</span></summary>
+                        <p>Consider your financial stability, job security, and long-term goals. If you have a steady income, a good credit score, and savings for a down payment, you might be ready to buy.</p>
+                    </details>
+                </div>
+                <div class="ligne"></div>
+            </div>
+
+            <div>
+                <div class="arwdwn">
+                    <details>
+                        <summary>What is the best time of year to buy a house? <span class="spn2">----------------------</span> <span class="spn1">&#x25BC</span></summary>
+                        <p>The best time to buy a house often depends on the local market. Generally, spring and summer see more listings and competition, while fall and winter may offer better deals. However, it's essential to consider your personal circumstances and local market trends.</p>
+                    </details>
+                </div>
+                <div class="ligne"></div>
+            </div>
+
+            <div>
+                <div class="arwdwn">
+                    <details>
+                        <summary>What happens during a home inspection? <span class="spn2">-------------------------</span> <span class="spn1">&#x25BC</span></summary>
+                        <p>A home inspection involves a thorough examination of the property by a professional inspector, covering structural elements, electrical systems, plumbing, and appliances. The inspector will provide a report detailing any issues, which can inform your decision to proceed with the purchase or negotiate repairs.</p>
+                    </details>
+                    
+                </div>
+                <div class="ligne"></div>
+            </div>
+
+            <div>
+                <div class="arwdwn">
+                    <details>
+                        <summary>How do I find the right neighborhood for my family? <span class="spn2">----------------</span> <span class="spn1">&#x25BC</span></summary>
+                        <p>Consider factors like school quality, safety, amenities, and commute times. Visiting neighborhoods at different times of day can also provide insight into the community vibe. Online resources and local guides can help with this research.</p>
+                    </details>
+                    
+                </div>
+                <div class="ligne"></div>
+            </div>
+
+        </section>
+        <!-- Fin de la Section FAQ-->
+
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="/assets/js/home-script.js"></script>
+</body>
+</html>

@@ -17,19 +17,35 @@ main{
     background-color: var(--isabelline);
 }
 
+.newssct, .prprtssct{
+    overflow: hidden;
+}
+
 /* Partie Pour Styler la Section Latest News*/
 
+.ouamslider{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+.ouamslides{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
 .nwslst{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-left: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .grtdiv{
+    min-width: 70%;
     width: 375px;
     height: 375px;
     overflow: hidden;
     position: relative;
+    margin: 30px;
 }
 
 .slvdiv{
@@ -40,12 +56,36 @@ main{
     left: 0;
     background: rgba(138, 129, 124, 0.85);
     opacity: 0;
-    transition: 0.5s;
-    padding-top: 53%;
-    padding-left: 10%;
+    transition: opacity 0.5s;
+    padding: 10px;
+    bottom: 10px;
+    padding-top: 42%;
+    padding-left: 9%;
 }
 
+.ouamboxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
+.box{
+    height: 18px;
+    transition: background-color 0.5s;
+}
+
+.large{
+    width: 35px;
+    background-color: var(--melon);
+}
+
+.small{
+    width: 24px;
+    background-color: var(--taupe);
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
 
 .slvdiv > *{
     transform: translateX(-25%);
@@ -68,7 +108,7 @@ main{
     left: 0;
     background: rgba(138, 129, 124, 0.85);
     opacity: 0;
-    transition: 0.5s;
+    transition: opacity 0.5s;
     padding-top: 43%;
     padding-left: 10%;
 }
@@ -116,6 +156,27 @@ main{
     cursor: pointer;
 }
 
+button.prvs, button.next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: var(--silver);
+    border: none;
+    cursor: pointer;
+    font-size: 2.1rem;
+    padding: 10px;
+    z-index: 10;
+    outline: none;
+}
+
+button.prvs{
+    right: 170%;
+}
+
+button.next{
+    left: 170%;
+}
 
 /* La fin de la Partie Pour Styler la Section Latest News*/
 
@@ -168,7 +229,7 @@ main{
 
 /* Partie pour Styler la Section Best Agents*/
 
-.newssct, .prprtssct, .srvssct, .agntsct, .sctfaq{
+.newssct, .prprtssct, .srvssct, .agntsct{
     margin-bottom: 10%;
 }
 
@@ -284,6 +345,28 @@ main{
 /* Partie Pour Styler la Section des FAQ*/
 
 .sctfaq{
+    padding-bottom: 10%;
+}
+
+summary{
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: var(--grey);
+    cursor: pointer;
+    width: 63%;
+}
+
+.spn1{
+    color: var(--melon);
+    font-size: 0.875rem;
+}
+
+.spn2{
+    color: var(--isabelline);
+}
+
+.sctfaq{
     overflow: hidden;
 }
 
@@ -303,21 +386,15 @@ main{
 }
 
 .arwdwn{
-    display: flex;
-    margin-left: 25%;
+    margin-left: 23.4%;
     width: 85%;
-    column-gap: 24%;
+    padding: 0.9% 0% 0.9%;
 }
 
 .arwdwn p{
-    width: 34%;
+    width: 60%;
     color: var(--grey);
 }
 
-.arwdiv{
-    height: 3%;
-    margin-top: auto;
-    margin-bottom: auto;
-}
 
 /* La fin de la Partie Pour Styler la Section des FAQ*/
