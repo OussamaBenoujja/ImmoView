@@ -1,4 +1,4 @@
-const photos = ["../img/detail-1.jpg", "../img/detail-2.jpg", "../img/detail-3.jpg", "../img/detail-4.jpg", "../img/detail-5.jpg"];
+const photos = ["../assets/img/detail-1.jpg", "../assets/img/detail-2.jpg", "../assets/img/detail-3.jpg", "../assets/img/detail-4.jpg", "../assets/img/detail-5.jpg"];
 let currentIndex = 0;
 
 

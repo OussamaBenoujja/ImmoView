@@ -42,15 +42,11 @@
         grid-column: span 2;
     }
 
-/*-------------------------------------------------------------------------------*/
-
     input,
     select,
     textarea{
         width: 70%;
     }
-
-/*--------------------------------------------------------------------------------*/
 
     .h-quartier-container{
         grid-template-columns: 1fr;
@@ -59,48 +55,6 @@
     .h-quartier-title{
         grid-column: span 1;
     }
-
-/* -- Navbar ------------------------------------------------------------------------*/
-
-    .h-logo{
-        width: 30%;
-    }
-
-    .h-nav-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        height: 40%;
-        position: absolute;
-        top: 5rem;
-        right: 0;
-        background-color: var(--color-4);
-    }
-
-
-
-    .h-nav-links a:hover{
-        padding-bottom: none;
-        border-bottom: none;
-        color: var(--color-5);
-    }
-
-    .h-burger-menu {
-        display: flex;
-        align-items: center;
-    }
-
-    .h-burger-menu svg:hover{
-        transform: scale(1.06);
-        transition-duration: 400ms;
-    }
-
-    .nav-active {
-        display: flex;
-        z-index: 1;
-    }
-
-/*-- Footer ------------------------------------------------------------------------*/
     
     .h-footer-container{
         padding: 5rem 0;
@@ -125,7 +79,7 @@
     }
     
     .h-footer-infos img{
-        width: 50%;
+        width: 30vh;
     }
     
     .h-footer-aide a,
@@ -193,15 +147,11 @@
         grid-column: span 2;
     }
 
-/*-------------------------------------------------------------------------------*/
-
     input,
     select,
     textarea{
         width: 70%;
     }
-
-/*--------------------------------------------------------------------------------*/
 
     .h-quartier-container{
         grid-template-columns: 1fr;
@@ -210,11 +160,6 @@
     .h-quartier-title{
         grid-column: span 1;
     }
-
-/*---------------------------------------------------------------------------------*/
-    
-
-/*----------------------------------------------------------------------------------*/
     
     .h-footer-container{
         padding: 5rem 0;
@@ -290,19 +235,11 @@
         width: 50%;
     }
 
-/*------------------------------------------------------------------------------*/
-
     input,
     select,
     textarea{
         width: 60%;
     }
-
-/*---------------------------------------------------------------------------------*/
-
-    
-
-/*----------------------------------------------------------------------------------*/
     
     .h-footer-container{
         padding: 5rem 0;
@@ -327,7 +264,7 @@
     }
     
     .h-footer-infos img{
-        width: 50%;
+        width: 40vh;
     }
     
     .h-footer-aide a,
@@ -379,12 +316,7 @@
     .h-images img{
         width: 50%;
     }
-/*---------------------------------------------------------------------------------*/
 
-    
-
-/*----------------------------------------------------------------------------------*/
-    
     .h-footer-container{
         gap: 3rem;
     }
@@ -431,6 +363,11 @@
 }
 
 
+
+
+
+
+
 @media (min-width: 1027px){
     .h-carousel-slide img{
         width: 80%;
@@ -453,14 +390,16 @@
     }
 }
 
+
+
+
+
+
 @media (max-width: 840px){
     .h-nav-links{
         gap: 1.5rem;
     }
 }
-
-
-
 
 
 
@@ -478,8 +417,8 @@
         width: 100%;
     }
 
-    .h-footer-infos p{
-        margin: 0.3rem 0 1rem 0;
+    .h-footer-infos {
+        width: 100%;
     }
 
     .h-footer-items{
@@ -487,7 +426,4 @@
         flex-direction: column;
         gap: 2rem;
     }
-
-    
-
 }
