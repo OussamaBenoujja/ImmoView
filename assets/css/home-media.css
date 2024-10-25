@@ -1,0 +1,113 @@
+@media (max-width: 768px ){
+
+    /* Partie Media Queries du Section Latest News et la Section Latest Properties*/
+    .nwslst{
+        overflow: hidden;
+        margin-left: 4.75%;
+        grid-column-gap: 7%;
+    }
+
+    button.prvs{
+        right: 90%;
+    }
+    
+    button.next{
+        left: 90%;
+    }
+
+    .grtdiv{
+        min-width: 82%;
+        width: 400px;
+        height: 400px;
+    }
+
+    .ouamalldiv{
+        margin-left: 72%;
+        width: 16.5%;
+    }
+
+    .ouamallarw{
+        font-size: 0.65rem;
+        font-weight: 500;;
+    }
+
+    .h3{
+        width: 58%;
+        font-size: 1.8rem;
+    }
+
+    /* La fin de la Partie Media Queries du Section Latest News et la section Latest Properties*/
+
+    /* Partie Media Queries du Section Our Service*/
+    .h2{
+        font-size: 1.8rem;
+        width: 58%;
+    }
+    
+    .srvgnrl{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 3%;
+    }
+
+    .p4{
+        font-size: 1.8rem;
+        font-weight: bold;
+        position: absolute;
+        top: -24.5%;;
+        width: 8%;
+    }
+
+
+    .p5{
+        font-size: 0.75rem;
+        width: 96%;
+    }
+    /* La fin de la Partie Media Queries du Section Our Service*/
+
+    /* Partie Media Queries du section Best Agents*/
+    .sctagnt{
+        grid-template-columns: 1fr;
+        margin-left: 2%;
+    }
+    /* La fin de la Partie Media Queries du section Best Agents*/ 
+
+    /* Partie Media Queries du Section FAQ*/
+
+    .faq{
+        font-size: 1.6rem;
+    }
+
+    .ligne{
+        width: 21rem;
+        height: 1px;
+        background-color: var(--silver);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .arwdwn p{
+        width: 78%;
+        font-size: 0.6rem;
+    }
+
+    .arwdwn{
+        margin-left: 18%;
+        padding: 2% 0% 2%;
+    }
+
+    summary{
+        font-size: 0.78rem;
+        font-weight: 400;
+        width: 81%;
+
+    }
+
+    .spn2, .spn1{
+        display: none;
+    }
+
+
+    /* La fin de la Partie Media Queries du Section FAQ*/
+
+}
