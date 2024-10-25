@@ -7,8 +7,8 @@
         <!-- CSS File link  -->
         <link rel="stylesheet" href="css/details.css">
         <link rel="stylesheet" href="css/details-media.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <title>Document</title>
     </head>
@@ -55,7 +55,7 @@
 
                     <div class="h-carousel">
                         <div class="h-carousel-slide">
-                            <svg width="64px" height="64px"
+                            <svg  id="btn-prev" width="64px" height="64px"
                                 viewBox="0 0 512 512"
                                 version="1.1" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -79,9 +79,9 @@
                                         </g>
                                     </g> </g></svg>
 
-                            <img src="img/details-1.png" alt="detail-1">
+                            <img data-aos="fade-up" src="img/detail-1.jpg" alt="detail-1" id="main-photo">
 
-                            <svg width="64px" height="64px"
+                            <svg id="btn-next" width="64px" height="64px"
                                 viewBox="0 0 512 512"
                                 version="1.1" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -108,12 +108,12 @@
 
                         <div class="h-carousel-images">
                             <div class="h-images">
-                                <img src="img/detail-2.png" alt>
-                                <img src="img/detail-3.png" alt>
+                                <img data-aos="zoom-in" src="img/detail-2.jpg" alt>
+                                <img data-aos="zoom-in" src="img/detail-3.jpg" alt>
                             </div>
                             <div class="h-images">
-                                <img src="img/detail-4.png" alt>
-                                <img src="img/detail-5.png" alt>
+                                <img data-aos="zoom-in" src="img/detail-4.jpg" alt>
+                                <img data-aos="zoom-in" src="img/detail-5.jpg" alt>
                             </div>
                         </div>
 
@@ -126,31 +126,31 @@
                     </div>
 
                     <div class="h-elements">
-                        <div class="h-element">
+                        <div data-aos="zoom-out" class="h-element">
                             <p>Surface Area Of 80 m²</p>
                         </div>
-                        <div class="h-element">
+                        <div data-aos="zoom-out" class="h-element">
                             <p>Free Parking</p>
                         </div>
-                        <div class="h-element">
+                        <div data-aos="zoom-out" class="h-element">
                             <p>Free WiFi Connexion</p>
                         </div>
-                        <div class="h-element">
+                        <div data-aos="zoom-out" class="h-element">
                             <p>3 Bedrooms</p>
                         </div>
-                        <div class="h-element">
+                        <div data-aos="zoom-out" class="h-element">
                             <p>Salon</p>
                         </div>
-                        <div class="h-element">
+                        <div data-aos="zoom-out" class="h-element">
                             <p>Bathroom</p>
                         </div>
-                        <div class="h-element">
+                        <div data-aos="zoom-out" class="h-element">
                             <p>Terrace</p>
                         </div>
-                        <div class="h-element">
+                        <div data-aos="zoom-out" class="h-element">
                             <p>Balcony</p>
                         </div>
-                        <div class="h-element">
+                        <div data-aos="zoom-out" class="h-element">
                             <p>Equipped Kitchen</p>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                             publiques dans le quartier</p>
                     </div>
 
-                    <div class="h-quartier-card bg-1">
+                    <div data-aos="fade-up" data-aos-duration="1000"class="h-quartier-card bg-1">
                         <h3>Mosque</h3>
                         <p><span>Name : </span>Mosque AL-QUDS</p>
                         <p><span>Time : </span>5 min</p>
@@ -175,7 +175,7 @@
                         <p><span>Services : </span>prayer area, Toilets, Quran
                             Memorization Center</p>
                     </div>
-                    <div class="h-quartier-card bg-2">
+                    <div data-aos="fade-up" data-aos-duration="1000"class="h-quartier-card bg-2">
                         <h3>Garden</h3>
                         <p><span>Name : </span>Ibn Zaydoun Garden</p>
                         <p><span>Time : </span>7 min</p>
@@ -184,7 +184,7 @@
                             Playground,
                             Calisthenics Equippement, Sport terrains</p>
                     </div>
-                    <div class="h-quartier-card bg-3">
+                    <div data-aos="fade-up" data-aos-duration="1000"class="h-quartier-card bg-3">
                         <h3>GYM</h3>
                         <p><span>Name : </span>GYM Cité Suisse</p>
                         <p><span>Time : </span>10 min</p>
@@ -192,7 +192,7 @@
                         <p><span>Services : </span>Full Contact, Body Building,
                             Calisthenics</p>
                     </div>
-                    <div class="h-quartier-card bg-4">
+                    <div data-aos="fade-up" data-aos-duration="1000"class="h-quartier-card bg-4">
                         <h3>Super Market</h3>
                         <p><span>Name : </span>Marjane Market</p>
                         <p><span>Time : </span>10 min</p>
@@ -200,7 +200,7 @@
                         <p><span>Services : </span>Food, Cleaning Product,
                             etc...</p>
                     </div>
-                    <div class="h-quartier-card bg-5">
+                    <div data-aos="fade-up" data-aos-duration="1000"class="h-quartier-card bg-5">
                         <h3>Hammam</h3>
                         <p><span>Name : </span>Hammam AL-QUDS</p>
                         <p><span>Time : </span>7 min</p>
@@ -208,7 +208,7 @@
                         <p><span>Services : </span>Hammam Beldi, Sona,
                             Massage</p>
                     </div>
-                    <div class="h-quartier-card bg-6">
+                    <div data-aos="fade-up" data-aos-duration="1000"class="h-quartier-card bg-6">
                         <h3>School</h3>
                         <p><span>Name : </span>Private School AL-QUDS</p>
                         <p><span>Time : </span>12 min</p>
@@ -233,24 +233,24 @@
                         </p>
                     </div>
                     <form action>
-                        <label for="name">Full Name</label>
-                        <input type="text" placeholder="Ex : Peter Johanson"
+                        <label data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" for="name">Full Name</label>
+                        <input data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" type="text" placeholder="Ex : Peter Johanson"
                             name="name">
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="Ex : peter@example.com"
+                        <label data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" for="email">Email</label>
+                        <input data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" type="email" placeholder="Ex : peter@example.com"
                             name="email">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" placeholder="Ex : 06-12-34-56-78"
+                        <label data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" for="phone">Phone Number</label>
+                        <input data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" type="tel" placeholder="Ex : 06-12-34-56-78"
                             name="phone">
-                        <label for="subject">Subject</label>
-                        <select name="subject">
+                        <label data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" for="subject">Subject</label>
+                        <select data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" name="subject">
                             <option value="question">Poser Une Question</option>
                             <option value="visite">Planifier une Visite</option>
                         </select>
-                        <label for="message">Message</label>
-                        <textarea name="message"
+                        <label data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" for="message">Message</label>
+                        <textarea data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" name="message"
                             placeholder="Write your Message Here..."></textarea>
-                        <button>ENVOYER</button>
+                        <button data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">ENVOYER</button>
                     </form>
                 </div>
             </section>
@@ -360,6 +360,15 @@
 
 
         <script src="js/menu.js"></script>
+        <script src="js/details-slide.js"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                once: true,
+                duration: 1000
+            });
+        </script>
 
     </body>
 </html>

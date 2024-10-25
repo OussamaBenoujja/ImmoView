@@ -186,6 +186,10 @@ footer{
     width: 100%;
 }
 
+.h-carousel-slide svg{
+    cursor: pointer;
+}
+
 .h-carousel-images{
     display: flex;
     justify-content: center;
