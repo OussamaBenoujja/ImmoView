@@ -458,3 +458,36 @@
         gap: 1.5rem;
     }
 }
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+    .h-footer-aide,
+    .h-footer-about,
+    .h-footer-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .h-footer-infos p{
+        margin: 0.3rem 0 1rem 0;
+    }
+
+    .h-footer-items{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    
+
+}
