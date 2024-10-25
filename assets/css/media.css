@@ -1,5 +1,34 @@
 @media (max-width: 768px ){
 
+    /* Partie Media Queries du Header*/
+    .oa-header{
+        height: 19.7%;
+    }
+
+    .oa-smllprgrph{
+        font-size: 0.6rem;
+        font-weight: 400;
+    
+    }
+    
+    .oa-head{
+        font-size: 1.1rem;
+        font-weight: 600;
+    
+    }
+    
+    .oa-bttnrnt{
+        padding: 1% 3% 1%;
+        font-size: 0.7rem;
+        font-weight: 500;
+        border-radius: 20px;;
+        border-width: 0.15rem;
+    
+    }
+
+
+    /* Fin de la Partie Media Queries du Header*/
+
     /* Partie Media Queries du Section Latest News et la Section Latest Properties*/
     .nwslst{
         overflow: hidden;
@@ -67,8 +96,8 @@
 
     /* Partie Media Queries du section Best Agents*/
     .sctagnt{
-        grid-template-columns: 1fr;
-        margin-left: 2%;
+        display: none;
+
     }
     /* La fin de la Partie Media Queries du section Best Agents*/ 
 
@@ -110,36 +139,23 @@
 
     /* La fin de la Partie Media Queries du Section FAQ*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-    /* -- Navbar ------------------------------------------------------------------------*/
+    /* -- Navbar ABDELHAFID------------------------------------------------------------------------*/
 
     .h-logo{
         width: 30%;
+        height: 30%;
     }
 
     .h-nav-links {
         display: none;
         flex-direction: column;
         width: 100%;
-        height: 40%;
+        height: 54%;
         position: absolute;
         top: 5rem;
         right: 0;
         background-color: var(--color-4);
     }
-
-
 
     .h-nav-links a:hover{
         padding-bottom: none;
@@ -161,375 +177,255 @@
         display: flex;
         z-index: 1;
     }
-
-/*-- Footer ------------------------------------------------------------------------*/
-    
-    .h-footer-container{
-        padding: 5rem 0;
-        display: flex;
-        flex-direction: column;
-        margin: 0 150px;
-        gap: 5rem;
-    }
-    
-    .h-footer-infos{
-        width:100%;
-        padding-top: 15px;
-        text-align: center;
-    }
-    
-    .h-footer-help{
-        width: 100%;
-    }
-    
-    .h-footer-links{
-        width: 40%;
-    }
-    
-    .h-footer-infos img{
-        width: 50%;
-    }
-    
-    .h-footer-aide a,
-    .h-footer-about a,
-    .h-footer-links a{
-        text-decoration: none;
-        color: var(--color-4);
-    }
-    
-    .h-footer-container p{
-        font-weight: 300;
-    }
-    
-    .h-footer-about{
-        margin-top: 2rem;
-    }
-    
-    .h-footer-about h2{
-        margin: 0;
-    }
-    
-    .h-footer-container h2{
-        font-weight: 600;
-    }
-
-
-
-
 }
 
+    /* -- Navbar ABDELHAFID------------------------------------------------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* HAFID MEDIA ---------------------------------------------------------*/
-
-@media (max-width: 768px){
-
-    .h-footer-items{
-        flex-direction: column;
-    }
-
-    .h-logo{
-        width: 30%;
-    }
-
-    .h-nav-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        height: 40%;
-        position: absolute;
-        top: 5rem;
-        right: 0;
-        background-color: var(--color-4);
-    }
-
-
-
-    .h-nav-links a:hover{
-        padding-bottom: none;
-        border-bottom: none;
-        color: var(--color-5);
-    }
-
-    .h-burger-menu {
-        display: flex;
-        align-items: center;
-    }
-
-    .h-burger-menu svg:hover{
-        transform: scale(1.06);
-        transition-duration: 400ms;
-    }
-
-    .nav-active {
-        display: flex;
-        z-index: 1;
-    }
-
-/*-- Footer ------------------------------------------------------------------------*/
+    /*-- Footer ABDELHAFID------------------------------------------------------------------------*/
+        @media (max-width: 767px){
     
-    .h-footer-container{
-        padding: 5rem 0;
-        display: flex;
-        flex-direction: column;
-        margin: 0 150px;
-        gap: 5rem;
-    }
     
-    .h-footer-infos{
-        width:100%;
-        padding-top: 15px;
-        text-align: center;
-    }
-    
-    .h-footer-help{
-        width: 100%;
-    }
-    
-    .h-footer-links{
-        width: 40%;
-    }
-    
-    .h-footer-infos img{
-        width: 50%;
-    }
-    
-    .h-footer-aide a,
-    .h-footer-about a,
-    .h-footer-links a{
-        text-decoration: none;
-        color: var(--color-4);
-    }
-    
-    .h-footer-container p{
-        font-weight: 300;
-    }
-    
-    .h-footer-about{
-        margin-top: 2rem;
-    }
-    
-    .h-footer-about h2{
-        margin: 0;
-    }
-    
-    .h-footer-container h2{
-        font-weight: 600;
-    }
+        /*-- Footer ------------------------------------------------------------------------*/
+            
+            .h-footer-container{
+                padding: 5rem 0;
+                display: flex;
+                flex-direction: column;
+                margin: 0 150px;
+                gap: 5rem;
+            }
+            
+            .h-footer-infos{
+                width:100%;
+                padding-top: 15px;
+                text-align: center;
+            }
+            
+            .h-footer-help{
+                width: 100%;
+            }
+            
+            .h-footer-links{
+                width: 40%;
+            }
+            
+            .h-footer-infos img{
+                width: 50%;
+            }
+            
+            .h-footer-aide a,
+            .h-footer-about a,
+            .h-footer-links a{
+                text-decoration: none;
+                color: var(--color-4);
+            }
+            
+            .h-footer-container p{
+                font-weight: 300;
+            }
+            
+            .h-footer-about{
+                margin-top: 2rem;
+            }
+            
+            .h-footer-about h2{
+                margin: 0;
+            }
+            
+            .h-footer-container h2{
+                font-weight: 600;
+            }
+        
+        
+        }
+        
+        
+        
+        
+        
+        
+        @media (min-width: 767px) and (max-width: 800px){
+            .h-footer-container{
+                padding: 5rem 0;
+                display: flex;
+                flex-direction: column;
+                margin: 0 150px;
+                gap: 5rem;
+            }
+            
+            .h-footer-infos{
+                width:100%;
+                padding-top: 15px;
+                text-align: center;
+            }
+            
+            .h-footer-help{
+                width: 100%;
+            }
+            
+            .h-footer-links{
+                width: 40%;
+            }
+            
+            .h-footer-infos img{
+                width: 50%;
+            }
+            
+            .h-footer-aide a,
+            .h-footer-about a,
+            .h-footer-links a{
+                text-decoration: none;
+                color: var(--color-4);
+            }
+            
+            .h-footer-container p{
+                font-weight: 300;
+            }
+            
+            .h-footer-about{
+                margin-top: 2rem;
+            }
+            
+            .h-footer-about h2{
+                margin: 0;
+            }
+            
+            .h-footer-container h2{
+                font-weight: 600;
+            }
+        }
+        
+        
+        
+        
+        @media (min-width: 800px) and (max-width:1023px){
+            
+        /*----------------------------------------------------------------------------------*/
+            
+            .h-footer-container{
+                padding: 5rem 0;
+                display: flex;
+                flex-direction: column;
+                margin: 0 150px;
+                gap: 5rem;
+            }
+            
+            .h-footer-infos{
+                width:100%;
+                padding-top: 15px;
+                text-align: center;
+            }
+            
+            .h-footer-help{
+                width: 100%;
+            }
+            
+            .h-footer-links{
+                width: 40%;
+            }
+            
+            .h-footer-infos img{
+                width: 50%;
+            }
+            
+            .h-footer-aide a,
+            .h-footer-about a,
+            .h-footer-links a{
+                text-decoration: none;
+                color: var(--color-4);
+            }
+            
+            .h-footer-container p{
+                font-weight: 300;
+            }
+            
+            .h-footer-about{
+                margin-top: 2rem;
+            }
+            
+            .h-footer-about h2{
+                margin: 0;
+            }
+            
+            .h-footer-container h2{
+                font-weight: 600;
+            }
+            
+        }
+        
+        
+        
+        
+        
+        @media (min-width: 1023px) and (max-width: 1127px){
+            
+        /*----------------------------------------------------------------------------------*/
+            
+            .h-footer-container{
+                gap: 3rem;
+            }
+            
+            .h-footer-infos{
+                width:100%;
+                padding-top: 15px;
+            }
+            
+            .h-footer-help{
+                width: 100%;
+            }
+            
+            .h-footer-links{
+                width: 40%;
+            }
+            
+            .h-footer-infos img{
+                width: 50%;
+            }
+            
+            .h-footer-aide a,
+            .h-footer-about a,
+            .h-footer-links a{
+                text-decoration: none;
+                color: var(--color-4);
+            }
+            
+            .h-footer-container p{
+                font-weight: 300;
+            }
+            
+            .h-footer-about{
+                margin-top: 2rem;
+            }
+            
+            .h-footer-about h2{
+                margin: 0;
+            }
+            
+            .h-footer-container h2{
+                font-weight: 600;
+            }
+        }
 
-
-}
-
-
-
-
-
-
-@media (min-width: 767px) and (max-width: 800px){
-
-    
-    .h-footer-container{
-        padding: 5rem 0;
-        display: flex;
-        flex-direction: column;
-        margin: 0 150px;
-        gap: 5rem;
-    }
-    
-    .h-footer-infos{
-        width:100%;
-        padding-top: 15px;
-        text-align: center;
-    }
-    
-    .h-footer-help{
-        width: 100%;
-    }
-    
-    .h-footer-links{
-        width: 40%;
-    }
-    
-    .h-footer-infos img{
-        width: 50%;
-    }
-    
-    .h-footer-aide a,
-    .h-footer-about a,
-    .h-footer-links a{
-        text-decoration: none;
-        color: var(--color-4);
-    }
-    
-    .h-footer-container p{
-        font-weight: 300;
-    }
-    
-    .h-footer-about{
-        margin-top: 2rem;
-    }
-    
-    .h-footer-about h2{
-        margin: 0;
-    }
-    
-    .h-footer-container h2{
-        font-weight: 600;
-    }
-}
-
-
-
-
-@media (min-width: 800px) and (max-width:1023px){
-    
-    .h-footer-container{
-        padding: 5rem 0;
-        display: flex;
-        flex-direction: column;
-        margin: 0 150px;
-        gap: 5rem;
-    }
-    
-    .h-footer-infos{
-        width:100%;
-        padding-top: 15px;
-        text-align: center;
-    }
-    
-    .h-footer-help{
-        width: 100%;
-    }
-    
-    .h-footer-links{
-        width: 40%;
-    }
-    
-    .h-footer-infos img{
-        width: 50%;
-    }
-    
-    .h-footer-aide a,
-    .h-footer-about a,
-    .h-footer-links a{
-        text-decoration: none;
-        color: var(--color-4);
-    }
-    
-    .h-footer-container p{
-        font-weight: 300;
-    }
-    
-    .h-footer-about{
-        margin-top: 2rem;
-    }
-    
-    .h-footer-about h2{
-        margin: 0;
-    }
-    
-    .h-footer-container h2{
-        font-weight: 600;
-    }
-    
-}
-
-
-
-
-
-@media (min-width: 1023px) and (max-width: 1127px){
-    
-    .h-footer-container{
-        gap: 3rem;
-    }
-    
-    .h-footer-infos{
-        width:100%;
-        padding-top: 15px;
-    }
-    
-    .h-footer-help{
-        width: 100%;
-    }
-    
-    .h-footer-links{
-        width: 40%;
-    }
-    
-    .h-footer-infos img{
-        width: 50%;
-    }
-    
-    .h-footer-aide a,
-    .h-footer-about a,
-    .h-footer-links a{
-        text-decoration: none;
-        color: var(--color-4);
-    }
-    
-    .h-footer-container p{
-        font-weight: 300;
-    }
-    
-    .h-footer-about{
-        margin-top: 2rem;
-    }
-    
-    .h-footer-about h2{
-        margin: 0;
-    }
-    
-    .h-footer-container h2{
-        font-weight: 600;
-    }
-}
-
-
-@media (min-width: 1027px){
-    .h-carousel-slide img{
-        width: 80%;
-    }
-
-    .h-carousel-slide svg{
-        width: 2.5rem;
-    }
-    
-    .h-carousel-images{
-        gap: 2rem;
-    }
-
-    .h-images{
-        width: 70%;
-    }
-
-    .h-images img{
-        width: 50%;
-    }
-}
-
-@media (max-width: 840px){
-    .h-nav-links{
-        gap: 1.5rem;
-    }
-}
+        @media (max-width:600px){
+            .h-footer-aide,
+            .h-footer-about,
+            .h-footer-links{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+        
+            .h-footer-infos p{
+                margin: 0.3rem 0 1rem 0;
+            }
+        
+            .h-footer-items{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+            }
+        
+        }
+        /*-- Footer ABDELHAFID------------------------------------------------------------------------*/
