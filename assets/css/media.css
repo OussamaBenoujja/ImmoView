@@ -1,3 +1,4 @@
+/* Partie responsive du telephone max-width 768px*/
 @media (max-width: 768px ){
 
     /* Partie Media Queries du Header*/
@@ -30,6 +31,23 @@
     /* Fin de la Partie Media Queries du Header*/
 
     /* Partie Media Queries du Section Latest News et la Section Latest Properties*/
+
+    .box{
+        height: 9px;
+    }
+    
+    .large{
+        width: 27px;
+    }
+    
+    .small{
+        width: 16px;
+        margin-left: 9px;
+        margin-right: 9px;
+    
+    }
+
+
     .nwslst{
         overflow: hidden;
         margin-left: 4.75%;
@@ -121,14 +139,13 @@
     }
 
     .arwdwn{
-        margin-left: 9%;
         padding: 2% 0% 2%;
     }
 
     summary{
         font-size: 0.8rem;
         font-weight: 300;
-        width: 87%;
+        width: 60%;
 
     }
 
@@ -430,3 +447,105 @@
         
         }
         /*-- Footer ABDELHAFID------------------------------------------------------------------------*/
+
+
+
+
+
+/* Fin de la Partie responsive du telephone max-width 768px*/
+
+/* Partie responsive du tablette max-width de 769px jusqu'a 1180px*/
+@media (min-width: 769px) and (max-width: 1180px){
+
+     /* Partie Media Queries du Section Our Service*/
+     .h2{
+        font-size: 1.8rem;
+        width: 58%;
+    }
+    
+    .srvgnrl{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 3%;
+    }
+
+    .p4{
+        font-size: 1.8rem;
+        font-weight: bold;
+        position: absolute;
+        top: -24.5%;;
+        width: 8%;
+    }
+
+
+    .p5{
+        font-size: 1.15rem;
+        width: 96%;
+    }
+    /* La fin de la Partie Media Queries du Section Our Service*/
+
+    /* Partie Media Queries des Section Latest News et Latest properties*/
+    .ouamallarw{
+        font-size: 1rem;
+        font-weight: 500;;
+    }
+
+    .ouamalldiv{
+        margin-left: 72%;
+        width: 24.5%;
+    }
+
+    .h3{
+        width: 74%;
+        font-size: 1.8rem;
+    }
+
+    button.prvs{
+        right: 112%;
+    }
+    
+    button.next{
+        left: 112%;
+    }
+
+    /* La fin de la Partie Media Queries des Section Latest News et Latest properties*/
+
+        /* Partie Media Queries du Section FAQ*/
+
+        .faq{
+            font-size: 1.6rem;
+        }
+    
+        .ligne{
+            width: 32rem;
+            height: 1px;
+            background-color: var(--color-3);
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .arwdwn p{
+            width: 52%;
+            font-size: 0.95rem;
+        }
+    
+        .arwdwn{
+            padding: 2.5% 0% 2.5%;
+            margin-left: 30%;
+        }
+    
+        summary{
+            font-size: 1.2rem;
+            font-weight: 300;
+            width: 60%;
+    
+        }
+    
+        .spn2, .spn1{
+            display: none;
+        }
+    
+    
+        /* La fin de la Partie Media Queries du Section FAQ*/
+
+}

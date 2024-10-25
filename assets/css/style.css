@@ -304,7 +304,39 @@ button.next{
 
 /* Partie pour Styler la Section Best Agents*/
 
-.newssct, .prprtssct, .srvssct, .agntsct{
+.agntsct{
+    margin-bottom: 6%;
+    overflow: hidden;
+}
+
+/* L'utilisation des keyframes pour ajouter des animations*/
+@keyframes oaslide {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.oa-slidecontainer{
+    white-space: nowrap;
+
+}
+
+.oa-slidesmv{
+    display: inline-block;
+    animation: 15s oaslide infinite linear;
+    
+
+}
+
+.oa-slidecontainer:hover  .oa-slidesmv{
+    animation-play-state: paused;
+}
+/* L'utilisation des keyframes pour ajouter des animations*/
+
+.newssct, .prprtssct, .srvssct{
     margin-bottom: 10%;
 }
 
@@ -319,6 +351,8 @@ button.next{
     height: 253px;
     position: relative;
     overflow: hidden;
+    display: inline-block;
+    margin: 0px 55px;
 }
 
 .grtdiv2 img{
