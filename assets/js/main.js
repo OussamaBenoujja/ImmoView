@@ -48,14 +48,14 @@ let btn_tree = document.querySelector(".mm-btn-tree")
 
 
 btn_one.onclick = function () {
-    location.href = "home.html"
+    location.href = "Home.html"
 }
 
 
 btn_two.onclick = function () {
-    location.href = "home.html"
+    location.href = "Home.html"
 }
 
 btn_tree.onclick = function () {
-    location.href = "home.html"
+    location.href = "Home.html"
 }
