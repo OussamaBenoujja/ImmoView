@@ -5,173 +5,357 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- CSS File link  -->
-        <link rel="stylesheet" href="css/details.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/details-media.css">
+        <link rel="stylesheet" href="../assets/css/details.css">
+        <link rel="stylesheet" href="../assets/css/details-media.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
         <title>Document</title>
     </head>
     <body>
-        <!-- Start of Details Section -->
-        <section class="details">
-            <div class="details-container">
-                <div class="details-title">
-                    <h1>Property Details</h1>
-                    <p>Please find below a full description of the property</p>
-                </div>
+        <!-- Start of Navbar -->
+        <nav class="NavMC">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <img src="../assets/img/logo.png" class="logo">
+            <ul class="ListMC">
+                <li><a class="active" href="Home.html">Home</a></li>
+                <li><a href="Catalog.html">Catalog</a></li>
+                <li><a href="details.html">Details</a></li>
+                <li><a href="Testimonials.html">Testimonials</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- End of Navbar -->
+        
+        <!-- End of Navbar -->
 
-                <div class="carousel">
-                    <div class="btn-left">
-                        <img src="img/arrow-left.png" alt="btn-left">
+        <!-- Start of Main -->
+        <main>
+            <!-- Start of Details Section -->
+            <section class="h-details">
+                <div class="h-details-container">
+                    <div class="h-details-title">
+                        <h1>Property Details</h1>
+                        <p>Please find below a full description of the
+                            property</p>
                     </div>
-                    <!-- <div class="carousel-image"> -->
-                        <img src="img/details-1.png" alt="img-carousel-1">
-                    <!-- </div> -->
-                    <div class="btn-right">
-                        <img src="img/arrow-right.png" alt="btn-right">
-                    </div>
-                </div>
 
-                <div class="images">
-                    <div class="image">
-                        <img src="img/detail-2.png" alt="img-carousel-2">
-                    </div>
-                    <div class="image">
-                        <img src="img/detail-3.png" alt="img-carousel-3">
-                    </div>
-                    <div class="image">
-                        <img src="img/detail-4.png" alt="img-carousel-4">
-                    </div>
-                    <div class="image">
-                        <img src="img/detail-5.png" alt="img-carousel-5">
-                    </div>
-                </div>
+                    <div class="h-carousel">
+                        <div class="h-carousel-slide">
+                            <svg  id="btn-prev" width="64px" height="64px"
+                                viewBox="0 0 512 512"
+                                version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                fill="#000000" transform="rotate(270)"><g
+                                    id="SVGRepo_bgCarrier"
+                                    stroke-width="0"></g><g
+                                    id="SVGRepo_tracerCarrier"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"></g><g
+                                    id="SVGRepo_iconCarrier">
+                                    <title>triangle-filled</title> <g
+                                        id="Page-1"
+                                        stroke="none" stroke-width="1"
+                                        fill="none"
+                                        fill-rule="evenodd"> <g id="drop"
+                                            fill="#000000"
+                                            transform="translate(32.000000, 42.666667)">
+                                            <path
+                                                d="M246.312928,5.62892705 C252.927596,9.40873724 258.409564,14.8907053 262.189374,21.5053731 L444.667042,340.84129 C456.358134,361.300701 449.250007,387.363834 428.790595,399.054926 C422.34376,402.738832 415.04715,404.676552 407.622001,404.676552 L42.6666667,404.676552 C19.1025173,404.676552 7.10542736e-15,385.574034 7.10542736e-15,362.009885 C7.10542736e-15,354.584736 1.93772021,347.288125 5.62162594,340.84129 L188.099293,21.5053731 C199.790385,1.04596203 225.853517,-6.06216498 246.312928,5.62892705 Z"
+                                                id="Combined-Shape"> </path>
+                                        </g>
+                                    </g> </g></svg>
 
-                <div class="details-description">
-                    <h1>DESCRIPTION</h1>
-                    <p><span>City : </span>AGADIR, MOROCCO</p>
-                    <p><span>Neighborhood : </span>Cité Suisse</p>
-                </div>
+                            <img data-aos="fade-up" src="../assets/img/detail-1.jpg" alt="image de property 1" id="main-photo">
 
-                <div class="elements">
-                    <div class="element">
-                        <p>Surface Area Of 80 m²</p>
-                    </div>
-                    <div class="element">
-                        <p>Free Parking</p>
-                    </div>
-                    <div class="element">
-                        <p>Free WiFi Connexion</p>
-                    </div>
-                    <div class="element">
-                        <p>3 Bedrooms</p>
-                    </div>
-                    <div class="element">
-                        <p>Salon</p>
-                    </div>
-                    <div class="element">
-                        <p>Bathroom</p>
-                    </div>
-                    <div class="element">
-                        <p>Terrace</p>
-                    </div>
-                    <div class="element">
-                        <p>Balcony</p>
-                    </div>
-                    <div class="element">
-                        <p>Equipped Kitchen</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End of Details Section -->
+                            <svg id="btn-next" width="64px" height="64px"
+                                viewBox="0 0 512 512"
+                                version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                fill="#000000" transform="rotate(90)"><g
+                                    id="SVGRepo_bgCarrier"
+                                    stroke-width="0"></g><g
+                                    id="SVGRepo_tracerCarrier"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"></g><g
+                                    id="SVGRepo_iconCarrier">
+                                    <title>triangle-filled</title> <g
+                                        id="Page-1"
+                                        stroke="none" stroke-width="1"
+                                        fill="none"
+                                        fill-rule="evenodd"> <g id="drop"
+                                            fill="#000000"
+                                            transform="translate(32.000000, 42.666667)">
+                                            <path
+                                                d="M246.312928,5.62892705 C252.927596,9.40873724 258.409564,14.8907053 262.189374,21.5053731 L444.667042,340.84129 C456.358134,361.300701 449.250007,387.363834 428.790595,399.054926 C422.34376,402.738832 415.04715,404.676552 407.622001,404.676552 L42.6666667,404.676552 C19.1025173,404.676552 7.10542736e-15,385.574034 7.10542736e-15,362.009885 C7.10542736e-15,354.584736 1.93772021,347.288125 5.62162594,340.84129 L188.099293,21.5053731 C199.790385,1.04596203 225.853517,-6.06216498 246.312928,5.62892705 Z"
+                                                id="Combined-Shape"> </path>
+                                        </g>
+                                    </g> </g></svg>
+                        </div>
 
+                        <div class="h-carousel-images">
+                            <div class="h-images">
+                                <img data-aos="zoom-in" src="../assets/img/detail-2.jpg" alt="image de Property 1">
+                                <img data-aos="zoom-in" src="../assets/img/detail-3.jpg" alt="image de Property 1">
+                            </div>
+                            <div class="h-images">
+                                <img data-aos="zoom-in" src="../assets/img/detail-4.jpg" alt="image de Property 1">
+                                <img data-aos="zoom-in" src="../assets/img/detail-5.jpg" alt="image de Property 1">
+                            </div>
+                        </div>
 
-        <!-- Start of Details Section -->
-        <section class="quartier">
-            <div class="quartier-container">
-                <div class="quartier-title">
-                    <h1>A Propos du Quartier</h1>
-                    <p>Vous trouverez ci-dessous les différents services publiques dans le quartier</p>
-                </div>
+                    </div>
 
-                <div class="quartier-card bg-1">
-                    <h3>Mosque</h3>
-                    <p><span>Name : </span>Mosque AL-QUDS</p>
-                    <p><span>Time : </span>5 min</p>
-                    <p><span>Surface : </span>600 m²</p>
-                    <p><span>Services : </span>prayer area, Toilets, Quran Memorization Center</p>
-                </div>
-                <div class="quartier-card bg-2">
-                    <h3>Garden</h3>
-                    <p><span>Name : </span>Ibn Zaydoun Garden</p>
-                    <p><span>Time : </span>7 min</p>
-                    <p><span>Surface : </span>900 m²</p>
-                    <p><span>Services : </span>Green Areas, Children Playground, Calisthenics Equippement, Sport terrains</p>
-                </div>
-                <div class="quartier-card bg-3">
-                    <h3>GYM</h3>
-                    <p><span>Name : </span>GYM Cité Suisse</p>
-                    <p><span>Time : </span>10 min</p>
-                    <p><span>Surface : </span>150 m²</p>
-                    <p><span>Services : </span>Full Contact, Body Building, Calisthenics</p>
-                </div>
-                <div class="quartier-card bg-4">
-                    <h3>Super Market</h3>
-                    <p><span>Name : </span>Marjane Market</p>
-                    <p><span>Time : </span>10 min</p>
-                    <p><span>Surface : </span>600 m²</p>
-                    <p><span>Services : </span>Food, Cleaning Product, etc...</p>
-                </div>
-                <div class="quartier-card bg-5">
-                    <h3>Hammam</h3>
-                    <p><span>Name : </span>Hammam AL-QUDS</p>
-                    <p><span>Time : </span>7 min</p>
-                    <p><span>Surface : </span>200 m²</p>
-                    <p><span>Services : </span>Hammam Beldi, Sona, Massage</p>
-                </div>
-                <div class="quartier-card bg-6">
-                    <h3>School</h3>
-                    <p><span>Name : </span>Private School AL-QUDS</p>
-                    <p><span>Time : </span>12 min</p>
-                    <p><span>Surface : </span>200 m²</p>
-                    <p><span>Services : </span>Nursey, Primary, Middle & High School</p>
-                </div>
-            </div>
-        </section>
-        <!-- End of Details Section -->
+                    <div class="h-details-description">
+                        <h1>DESCRIPTION</h1>
+                        <p><span>City : </span>AGADIR, MOROCCO</p>
+                        <p><span>Neighborhood : </span>Cité Suisse</p>
+                    </div>
 
+                    <div class="h-elements">
+                        <div data-aos="zoom-out" class="h-element">
+                            <p>Surface Area Of 80 m²</p>
+                        </div>
+                        <div data-aos="zoom-out" class="h-element">
+                            <p>Free Parking</p>
+                        </div>
+                        <div data-aos="zoom-out" class="h-element">
+                            <p>Free WiFi Connexion</p>
+                        </div>
+                        <div data-aos="zoom-out" class="h-element">
+                            <p>3 Bedrooms</p>
+                        </div>
+                        <div data-aos="zoom-out" class="h-element">
+                            <p>Salon</p>
+                        </div>
+                        <div data-aos="zoom-out" class="h-element">
+                            <p>Bathroom</p>
+                        </div>
+                        <div data-aos="zoom-out" class="h-element">
+                            <p>Terrace</p>
+                        </div>
+                        <div data-aos="zoom-out" class="h-element">
+                            <p>Balcony</p>
+                        </div>
+                        <div data-aos="zoom-out" class="h-element">
+                            <p>Equipped Kitchen</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Details Section -->
 
-        <!-- Start of Formulaire Section -->
-        <section class="formulaire">
-            <div class="formulaire-container">
-                <div class="formulaire-title">
-                    <h1>Information Request</h1>
-                    <p>
-                        For more information, fill in this 
-                        form to answer your questions or 
-                        plan a visit to our properties.
+            <!-- Start of Details Section -->
+            <section class="h-quartier">
+                <div class="h-quartier-container">
+                    <div class="h-quartier-title">
+                        <h1>A Propos du Quartier</h1>
+                        <p>Vous trouverez ci-dessous les différents services
+                            publiques dans le quartier</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="1000" class="h-quartier-card bg-1">
+                        <h3>Mosque</h3>
+                        <p><span>Name : </span>Mosque AL-QUDS</p>
+                        <p><span>Time : </span>5 min</p>
+                        <p><span>Surface : </span>600 m²</p>
+                        <p><span>Services : </span>prayer area, Toilets, Quran
+                            Memorization Center</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="h-quartier-card bg-2">
+                        <h3>Garden</h3>
+                        <p><span>Name : </span>Ibn Zaydoun Garden</p>
+                        <p><span>Time : </span>7 min</p>
+                        <p><span>Surface : </span>900 m²</p>
+                        <p><span>Services : </span>Green Areas, Children
+                            Playground,
+                            Calisthenics Equippement, Sport terrains</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000"class="h-quartier-card bg-3">
+                        <h3>GYM</h3>
+                        <p><span>Name : </span>GYM Cité Suisse</p>
+                        <p><span>Time : </span>10 min</p>
+                        <p><span>Surface : </span>150 m²</p>
+                        <p><span>Services : </span>Full Contact, Body Building,
+                            Calisthenics</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000"class="h-quartier-card bg-4">
+                        <h3>Super Market</h3>
+                        <p><span>Name : </span>Marjane Market</p>
+                        <p><span>Time : </span>10 min</p>
+                        <p><span>Surface : </span>600 m²</p>
+                        <p><span>Services : </span>Food, Cleaning Product,
+                            etc...</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000"class="h-quartier-card bg-5">
+                        <h3>Hammam</h3>
+                        <p><span>Name : </span>Hammam AL-QUDS</p>
+                        <p><span>Time : </span>7 min</p>
+                        <p><span>Surface : </span>200 m²</p>
+                        <p><span>Services : </span>Hammam Beldi, Sona,
+                            Massage</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000"class="h-quartier-card bg-6">
+                        <h3>School</h3>
+                        <p><span>Name : </span>Private School AL-QUDS</p>
+                        <p><span>Time : </span>12 min</p>
+                        <p><span>Surface : </span>200 m²</p>
+                        <p><span>Services : </span>Nursey, Primary, Middle &
+                            High
+                            School</p>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Details Section -->
+
+            <!-- Start of Formulaire Section -->
+            <section class="h-formulaire">
+                <div class="h-formulaire-container">
+                    <div class="h-formulaire-title">
+                        <h1>Information Request</h1>
+                        <p>
+                            For more information, fill in this
+                            form to answer your questions or
+                            plan a visit to our properties.
+                        </p>
+                    </div>
+                    <form action>
+                        <label data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" for="name">Full Name</label>
+                        <input data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" type="text" placeholder="Ex : Peter Johanson"
+                            name="name">
+                        <label data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" for="email">Email</label>
+                        <input data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" type="email" placeholder="Ex : peter@example.com"
+                            name="email">
+                        <label data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" for="phone">Phone Number</label>
+                        <input data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" type="tel" placeholder="Ex : 06-12-34-56-78"
+                            name="phone">
+                        <label data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" for="subject">Subject</label>
+                        <select data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" name="subject">
+                            <option value="question">Poser Une Question</option>
+                            <option value="visite">Planifier une Visite</option>
+                        </select>
+                        <label data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" for="message">Message</label>
+                        <textarea data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" name="message"
+                            placeholder="Write your Message Here..."></textarea>
+                        <button data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">ENVOYER</button>
+                    </form>
+                </div>
+            </section>
+            <!-- End of Formulaire Section -->
+        </main>
+        <!-- End of Main -->
+
+        <!-- Start of Footer -->
+        <footer role="contentinfo">
+            <div class="h-footer-container">
+                <div class="h-footer-infos">
+                    <img src="../assets/img/logoWhite.png" alt="Logo de ImmoView">
+
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Praesentium distinctio debitis fugit,
+                        ipsamdelectus inventore velit cumque harum sint eos iure
+                        nulla repellat quaerat rep
                     </p>
+
+                    <div class="h-footer-icons">
+                        <a href="#"><svg width="47px" height="64px"
+                                viewBox="0 0 16 16"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"><g
+                                    id="SVGRepo_bgCarrier"
+                                    stroke-width="0"></g><g
+                                    id="SVGRepo_tracerCarrier"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"></g><g
+                                    id="SVGRepo_iconCarrier"><path
+                                        fill="#1877F2"
+                                        d="M15 8a7 7 0 00-7-7 7 7 0 00-1.094 13.915v-4.892H5.13V8h1.777V6.458c0-1.754 1.045-2.724 2.644-2.724.766 0 1.567.137 1.567.137v1.723h-.883c-.87 0-1.14.54-1.14 1.093V8h1.941l-.31 2.023H9.094v4.892A7.001 7.001 0 0015 8z"></path><path
+                                        fill="#ffffff"
+                                        d="M10.725 10.023L11.035 8H9.094V6.687c0-.553.27-1.093 1.14-1.093h.883V3.87s-.801-.137-1.567-.137c-1.6 0-2.644.97-2.644 2.724V8H5.13v2.023h1.777v4.892a7.037 7.037 0 002.188 0v-4.892h1.63z"></path></g></svg>
+                        </a>
+
+                        <a href="#"><svg width="50px" height="64px"
+                                viewBox="0 0 48 48"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"><g
+                                    id="SVGRepo_bgCarrier"
+                                    stroke-width="0"></g><g
+                                    id="SVGRepo_tracerCarrier"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"></g><g
+                                    id="SVGRepo_iconCarrier"> <circle cx="24"
+                                        cy="24"
+                                        r="20" fill="#1DA1F2"></circle> <path
+                                        fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M36 16.3086C35.1177 16.7006 34.1681 16.9646 33.1722 17.0838C34.1889 16.4742 34.9697 15.5095 35.3368 14.36C34.3865 14.9247 33.3314 15.3335 32.2107 15.5551C31.3123 14.5984 30.0316 14 28.6165 14C25.8975 14 23.6928 16.2047 23.6928 18.9237C23.6928 19.3092 23.7368 19.6852 23.8208 20.046C19.7283 19.8412 16.1005 17.8805 13.6719 14.9015C13.2479 15.6287 13.0055 16.4742 13.0055 17.3766C13.0055 19.0845 13.8735 20.5916 15.1958 21.4747C14.3878 21.4491 13.6295 21.2275 12.9647 20.8587V20.9203C12.9647 23.3066 14.663 25.296 16.9141 25.7496C16.5013 25.8616 16.0661 25.9224 15.6174 25.9224C15.2998 25.9224 14.991 25.8912 14.6902 25.8336C15.3166 27.7895 17.1357 29.2134 19.2899 29.2534C17.6052 30.5733 15.4822 31.3612 13.1751 31.3612C12.7767 31.3612 12.3848 31.338 12 31.2916C14.1791 32.6884 16.7669 33.5043 19.5475 33.5043C28.6037 33.5043 33.5562 26.0016 33.5562 19.4956C33.5562 19.282 33.5522 19.0693 33.5418 18.8589C34.5049 18.1629 35.34 17.2958 36 16.3086Z"
+                                        fill="white"></path> </g></svg>
+                        </a>
+
+                        <a href="#"><svg width="50px" height="64px"
+                                viewBox="0 0 48 48"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"><g
+                                    id="SVGRepo_bgCarrier"
+                                    stroke-width="0"></g><g
+                                    id="SVGRepo_tracerCarrier"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"></g><g
+                                    id="SVGRepo_iconCarrier"> <circle cx="24"
+                                        cy="24"
+                                        r="20" fill="#0077B5"></circle> <path
+                                        fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M18.7747 14.2839C18.7747 15.529 17.8267 16.5366 16.3442 16.5366C14.9194 16.5366 13.9713 15.529 14.0007 14.2839C13.9713 12.9783 14.9193 12 16.3726 12C17.8267 12 18.7463 12.9783 18.7747 14.2839ZM14.1199 32.8191V18.3162H18.6271V32.8181H14.1199V32.8191Z"
+                                        fill="white"></path> <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M22.2393 22.9446C22.2393 21.1357 22.1797 19.5935 22.1201 18.3182H26.0351L26.2432 20.305H26.3322C26.9254 19.3854 28.4079 17.9927 30.8101 17.9927C33.7752 17.9927 35.9995 19.9502 35.9995 24.219V32.821H31.4922V24.7838C31.4922 22.9144 30.8404 21.6399 29.2093 21.6399C27.9633 21.6399 27.2224 22.4999 26.9263 23.3297C26.8071 23.6268 26.7484 24.0412 26.7484 24.4574V32.821H22.2411V22.9446H22.2393Z"
+                                        fill="white"></path> </g></svg>
+                        </a>
+                    </div>
+
                 </div>
-                <form action="">
-                    <label for="name">Full Name</label>
-                    <input type="text" placeholder="Ex : Peter Johanson" name="name">
-                    <label for="email">Email</label>
-                    <input type="email" placeholder="Ex : peter@example.com" name="email">
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" placeholder="Ex : 06-12-34-56-78" name="phone">
-                    <label for="subject">Subject</label>
-                    <select name="subject">
-                        <option value="question">Poser Une Question</option>
-                        <option value="visite">Planifier une Visite</option>
-                    </select>
-                    <label for="message">Message</label>
-                    <textarea name="message" placeholder="Write your Message Here..."></textarea>
-                    <button>ENVOYER</button>
-                </form>
+                <div class="h-footer-items">
+                    <div class="h-footer-help">
+                        <div class="h-footer-aide">
+                            <h2>Need Help ?</h2>
+                            <a href="#"><p>Contact Us</p></a>
+                            <a href="#"><p>Reclamation</p></a>
+                            <a href="#"><p>Our Agencies</p></a>
+                        </div>
+                        <div class="h-footer-about">
+                            <h2>About Us</h2>
+                            <a href><p>Discover Our Services</p></a>
+                        </div>
+                    </div>
+                    <div class="h-footer-links">
+                        <h2>IMMOVIEW</h2>
+                        <a href="#"><p>About Us</p></a>
+                        <a href="#"><p>Contact Us</p></a>
+                        <a href="#"><p>Help ?</p></a>
+                        <a href="#"><p>Catalogue</p></a>
+                        <a href="#"><p>Details</p></a>
+                        <a href="#"><p>Testimonials</p></a>
+                    </div>
+                </div>
             </div>
-        </section>
-        <!-- End of Formulaire Section -->
+            <div class="h-copyright">
+                <p>Copyright &copy; 2024 Code Inquisitors</p>
+            </div>
+        </footer>
+        <!-- End of Footer -->
+
+        <script src="../assets/js/details-slide.js"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                once: true,
+                duration: 500
+            });
+        </script>
 
     </body>
 </html>

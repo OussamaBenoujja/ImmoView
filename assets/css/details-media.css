@@ -1,3 +1,431 @@
-@media (max-width: 1100px){
+
+:root {
+    --color-1: #463F3A;
+    --color-2: #8A817C;
+    --color-3: #BCB8B1;
+    --color-4: #F4F3EE;
+    --color-5: #E0AFA0;
+}
+
+
+@media (max-width: 767px){
+    
+    .h-carousel{
+        gap: 1rem;
+    }
+    
+    .h-carousel-slide{
+        gap: 1rem;
+    }
+    
+    .h-carousel-slide img{
+        width: 70%;
+    }
+
+    .h-carousel-slide svg{
+        width: 2rem;
+    }
+    
+    .h-carousel-images{
+        flex-direction: column;
+    }
+
+    .h-images img{
+        width: 50%;
+    } 
+    
+    .h-elements{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .h-element:last-child{
+        grid-column: span 2;
+    }
+
+    input,
+    select,
+    textarea{
+        width: 70%;
+    }
+
+    .h-quartier-container{
+        grid-template-columns: 1fr;
+    }
+
+    .h-quartier-title{
+        grid-column: span 1;
+    }
+    
+    .h-footer-container{
+        padding: 5rem 0;
+        display: flex;
+        flex-direction: column;
+        margin: 0 150px;
+        gap: 5rem;
+    }
+    
+    .h-footer-infos{
+        width:100%;
+        padding-top: 15px;
+        text-align: center;
+    }
+    
+    .h-footer-help{
+        width: 100%;
+    }
+    
+    .h-footer-links{
+        width: 40%;
+    }
+    
+    .h-footer-infos img{
+        width: 30vh;
+    }
+    
+    .h-footer-aide a,
+    .h-footer-about a,
+    .h-footer-links a{
+        text-decoration: none;
+        color: var(--color-4);
+    }
+    
+    .h-footer-container p{
+        font-weight: 300;
+    }
+    
+    .h-footer-about{
+        margin-top: 2rem;
+    }
+    
+    .h-footer-about h2{
+        margin: 0;
+    }
+    
+    .h-footer-container h2{
+        font-weight: 600;
+    }
+
+
+}
+
+
+
+
+
+
+@media (min-width: 767px) and (max-width: 800px){
+    .h-carousel{
+        gap: 1rem;
+    }
+    
+    .h-carousel-slide{
+        gap: 1rem;
+    }
+    
+    .h-carousel-slide img{
+        width: 70%;
+    }
+
+    .h-carousel-slide svg{
+        width: 2rem;
+    }
+    
+    .h-carousel-images{
+        flex-direction: column;
+    }
+
+    .h-images img{
+        width: 50%;
+    } 
+    
+    .h-elements{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .h-element:last-child{
+        grid-column: span 2;
+    }
+
+    input,
+    select,
+    textarea{
+        width: 70%;
+    }
+
+    .h-quartier-container{
+        grid-template-columns: 1fr;
+    }
+
+    .h-quartier-title{
+        grid-column: span 1;
+    }
+    
+    .h-footer-container{
+        padding: 5rem 0;
+        display: flex;
+        flex-direction: column;
+        margin: 0 150px;
+        gap: 5rem;
+    }
+    
+    .h-footer-infos{
+        width:100%;
+        padding-top: 15px;
+        text-align: center;
+    }
+    
+    .h-footer-help{
+        width: 100%;
+    }
+    
+    .h-footer-links{
+        width: 40%;
+    }
+    
+    .h-footer-infos img{
+        width: 50%;
+    }
+    
+    .h-footer-aide a,
+    .h-footer-about a,
+    .h-footer-links a{
+        text-decoration: none;
+        color: var(--color-4);
+    }
+    
+    .h-footer-container p{
+        font-weight: 300;
+    }
+    
+    .h-footer-about{
+        margin-top: 2rem;
+    }
+    
+    .h-footer-about h2{
+        margin: 0;
+    }
+    
+    .h-footer-container h2{
+        font-weight: 600;
+    }
+}
+
+
+
+
+@media (min-width: 800px) and (max-width:1023px){
+    .h-carousel-slide img{
+        width: 70%;
+    }
+
+    .h-carousel-slide svg{
+        width: 2.5rem;
+    }
+    
+    .h-carousel-images{
+        gap: 2rem;
+    }
+
+    .h-images{
+        width: 50%;
+    }
+
+    .h-images img{
+        width: 50%;
+    }
+
+    input,
+    select,
+    textarea{
+        width: 60%;
+    }
+    
+    .h-footer-container{
+        padding: 5rem 0;
+        display: flex;
+        flex-direction: column;
+        margin: 0 150px;
+        gap: 5rem;
+    }
+    
+    .h-footer-infos{
+        width:100%;
+        padding-top: 15px;
+        text-align: center;
+    }
+    
+    .h-footer-help{
+        width: 100%;
+    }
+    
+    .h-footer-links{
+        width: 40%;
+    }
+    
+    .h-footer-infos img{
+        width: 40vh;
+    }
+    
+    .h-footer-aide a,
+    .h-footer-about a,
+    .h-footer-links a{
+        text-decoration: none;
+        color: var(--color-4);
+    }
+    
+    .h-footer-container p{
+        font-weight: 300;
+    }
+    
+    .h-footer-about{
+        margin-top: 2rem;
+    }
+    
+    .h-footer-about h2{
+        margin: 0;
+    }
+    
+    .h-footer-container h2{
+        font-weight: 600;
+    }
     
 }
+
+
+
+
+
+@media (min-width: 1023px) and (max-width: 1127px){
+    .h-carousel-slide img{
+        width: 80%;
+    }
+
+    .h-carousel-slide svg{
+        width: 2.5rem;
+    }
+    
+    .h-carousel-images{
+        gap: 2rem;
+    }
+
+    .h-images{
+        width: 70%;
+    }
+
+    .h-images img{
+        width: 50%;
+    }
+
+    .h-footer-container{
+        gap: 3rem;
+    }
+    
+    .h-footer-infos{
+        width:100%;
+        padding-top: 15px;
+    }
+    
+    .h-footer-help{
+        width: 100%;
+    }
+    
+    .h-footer-links{
+        width: 40%;
+    }
+    
+    .h-footer-infos img{
+        width: 50%;
+    }
+    
+    .h-footer-aide a,
+    .h-footer-about a,
+    .h-footer-links a{
+        text-decoration: none;
+        color: var(--color-4);
+    }
+    
+    .h-footer-container p{
+        font-weight: 300;
+    }
+    
+    .h-footer-about{
+        margin-top: 2rem;
+    }
+    
+    .h-footer-about h2{
+        margin: 0;
+    }
+    
+    .h-footer-container h2{
+        font-weight: 600;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 1027px){
+    .h-carousel-slide img{
+        width: 80%;
+    }
+
+    .h-carousel-slide svg{
+        width: 2.5rem;
+    }
+    
+    .h-carousel-images{
+        gap: 2rem;
+    }
+
+    .h-images{
+        width: 70%;
+    }
+
+    .h-images img{
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 840px){
+    .h-nav-links{
+        gap: 1.5rem;
+    }
+}
+
+
+
+
+
+
+@media (max-width:600px){
+    .h-footer-aide,
+    .h-footer-about,
+    .h-footer-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .h-footer-infos {
+        width: 100%;
+    }
+
+    .h-footer-items{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
