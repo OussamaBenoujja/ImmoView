@@ -182,7 +182,7 @@
     /* -- Navbar ABDELHAFID------------------------------------------------------------------------*/
 
     /*-- Footer ABDELHAFID------------------------------------------------------------------------*/
-        @media (max-width: 767px){
+        @media (max-width: 768px){
     
     
         /*-- Footer ------------------------------------------------------------------------*/
@@ -245,7 +245,7 @@
         
         
         
-        @media (min-width: 767px) and (max-width: 800px){
+        @media (min-width: 768px) and (max-width: 800px){
             .h-footer-container{
                 padding: 5rem 0;
                 display: flex;
@@ -299,7 +299,7 @@
         
         
         
-        @media (min-width: 800px) and (max-width:1023px){
+        @media (min-width: 800px) and (max-width:1024px){
             
         /*----------------------------------------------------------------------------------*/
             
