@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-1: #463F3A;
+    --color-2: #8A817C;
+    --color-3: #BCB8B1;
+    --color-4: #F4F3EE;
+    --color-5: #E0AFA0;
+}
+
+body{
+    font-family: Poppins;
+    margin: 0;
+}
+
+.details,
+.formulaire{
+    background-color: #E4E2DB;
+}
+
+.quartier{
+    background-color: var(--color-1);
+}
+
+
+
+
+
+
+/* Details Section -----------------------------------------------------------------------------------------*/
+.details-container{
+    color: var(--color-1);
+    margin: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+.details-title,
+.details-description{
+    grid-column: span 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-title h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.details-title p{
+    font-size: 1.2rem;
+}
+
+.images{
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 1rem;
+}
+
+.image img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.details-title,
+.details-description{
+    flex-direction: column;
+}
+
+.details-description h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.details-description p{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+span{
+    font-weight: 600;
+}
+
+.elements,
+.carousel{
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 1rem;
+}
+
+/* .carousel-image{
+    width: 100%;
+} */
+
+.btn-left,
+.btn-right{
+    cursor: pointer;
+}
+
+.element,
+.btn-left,
+.btn-right,
+.image{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.element:nth-child(4),
+.element:nth-child(5),
+.element:nth-child(6),
+.element:nth-child(7),
+.element:nth-child(8),
+.element:nth-child(9){
+    margin-top: -3rem;
+}
+
+.element p{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 400;
+    background-color: #BCB8B1;
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem 0;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* Formulaire Section -----------------------------------------------------------------------------------------------------*/
+
+.formulaire-title,
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire-container{
+    padding: 50px 0;
+    margin: 0 50px;
+    background-color: #E4E2DB;
+    color: var(--color-1);
+    padding: 3rem 0;
+}
+
+.formulaire-title{
+    align-items: center;
+}
+
+.formulaire-title h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    text-align: center;
+}
+
+.formulaire-title p{
+    margin: 0;
+    text-align: center;
+}
+
+form{
+    align-items: center;
+    margin-top: 3rem;
+}
+
+input,
+select,
+textarea{
+    width: 40%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--color-3);
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+select{
+    width: 42%;
+}
+
+label{
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+}
+
+input::placeholder,
+textarea::placeholder{
+    font-size: 0.8rem;
+    color: black;
+}
+
+button{
+    padding: 15px 45px;
+    margin-top: 1rem;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--color-5);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1) ;
+    transition: all 400ms;
+    background-color: #463F3A;
+    color: #E4E2DB;
+}
+
+
+
+
+
+
+
+
+/* Quartier Section ----------------------------------------------------------------------------*/
+.quartier-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    color: var(--color-4);
+    margin: 0 50px;
+    padding: 5rem 0;
+}
+
+.quartier-title{
+    grid-column: span 2;
+    text-align: center;
+}
+
+.quartier-title h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.quartier-title p{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.quartier-card{
+    color: var(--color-4);
+    text-align: center;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.quartier-card:hover{
+    transform: scale(1.05);
+    transition: all 400ms;
+}
+
+.bg-1{
+    background-image: linear-gradient(to bottom right , rgba(0, 0, 0, 0.8) , rgba(99, 99, 99, 0.8)),
+    url('../img/mosque.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-2{
+    background-image: linear-gradient(to bottom right , rgba(0, 0, 0, 0.8) , rgba(99, 99, 99, 0.8)),
+    url('../img/jardin.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-3{
+    background-image:  linear-gradient(to bottom right , rgba(0, 0, 0, 0.8) , rgba(99, 99, 99, 0.8)),
+    url('../img/gym.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-4{
+    background-image: linear-gradient(to bottom right , rgba(0, 0, 0, 0.8) , rgba(99, 99, 99, 0.8)),
+    url('../img/market.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-5{
+    background-image: linear-gradient(to bottom right , rgba(0, 0, 0, 0.8) , rgba(84, 84, 84, 0.8)),
+    url('../img/hammam.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-6{
+    background-image: linear-gradient(to bottom right , rgba(0, 0, 0, 0.8) , rgba(84, 84, 84, 0.8)),
+    url('../img/school.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.quartier-card h3{
+    color: #E0AFA0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+}
+
+.quartier-card p{
+    margin: 0 4rem;
+}
+
+.quartier-card span{
+    color: var(--color-3);
+    font-weight: 500;
+}
