@@ -234,6 +234,8 @@
 
 
 /*----------------------------STARS RATE-------------------------*/
+
+
 .rating {
     margin: 20px auto;
     display: flex;
@@ -279,6 +281,7 @@
 
 
 /*--------------------------MEDIA QUERY-------------------------*/
+
 
 @media (max-width: 1050px) {
     .TestImage {
@@ -357,6 +360,8 @@
 
 
 /*-------------------------NAVBAR------------------------*/
+
+
 .NavMC {
     background-color: var(--color-4);
     color: var(--color-1);
@@ -441,6 +446,8 @@
 }
 
 /*-------------------------FOOTER------------------------*/
+
+
 footer {
     background-color: var(--color-1);
     color: #fff;
