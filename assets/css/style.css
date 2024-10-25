@@ -12,50 +12,18 @@ body {
     --color-body: #F4F3EE;
     --color-scandry: #E0AFA0;
     --color-prancipal: #463F3A;
+    --color-1: #463F3A;
+    --color-2: #8A817C;
+    --color-3: #BCB8B1;
+    --color-4: #F4F3EE;
+    --color-5: #E0AFA0;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-nav ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(6, auto);
-    gap: 0 30px;
-
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-}
-
-nav ul li a:hover {
-    color: var(--color-scandry);
-    border-bottom: 2px solid var(--color-scandry);
-    padding: 10px 0;
-}
-
-
-#conitiner-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 50px;
-    width: 90%;
-
-
-}
-
-.mm-logo-nav img {
-    width: 200px;
-    height: 50px;
-}
+ }
 
 header {
     background-image: url("../img/img1 1.jpg");
@@ -227,7 +195,7 @@ header {
      width: 100%;
     height: 100%; 
     background-color: rgba(89, 85, 85, 0.885);  
-   transition: 1s;
+   transition:all 1s;
 }
 
 .mm-cards_pop_up {
@@ -240,6 +208,7 @@ header {
     cursor: pointer;
     border-radius:10px;
     position: relative;
+    top: 20%;
 }
 .mm-cards_pop_up i{
     position:absolute;
@@ -256,10 +225,8 @@ align-items: center;
 
 
 
-/*  */
 /* end style contact */
 
-/*                    */
 .mm-ContactUs {
     text-align: center;
     background: var(--color-scandry);
@@ -352,13 +319,6 @@ align-items: center;
     filter: blur(2px);
  }
 
-
-/*                    */
-
-
-
-
-
 .footer-pra {
     background: var(--color-prancipal);
     color: white;
@@ -433,9 +393,9 @@ footer{
 }
 
 .h-copyright{
-    margin: 0 50px;
+    margin: 20px 50px;
     text-align: center;
-    padding: 10px 0;
+    padding: 25px 0;
     border-top: 1px solid var(--color-body);
 }
 
@@ -490,3 +450,54 @@ footer{
 .h-footer-container h2{
     font-weight: 600;
 }
+/*==============================================================================================================*/
+.NavMC {
+    background-color: var(--color-4);
+    color: var(--color-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4vh 4vw;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+   top: 0;
+}
+
+.logo {
+    height: 8vh;
+}
+
+.ListMC {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ListMC li {
+    margin-right: 20px;
+}
+
+.ListMC li a {
+    color: var(--color-1);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.ListMC li a:hover {
+    color: var(--color-5);
+    border-bottom: 1px solid var(--color-5);
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+

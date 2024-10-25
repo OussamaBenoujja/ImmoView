@@ -1,19 +1,4 @@
 
-let icone_open = document.querySelector(".mm-icon-open");
-let icone_close = document.querySelector(".mm-icon-close");
-let ul = document.querySelector("nav ul");
-
-
-function CloseMun() {
-    ul.style.display = "none";
-    ul.style.transform = "translate(-120px)";
-
-}
-function OpenMun() {
-    ul.style.display = "block"
-    ul.style.transform = "translate(0)";
-}
-
 // Rejex
 let btn = document.querySelector("#btn");
 
@@ -52,7 +37,7 @@ btn.addEventListener('click', function () {
     // close menu pop_up
     close_pop_up.onclick = function () {
         poupupMun.style.display = "none";
-      
+
     }
 });
 
