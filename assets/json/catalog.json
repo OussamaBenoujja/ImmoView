@@ -1,0 +1,30 @@
+[
+    {
+        "type": "HOUSES",
+        "location": "NYC, New York",
+        "price": "$1,500,000",
+        "features": "3,000 sq. ft, backyard, near subway.",
+        "image": "../img/img1.jpg"
+    },
+    {
+        "type": "HOUSES",
+        "location": "Texas",
+        "price": "$950,000",
+        "features": "2,500 sq. ft, pool, garage.",
+        "image": "../img/img2.jpg"
+    },
+    {
+        "type": "APARTMENTS",
+        "location": "NYC, New York",
+        "price": "$1,100,000",
+        "features": "1,500 sq. ft, near Central Park, doorman.",
+        "image": "../img/img3.jpg"
+    },
+    {
+        "type": "VILLAS",
+        "location": "California",
+        "price": "$2,500,000",
+        "features": "4,500 sq. ft, pool, mountain views.",
+        "image": "../img/img4.jpg"
+    }
+]
