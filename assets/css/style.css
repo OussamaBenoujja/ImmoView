@@ -6,9 +6,6 @@
     --color-3: #BCB8B1;
     --color-4: #F4F3EE;
     --color-5: #E0AFA0;
-    --color-body: #F4F3EE;
-    --color-scandry: #E0AFA0;
-    --color-prancipal: #463F3A;
 }
 
 * {
@@ -21,7 +18,7 @@
 /*----------------------------------Header------------------------------------*/
 
 .TestHeader {
-    background-image: url('../assets/Cover.jpg');
+    background-image: url('../img/Cover.jpg');
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -317,7 +314,7 @@
     .ForM {
         flex-direction: column; /* Stack the form elements */
         height: auto;
-        margin: 4vh auto;
+        margin: 8vh auto;
     }
     
     .TestImage {
@@ -327,9 +324,10 @@
     }
 
     .TestHeader h1, .TestMain h1, .TestGallery h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         padding-top: 5vh;
         font-weight: 360;
+        padding: 4vh 8vw 0 8vw;
     
     }
     .TestHeader hr, .TestMain hr, .TestGallery hr {
@@ -355,7 +353,6 @@
 
 
 /*-------------------------NAVBAR------------------------*/
-
 
 
 /*-------------------------FOOTER------------------------*/
