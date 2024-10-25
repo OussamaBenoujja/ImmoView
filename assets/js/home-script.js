@@ -1,3 +1,4 @@
+/** Partie Javascript Pour Home Page  */
 let currentSlideNews = 2;
 let currentSlideProperties = 2;
 
@@ -41,8 +42,8 @@ function moveSlide(direction, sectionType) {
 
 function updateBoxColors(index, sectionType) {
     const colors = [
-        getComputedStyle(document.documentElement).getPropertyValue('--grey'),
-        getComputedStyle(document.documentElement).getPropertyValue('--melon')
+        getComputedStyle(document.documentElement).getPropertyValue('--color-2'),
+        getComputedStyle(document.documentElement).getPropertyValue('--color-5')
     ];
 
     const boxPrefix = sectionType === 'news' ? '' : 'properties-';
@@ -54,3 +55,5 @@ function updateBoxColors(index, sectionType) {
 
 showSlide(currentSlideNews, document.querySelector('.newssct'));
 showSlide(currentSlideProperties, document.querySelector('.prprtssct'));
+
+/** La fin de la Partie Javascript Pour Home Page  */
