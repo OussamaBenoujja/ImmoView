@@ -1,6 +1,6 @@
 
-let icone_open = document.querySelector(".icon-open");
-let icone_close = document.querySelector(".icon-close");
+let icone_open = document.querySelector(".mm-icon-open");
+let icone_close = document.querySelector(".mm-icon-close");
 let ul = document.querySelector("nav ul");
 
 
@@ -22,9 +22,9 @@ btn.addEventListener('click', function () {
     let email = document.querySelector("#email");
     let phone = document.querySelector("#phone");
     const poupupMun = document.getElementById("Poup_up");
-    let inner_pop_up = document.querySelector(".inner-pop-up");
-    let cards_pop_up = document.querySelector(".cards_pop_up")
-    let close_pop_up = document.querySelector(".close_pop_up")
+    let inner_pop_up = document.querySelector(".mm-inner-pop-up");
+    let cards_pop_up = document.querySelector(".mm-cards_pop_up")
+    let close_pop_up = document.querySelector(".mm-close_pop_up")
     //
     let email_value = email.value;
     let phone_value = phone.value;
@@ -47,7 +47,7 @@ btn.addEventListener('click', function () {
     } else {
         cards_pop_up.style.background = "red"
         poupupMun.style.display = "block";
-        inner_pop_up.innerHTML = "email or phone is not valid "
+        inner_pop_up.innerHTML = "email or phone is not valid"
     }
     // close menu pop_up
     close_pop_up.onclick = function () {
@@ -57,9 +57,9 @@ btn.addEventListener('click', function () {
 });
 
 
-let btn_one = document.querySelector(".btn-one")
-let btn_two = document.querySelector(".btn-two")
-let btn_tree = document.querySelector(".btn-tree")
+let btn_one = document.querySelector(".mm-btn-one")
+let btn_two = document.querySelector(".mm-btn-two")
+let btn_tree = document.querySelector(".mm-btn-tree")
 
 
 btn_one.onclick = function () {

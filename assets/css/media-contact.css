@@ -8,8 +8,8 @@
  
 @media (min-width:1338px) {
   
-.icon-open,
-.icon-close{
+.mm-icon-open,
+.mm-icon-close{
     visibility: hidden;
     position: absolute;
   }
@@ -23,34 +23,34 @@
     nav ul li a{
         text-align: center;
        }
-    .icon-open,
-    .icon-close{
+    .mm-icon-open,
+    .mm-icon-close{
         visibility: hidden;
         position: absolute;
       }
     
    
 
-    .continer-header{
+    .mm-continer-header{
         font-size:0.8em;
     }
  
 
 }
 @media (max-width:1023px) {
-    .about_foter{
+    .mm-about_foter{
         justify-self: start;
     }
-    .immovier_footer{
+    .mm-immovier_footer{
         justify-self: start;
     
     }
-    .continer-footer{
+    .mm-continer-footer{
    margin: 20px;
    
     }
      
-.card_form{
+.mm-card_form{
     grid-template-columns: repeat(2,200px);
     justify-content: center;
     align-items: center;
@@ -58,12 +58,12 @@
 }  
 
 
- .continer-contact{
+ .mm-continer-contact{
     display: block;
     justify-items: center;
 
 } 
-.card-iformation {
+.mm-card-iformation {
     width: 480px;
     height: 600px;
 }
@@ -71,14 +71,14 @@
 
 
 
-.continer-serves {
+.mm-continer-serves {
     grid-template-columns: repeat(2, auto);
 gap:100px 50px;
 justify-self: center;
 
 }
 
-.continer-header {
+.mm-continer-header {
     top: 27%;
     font-size: 30px;
 }
@@ -113,17 +113,17 @@ justify-self: center;
     }  
    
        
-.icon-open,
-.icon-close{
+.mm-icon-open,
+.mm-icon-close{
     visibility: visible;
    
   }
-  .icon-close{
+  .mm-icon-close{
     position: absolute;
     top: 15px;
     font-size: 10px;
   }
-    .icon-open
+    .mm-icon-open
    {
         position: absolute;
         right: 20px;
@@ -132,36 +132,36 @@ justify-self: center;
         
     } 
     
-    .continer-header h2{
+    .mm-continer-header h2{
         width: 90%;
     font-size: 1.4em;
 }
 
 
-.mapswrapper iframe {
+.mm-mapswrapper iframe {
     width: 240px;
     height: 150px;
 }
- .card_form{
+ .mm-card_form{
     width: 445px;
 
 } 
- .continer-contact{
+ .mm-continer-contact{
     display: block;
 justify-self: center;
 } 
-.card-iformation {
+.mm-card-iformation {
     width: 445px;
 justify-self: center;
   
 }
  
 
-.card_form input {
+.mm-card_form input {
     padding:10px 20px;
 }
 
-.servs-card{
+.mm-servs-card{
     display: block;
     justify-content: center;
     
@@ -171,17 +171,17 @@ justify-self: center;
 /*  */
 
 @media (max-width:679px) {
-    .continer-header {
+    .mm-continer-header {
         top: 20%;
         font-size: 30px;
     }
 
-.continer-serves {
+.mm-continer-serves {
     grid-template-columns: repeat(1, auto);
    
 }
 
-.servs-card{
+.mm-servs-card{
     display: block;
     justify-content: center;
     
