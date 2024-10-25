@@ -7,7 +7,7 @@
 }
  
 @media (min-width:1338px) {
-    
+  
 .icon-open,
 .icon-close{
     visibility: hidden;
@@ -17,6 +17,9 @@
 }
 
 @media (max-width:1336px) {
+    header{
+        height: 70vh;
+      }  
     nav ul li a{
         text-align: center;
        }
@@ -70,29 +73,16 @@
 
 .continer-serves {
     grid-template-columns: repeat(2, auto);
-gap:50px;
+gap:100px 50px;
+justify-self: center;
+
 }
 
-/*  
-.servs-card .btn-tree,
-.servs-card .btn-one,
-.servs-card .btn-two {
-    background: var(--color-scandry);
-    padding: 20px 50px;
-    border: 2px solid var(--color-scandry);
-    position: absolute;
-    font-weight: bold;
-    left: 50%;
-    transform: translate(-50%);
-    margin-top: 13%;
- text-align: center;
- 
- display: non;
-} */ 
 .continer-header {
     top: 27%;
     font-size: 30px;
 }
+
 }
 
 
@@ -102,7 +92,9 @@ gap:50px;
 
 
 @media (max-width:768pX) {
-    
+    header{
+        height: 70vh;
+      } 
     nav ul{
         display: none;
          justify-items: start;
@@ -163,36 +155,35 @@ justify-self: center;
 justify-self: center;
   
 }
-.continer-serves {
-    grid-template-columns: repeat(1, auto);
-    height: 140vh;
-   
-   
-    justify-self: center;
-   
-
-}
+ 
 
 .card_form input {
     padding:10px 20px;
 }
+
 .servs-card{
     display: block;
-    justify-items: center;
-    justify-self: center;
     justify-content: center;
-
+    
 }
 }
 
 /*  */
 
-@media (max-width:507px) {
+@media (max-width:679px) {
     .continer-header {
         top: 20%;
         font-size: 30px;
     }
-.continer-header h2{
+
+.continer-serves {
+    grid-template-columns: repeat(1, auto);
    
+}
+
+.servs-card{
+    display: block;
+    justify-content: center;
+    
 }
 }  
