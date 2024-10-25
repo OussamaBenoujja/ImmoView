@@ -1,0 +1,551 @@
+/* Partie responsive du telephone max-width 768px*/
+@media (max-width: 768px ){
+
+    /* Partie Media Queries du Header*/
+    .oa-header{
+        height: 19.7%;
+    }
+
+    .oa-smllprgrph{
+        font-size: 0.6rem;
+        font-weight: 400;
+    
+    }
+    
+    .oa-head{
+        font-size: 1.1rem;
+        font-weight: 600;
+    
+    }
+    
+    .oa-bttnrnt{
+        padding: 1% 3% 1%;
+        font-size: 0.7rem;
+        font-weight: 500;
+        border-radius: 20px;;
+        border-width: 0.15rem;
+    
+    }
+
+
+    /* Fin de la Partie Media Queries du Header*/
+
+    /* Partie Media Queries du Section Latest News et la Section Latest Properties*/
+
+    .box{
+        height: 9px;
+    }
+    
+    .large{
+        width: 27px;
+    }
+    
+    .small{
+        width: 16px;
+        margin-left: 9px;
+        margin-right: 9px;
+    
+    }
+
+
+    .nwslst{
+        overflow: hidden;
+        margin-left: 4.75%;
+        grid-column-gap: 7%;
+    }
+
+    button.prvs{
+        right: 90%;
+    }
+    
+    button.next{
+        left: 90%;
+    }
+
+    .grtdiv{
+        min-width: 82%;
+        width: 400px;
+        height: 400px;
+    }
+
+    .ouamalldiv{
+        margin-left: 72%;
+        width: 23.5%;
+    }
+
+    .ouamallarw{
+        font-size: 0.65rem;
+        font-weight: 500;;
+    }
+
+    .h3{
+        width: 74%;
+        font-size: 1.8rem;
+    }
+
+    /* La fin de la Partie Media Queries du Section Latest News et la section Latest Properties*/
+
+    /* Partie Media Queries du Section Our Service*/
+    .h2{
+        font-size: 1.8rem;
+        width: 58%;
+    }
+    
+    .srvgnrl{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 3%;
+    }
+
+    .p4{
+        font-size: 1.8rem;
+        font-weight: bold;
+        position: absolute;
+        top: -24.5%;;
+        width: 8%;
+    }
+
+
+    .p5{
+        font-size: 0.75rem;
+        width: 96%;
+    }
+    /* La fin de la Partie Media Queries du Section Our Service*/
+
+    /* Partie Media Queries du section Best Agents*/
+    .sctagnt{
+        display: none;
+
+    }
+    /* La fin de la Partie Media Queries du section Best Agents*/ 
+
+    /* Partie Media Queries du Section FAQ*/
+
+    .faq{
+        font-size: 1.6rem;
+    }
+
+    .ligne{
+        width: 25rem;
+        height: 1px;
+        background-color: var(--color-3);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .arwdwn p{
+        width: 78%;
+        font-size: 0.6rem;
+    }
+
+    .arwdwn{
+        padding: 2% 0% 2%;
+    }
+
+    summary{
+        font-size: 0.8rem;
+        font-weight: 300;
+        width: 60%;
+
+    }
+
+    .spn2, .spn1{
+        display: none;
+    }
+
+
+    /* La fin de la Partie Media Queries du Section FAQ*/
+
+    /* -- Navbar ABDELHAFID------------------------------------------------------------------------*/
+
+    .h-logo{
+        width: 30%;
+        height: 30%;
+    }
+
+    .h-nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        height: 54%;
+        position: absolute;
+        top: 5rem;
+        right: 0;
+        background-color: var(--color-4);
+    }
+
+    .h-nav-links a:hover{
+        padding-bottom: none;
+        border-bottom: none;
+        color: var(--color-5);
+    }
+
+    .h-burger-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .h-burger-menu svg:hover{
+        transform: scale(1.06);
+        transition-duration: 400ms;
+    }
+
+    .nav-active {
+        display: flex;
+        z-index: 1;
+    }
+}
+
+    /* -- Navbar ABDELHAFID------------------------------------------------------------------------*/
+
+    /*-- Footer ABDELHAFID------------------------------------------------------------------------*/
+        @media (max-width: 768px){
+    
+    
+        /*-- Footer ------------------------------------------------------------------------*/
+            
+            .h-footer-container{
+                padding: 5rem 0;
+                display: flex;
+                flex-direction: column;
+                margin: 0 150px;
+                gap: 5rem;
+            }
+            
+            .h-footer-infos{
+                width:100%;
+                padding-top: 15px;
+                text-align: center;
+            }
+            
+            .h-footer-help{
+                width: 100%;
+            }
+            
+            .h-footer-links{
+                width: 40%;
+            }
+            
+            .h-footer-infos img{
+                width: 64%;
+                height: 50%;
+            }
+            
+            .h-footer-aide a,
+            .h-footer-about a,
+            .h-footer-links a{
+                text-decoration: none;
+                color: var(--color-4);
+            }
+            
+            .h-footer-container p{
+                font-weight: 300;
+            }
+            
+            .h-footer-about{
+                margin-top: 2rem;
+            }
+            
+            .h-footer-about h2{
+                margin: 0;
+            }
+            
+            .h-footer-container h2{
+                font-weight: 600;
+            }
+        
+        
+        }
+        
+        
+        
+        
+        
+        
+        @media (min-width: 768px) and (max-width: 800px){
+            .h-footer-container{
+                padding: 5rem 0;
+                display: flex;
+                flex-direction: column;
+                margin: 0 150px;
+                gap: 5rem;
+            }
+            
+            .h-footer-infos{
+                width:100%;
+                padding-top: 15px;
+                text-align: center;
+            }
+            
+            .h-footer-help{
+                width: 100%;
+            }
+            
+            .h-footer-links{
+                width: 40%;
+            }
+            
+            .h-footer-infos img{
+                width: 50%;
+            }
+            
+            .h-footer-aide a,
+            .h-footer-about a,
+            .h-footer-links a{
+                text-decoration: none;
+                color: var(--color-4);
+            }
+            
+            .h-footer-container p{
+                font-weight: 300;
+            }
+            
+            .h-footer-about{
+                margin-top: 2rem;
+            }
+            
+            .h-footer-about h2{
+                margin: 0;
+            }
+            
+            .h-footer-container h2{
+                font-weight: 600;
+            }
+        }
+        
+        
+        
+        
+        @media (min-width: 800px) and (max-width:1024px){
+            
+        /*----------------------------------------------------------------------------------*/
+            
+            .h-footer-container{
+                padding: 5rem 0;
+                display: flex;
+                flex-direction: column;
+                margin: 0 150px;
+                gap: 5rem;
+            }
+            
+            .h-footer-infos{
+                width:100%;
+                padding-top: 15px;
+                text-align: center;
+            }
+            
+            .h-footer-help{
+                width: 100%;
+            }
+            
+            .h-footer-links{
+                width: 40%;
+            }
+            
+            .h-footer-infos img{
+                width: 50%;
+            }
+            
+            .h-footer-aide a,
+            .h-footer-about a,
+            .h-footer-links a{
+                text-decoration: none;
+                color: var(--color-4);
+            }
+            
+            .h-footer-container p{
+                font-weight: 300;
+            }
+            
+            .h-footer-about{
+                margin-top: 2rem;
+            }
+            
+            .h-footer-about h2{
+                margin: 0;
+            }
+            
+            .h-footer-container h2{
+                font-weight: 600;
+            }
+            
+        }
+        
+        
+        
+        
+        
+        @media (min-width: 1023px) and (max-width: 1127px){
+            
+        /*----------------------------------------------------------------------------------*/
+            
+            .h-footer-container{
+                gap: 3rem;
+            }
+            
+            .h-footer-infos{
+                width:100%;
+                padding-top: 15px;
+            }
+            
+            .h-footer-help{
+                width: 100%;
+            }
+            
+            .h-footer-links{
+                width: 40%;
+            }
+            
+            .h-footer-infos img{
+                width: 50%;
+            }
+            
+            .h-footer-aide a,
+            .h-footer-about a,
+            .h-footer-links a{
+                text-decoration: none;
+                color: var(--color-4);
+            }
+            
+            .h-footer-container p{
+                font-weight: 300;
+            }
+            
+            .h-footer-about{
+                margin-top: 2rem;
+            }
+            
+            .h-footer-about h2{
+                margin: 0;
+            }
+            
+            .h-footer-container h2{
+                font-weight: 600;
+            }
+        }
+
+        @media (max-width:600px){
+            .h-footer-aide,
+            .h-footer-about,
+            .h-footer-links{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+        
+            .h-footer-infos p{
+                margin: 0.3rem 0 1rem 0;
+            }
+        
+            .h-footer-items{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+            }
+        
+        }
+        /*-- Footer ABDELHAFID------------------------------------------------------------------------*/
+
+
+
+
+
+/* Fin de la Partie responsive du telephone max-width 768px*/
+
+/* Partie responsive du tablette max-width de 769px jusqu'a 1180px*/
+@media (min-width: 769px) and (max-width: 1180px){
+
+     /* Partie Media Queries du Section Our Service*/
+     .h2{
+        font-size: 1.8rem;
+        width: 58%;
+    }
+    
+    .srvgnrl{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 3%;
+    }
+
+    .p4{
+        font-size: 1.8rem;
+        font-weight: bold;
+        position: absolute;
+        top: -24.5%;;
+        width: 8%;
+    }
+
+
+    .p5{
+        font-size: 1.15rem;
+        width: 96%;
+    }
+    /* La fin de la Partie Media Queries du Section Our Service*/
+
+    /* Partie Media Queries des Section Latest News et Latest properties*/
+    .ouamallarw{
+        font-size: 1rem;
+        font-weight: 500;;
+    }
+
+    .ouamalldiv{
+        margin-left: 72%;
+        width: 24.5%;
+    }
+
+    .h3{
+        width: 74%;
+        font-size: 1.8rem;
+    }
+
+    button.prvs{
+        right: 112%;
+    }
+    
+    button.next{
+        left: 112%;
+    }
+
+    /* La fin de la Partie Media Queries des Section Latest News et Latest properties*/
+
+        /* Partie Media Queries du Section FAQ*/
+
+        .faq{
+            font-size: 1.6rem;
+        }
+    
+        .ligne{
+            width: 32rem;
+            height: 1px;
+            background-color: var(--color-3);
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .arwdwn p{
+            width: 52%;
+            font-size: 0.95rem;
+        }
+    
+        .arwdwn{
+            padding: 2.5% 0% 2.5%;
+            margin-left: 30%;
+        }
+    
+        summary{
+            font-size: 1.2rem;
+            font-weight: 300;
+            width: 60%;
+    
+        }
+    
+        .spn2, .spn1{
+            display: none;
+        }
+    
+    
+        /* La fin de la Partie Media Queries du Section FAQ*/
+
+}
