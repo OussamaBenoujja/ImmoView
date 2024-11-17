@@ -113,11 +113,11 @@ La plateforme immobilière "ImmoView" a pour but de simplifier la recherche et l
 
 ### Les Collaborateurs
 
-[@Oussama_Amou](https://github.com/oussamaamou) : Page Home.
-[@Oussama_Benoujja](https://github.com/OussamaBenoujja) : Page Catalog.
-[@Abdelhafid_AIT_EL_MOKHTAR](https://github.com/ABDELHAFIDAIT) : Page Details.
-[@Mohammed_Chmkhi](https://github.com/theshamkhi) : Page Testimonials.
-[@Mohamed_Moustir](https://github.com/MohamedMoustir) : Page Contact.
+- [@Oussama_Amou](https://github.com/oussamaamou) : Page Home.
+- [@Oussama_Benoujja](https://github.com/OussamaBenoujja) : Page Catalog.
+- [@Abdelhafid_AIT_EL_MOKHTAR](https://github.com/ABDELHAFIDAIT) : Page Details.
+- [@Mohammed_Chmkhi](https://github.com/theshamkhi) : Page Testimonials.
+- [@Mohamed_Moustir](https://github.com/MohamedMoustir) : Page Contact.
 
 -------------------------------------------------------------------------------------
 
